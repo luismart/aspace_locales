@@ -688,10 +688,10 @@ es:
   definedlist_item: 
     label: Etiqueta
     label_tooltip: |
-        A text string that either contextualizes or is explained by the content in the defined list note item.: 
+        <p>Una cadena de texto que, o bien contextualiza o se explica por el contenido en el elemento de la lista nota definida.: </p>
     value: Valor
     value_tooltip: |
-        A defined list item in a defined list.: 
+        <p>Un elemento de la lista se define en una lista definida.: </p>
 	
   note_orderedlist: 
     <<: * note_attributes
