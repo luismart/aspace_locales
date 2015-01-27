@@ -112,7 +112,7 @@ es:
       gis:  Especialista en información geográfica
       grt:  Técnico gráfico
       hnr:  Homenajeado
-      hst:  Host
+      hst:  Anfitrión
       ilu:  Iluminador
       ill:  Ilustrador
       ins:  Inscriber
@@ -386,7 +386,7 @@ es:
       partial pass:  Paso parcial
       fail:  Fail
     agent_contact_salutation: 
-      mr:  ORL
+      mr:  Señor
       mrs:  Señora.
       ms:  MS.
       madame:  Madame

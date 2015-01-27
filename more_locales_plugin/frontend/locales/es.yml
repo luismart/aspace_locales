@@ -49,8 +49,8 @@ es:
     transfer_successful: Transferencia exitosa.  Registros pueden tomar un momento para aparecer en el repositorio de destino mientras nueva indexación se lleva a cabo.
     transfer_failed: Transferencia fallida
     unset_default: Desactivada por defecto
-    unsuppress: Unsuppress
-    unsuppress_confirm_title: ¿Unsuppress este registro?
+    unsuppress: Desactivar
+    unsuppress_confirm_title: ¿Desactivar este registro?
     unsuppress_confirm_message: "falso"
     unable_to_move_message: "No se pudo mover el registro"
     delete: Borrar
@@ -89,9 +89,9 @@ es:
   pagination:
     first: Primero
     last: Último
-    previous: "«"
+    previous: "&#171;"
     previous_label: Anterior
-    next: «»»
+    next: «&#187;»
     next_label: Próxima
     summary_prefix: Mostrando
     summary_offset_connector: "-"
@@ -513,7 +513,7 @@ es:
         no_selection: Por favor, seleccione una lista de valores controlados
         name_selector: Nombre de lista
         name_selector_tooltip: |
-            <p>The Controlled Value List to edit.</p>
+            <p>La lista de valores controlada para editar.</p>
         no_name_provided: Seleccione una lista de valores antes de crear un nuevo valor
       action:
         create_value: Crear valor
@@ -668,7 +668,7 @@ es:
         selected_short: Seleccionado
         changed: Ahora está activado el repositorio <strong>% {repository.repo_code}</strong>
         create_first_repository: "Para crear su primer repositorio, haga clic en el menú del <strong>sistema</strong> anterior y luego <strong>Gestionar repositorios</strong>."
-        no_access_to_repositories: "<p>Usted no tiene acceso a los repositorios.</p><p>Póngase en contacto con el administrador del sistema para solicitar el acceso.</p>"
+        no_access_to_repositories: "<p>No tiene acceso a los repositorios.</p><p>Póngase en contacto con el administrador del sistema para solicitar el acceso.</p>"
         continue_with_transfer: ¿Continuar con la transferencia?
         transfer_failed: Transferencia no pudo completar debido a los siguientes errores
         transfer_target: Seleccione un repositorio para transferir a

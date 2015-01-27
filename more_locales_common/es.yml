@@ -1118,10 +1118,10 @@ es:
         <p>Una lista de los recipientes y su contenido inventando una adhesión. En el AT, la lista del cuadro puede ser compuesta en el campo, copiada y pegada en el campo o que se hace referencia como un documento externo. La referencia al documento externo puede grabarse aquí o en un subregistro de documentos externos.</p>
         <p>Ejemplo
         <ul>
-        <li>1 caja</li>
-        <li>Caja 2</li>
-        <li>Caja 3</li>
-        <li>Caja 4</li>
+        <li>Caja 1: Diarios</li>
+        <li>Caja 2: Cartas</li>
+        <li>Caja 3: Registros personales</li>
+        <li>Caja 4: Mapas</li>
 		</ul>
         	
     provenance: Procedencia
