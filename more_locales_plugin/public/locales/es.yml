@@ -3,7 +3,7 @@ es:
     title: ArchivesSpace público
     home: Página de inicio
     welcome_message: Bienvenido a ArchivesSpace.
-    welcome_search_label: "Encontrar lo que estás buscando
+    welcome_search_label: "Encontrar lo que estás buscando"
     next: "&#187;"
     summary_prefix: Mostrando
     summary_offset_connector: "-"
@@ -11,9 +11,9 @@ es:
     summary_suffix: Resultados
     page_prefix: Página
     page_connector: de
-	
+
   search_results:	
-    searching:Buscando
+    searching: Buscando
     title: Todos los registros
     no_results: No hay resultados
     no_results_prefix: No hay resultados de la búsqueda
@@ -44,20 +44,20 @@ es:
       agents_text: Agentes
       classification_uri: Clasificación
       linked_agent_roles: Papel
-	
+
   search_sorting:
-    sort_by: "Ordenar por
+    sort_by: "Ordenar por"
     backend_down: No se puede conectar a la base de datos
     backend_down_message: ArchivesSpace actualmente está experimentando dificultades técnicas. Disculpen las molestias. Inténtalo de nuevo más tarde.
-	
+
   boolean:
     "true": "Sí"
     "false": "No"
-	
+
   navbar:
     search_placeholder: Introduzca los términos de búsqueda
     search_all: Todos los registros
-	
+
   advanced_search:
     operator:
       AND: Y
@@ -71,12 +71,12 @@ es:
     index_switcher:
       show: Mostrar búsqueda avanzada
       hide: Ocultar búsqueda avanzada
-	
+
   accession:
     _public:
       section:
         summary: Resumen
-	
+
   archival_object:
     _public:
       section:
@@ -84,7 +84,7 @@ es:
         summary: Resumen
       messages:	
         no_components: Archivo objeto no tiene ningún componente
-	
+
   resource:
     _singular: Colección
     _plural: Colecciones
@@ -94,19 +94,19 @@ es:
         summary: Resumen
       messages:	
         no_components: Recurso no tiene ningún componente
-	
+
   related_resource:
     _singular: Colección relacionado
     _plural: Colecciones relacionadas
-	
-  digital_object: & digital_object_attributes
+
+  digital_object: &digital_object_attributes
     _public:
       section:
         components: Componentes
         summary: Resumen
       messages:	
         no_components: Objeto digital no tiene ningún componente
-	
+
   digital_object_component:
     _public:
       section:
@@ -114,22 +114,22 @@ es:
         summary: Resumen
       messages:
         no_components: Componente de objeto digital no tiene ningún componente
-	
+
   agent:
     _singular: Nombre
     _plural: Nombres
     _public:
       section:
         summary: Resumen
-	
+
   components:
     expand: Ampliar
     collapse: Colapso
-	
+
   instance:
     _public:
       link_to_digital_object: Enlace al registro
-	
+
   record_tree:
     record_tree_tab: Árbol de registro
     search_tab: Buscar componentes

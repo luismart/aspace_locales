@@ -251,7 +251,7 @@ es:
     name_rule: 
       local:  Reglas locales
       aacr:  Reglas de catalogación angloamericanas
-      dacs:  "Describir archivos
+      dacs:  "Describir archivos"
       rda:  Acceso y descripción de recursos
     extent_extent_type: 
       cassettes:  Cassettes
@@ -336,7 +336,7 @@ es:
     resource_finding_aid_description_rules: 
       aacr:  Reglas de catalogación angloamericanas
       cco:  Catalogación de bienes culturales
-      dacs:  "Describir archivos
+      dacs:  "Describir archivos"
       rad:  Reglas para la descripción archivística
       isadg:  Norma internacional de descripción archivística - General
     resource_finding_aid_status: 
@@ -1260,7 +1260,7 @@ es:
       temporal:  Temporal
       topical:  Tópico
       uniform_title:  Título uniforme
-    _note_types:  & note_type_definitions
+    _note_types:  &note_type_definitions
       accessrestrict:  Condiciones que rigen el acceso
       accruals:  Pasivación
       acqinfo:  Fuente inmediata de adquisición
@@ -1297,11 +1297,11 @@ es:
       materialspec:  Detalles específicos de los materiales
       physfacet:  Faceta física
     note_digital_object_type: 
-      <<:  * note_type_definitions
+      <<:  *note_type_definitions
     note_multipart_type: 
-      <<:  * note_type_definitions
+      <<:  *note_type_definitions
     note_singlepart_type: 
-      <<:  * note_type_definitions
+      <<:  *note_type_definitions
     linked_agent_role: 
       creator:  Creador
       source:  Fuente
@@ -1344,7 +1344,7 @@ es:
       novalue:  Ningún valor definido
     user_defined_enum_4: 
       novalue:  Ningún valor definido
-: 
+
   enumeration_names: 
     accession_acquisition_type:  Tipo de adquisición de adhesión
     accession_parts_relator:  Adhesión piezas Relator

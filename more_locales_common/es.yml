@@ -3,17 +3,17 @@ es:
     suppressed: Suprimido
     deleted: Eliminado
     auto_generated: Sistema genera cuando guarda
-	
+
   boolean: 
     "true": "Verdadero"
     "false": "Falso"
-	
+
   content_items: 
     content: Contenido
     content_tooltip: |
         <p>El contenido de la nota.</p>
-	
-  section_tooltips: &section_tooltips: 
+
+  section_tooltips: &section_tooltips:
     dates_tooltip: |
         <p>Identifica y registra las fechas que corresponden a la creación, Asamblea, acumulación, o mantenimiento y utilización de los materiales que se está describiendo.</p>
         <p>Ver DACS 2.4</p>
@@ -40,9 +40,9 @@ es:
         <p>Utilizado para vincular los materiales descritos a una clasificación o un término de clasificación (por ejemplo un sistema de grupo de registro) administrado dentro de la aplicación.</p>
     user_defined_tooltip: |
         <p>Campos para el registro de información adicional no capturado en otras secciones de la aplicación definidos por el usuario.</p>
-	
-  digital_object: &digital_object_attributes: 
-    <<: * section_tooltips
+
+  digital_object: &digital_object_attributes:
+    <<: *section_tooltips
     title: Título
     title_tooltip: |
         <p>Una expresión de título para el objeto digital.  Puede ser transcrito desde el objeto, heredada de un registro de componente fuente recursos/recursos o proporcionados por el repositorio.</p>
@@ -53,15 +53,13 @@ es:
         <li>Carta al nuevo Atlantic <em>(vinculados a un registro de recursos de componente con el título "carta a nuevo Atlantic")</em></li>
         <li>Cedro fuego <em>(vinculados a un registro de recursos de componente con el título "incendio de cedro")</em></li>
         </ul>
-		
     digital_object_id: Identificador
     digital_object_id_tooltip: |
         <p>Un identificador único para el objeto digital como un todo. Puede ser un arca, mango, un URI o cualquier cadena que identifica el objeto digital. El campo necesita ser completada por un registro METS válido ser exportado.</p>
         <p>Ejemplos</p>
         <ul>
         <li>http://hdl.handle.net/1813/13524</li>
-        </ul>
-        	
+        </ul>       
     publish: ¿Publicar?
     publish_tooltip: |
         <p>Determina si este objeto Digital o componente se publicarán a interfaces públicas (patrón).</p>
@@ -80,9 +78,9 @@ es:
         <p>Enlaza un objeto digital o un componente de objeto digital a un archivo de contenido asociado, direccionable por URI.</p>
     _singular: Objeto digital
     _plural: Objetos digitales
-	
-  digital_object_component: 
-    <<: * digital_object_attributes
+
+  digital_object_component:
+    <<: *digital_object_attributes
     label: Etiqueta
     label_tooltip: |
         <p>Un término usado para describir la parte y su posición dentro del objeto Digital que se está describiendo. Más a menudo utilizado para los componentes del objeto Digital que el nivel récord de objeto Digital.</p>
@@ -93,15 +91,14 @@ es:
         <li>Texto</li>
         <li>Video</li>
         </ul>
-		
     component_id: Identificador
     component_id_tooltip: |
         <p>Un identificador único para el componente objeto Digital.</p>
     dates: Fechas
     _singular: Componente de objeto digital
     _plural: Objeto digital componentes
-	
-  location: &location_attributes: 
+
+  location: &location_attributes:
     title: Título
     temporary: Temporal
     temporary_tooltip: |
@@ -151,9 +148,9 @@ es:
     has_unpublished_ancestor: ¿Ha inédito a antepasado?
     _singular: Ubicación
     _plural: Ubicaciones
-	
+
   location_batch: 
-    <<: * location_attributes
+    <<: *location_attributes
     label: Etiqueta
     prefix: Prefijo de número de
     suffix: Sufijo
@@ -164,8 +161,8 @@ es:
     end: Gama final
     _singular: Lote ubicaciones
     _plural: Lote ubicaciones
-	
-  container_location: 
+
+  container_location:
     status: Estado
     status_tooltip: |
         <p>CAMPO OBLIGATORIO. Indica si la declaración de la ubicación de este registro es actual o se refiere a una ubicación anterior para el caso descrito.</p>
@@ -182,8 +179,8 @@ es:
     ref: Ubicación
     _singular: Ubicación
     _plural: Ubicaciones
-	
-  linked_record: 
+
+  linked_record:
     role: Papel
     role_tooltip: |
         <p>El papel en el que conste vinculado se relaciona con el registro actual.</p>
@@ -191,7 +188,7 @@ es:
     ref_plural: Registros
     _singular: Enlace de registro
     _plural: Registro enlaces
-	
+
   linked_agent: &linked_agent_attributes: 
     role: Papel
     role_tooltip: |
@@ -209,27 +206,27 @@ es:
     title: Título
     _singular: Enlace de agente
     _plural: Agente enlaces
-	
+
   accession_linked_agent: 
-    <<: * linked_agent_attributes
-	
+    <<: *linked_agent_attributes
+
   event_linked_agent: 
-    <<: * linked_agent_attributes
-	
+    <<: *linked_agent_attributes
+
   resource_linked_agent: 
-    <<: * linked_agent_attributes
-	
+    <<: *linked_agent_attributes
+
   archival_object_linked_agent: 
-    <<: * linked_agent_attributes
-	
+    <<: *linked_agent_attributes
+
   digital_object_linked_agent: 
-    <<: * linked_agent_attributes
-	
+    <<: *linked_agent_attributes
+
   digital_object_component_linked_agent: 
-    <<: * linked_agent_attributes
-	
+    <<: *linked_agent_attributes
+
   event: &event: 
-    <<: * section_tooltips
+    <<: *section_tooltips
     event_type: Tipo
     event_type_tooltip: |
         <p>Una categorización de la naturaleza del evento.</p>
@@ -297,12 +294,12 @@ es:
       virus_check: Comprobación de virus
     _singular: Evento
     _plural: Eventos
-	
-  linked_event: 
-    <<: * evento
-	
-  deaccession: 
-    <<: * section_tooltips
+
+  linked_event:
+    <<: *event
+
+  deaccession:
+    <<: *section_tooltips
     scope: Porción
     scope_tooltip: |
         <p>Se utiliza para especificar si una declaración de medida se refiere a la totalidad o parte de una determinada agregación descrita u objeto.</p>
@@ -314,7 +311,6 @@ es:
         <li>Revistas, recortes de periódicos y registros financieros familiares.</li>
         <li>Trofeos premiados en exposiciones caninas.</li>
         </ul>
-		
     reason: Razón
     reason_tooltip: |
         <p>El motivo de la cesión de los materiales descritos.</p>
@@ -322,7 +318,6 @@ es:
         <ul>
         <li>Donantes no tenía la intención de transferir estos materiales.</li>
         </ul>
-		
     disposition: Disposición
     disposition_tooltip: |
         <p>Una descripción que indica lo que se hizo con los materiales de hacerse.</p>
@@ -331,14 +326,13 @@ es:
         <li>Registros financieros volvieron a la familia.</li>
         <li>Exposición canina trofeos volvió a esposa del donante.</li>
         </ul>
-		
     notification: ¿Notificación?
     notification_tooltip: |
         <p>Indicando que recibió notificación de la emprenderá una casilla de verificación.</p>
     dates: Obrar fecha
     _plural: Deaccessions
     _singular: Emprenderá
-	
+
   agent_name: &agent_name_attributes: 
     authority_id: Identificador de autoridad
     authority_id_tooltip: |
@@ -350,7 +344,6 @@ es:
         <li>500115393 <em>para una partida de nombre ULAN</em></li>
         <li>http</li>
         </ul>
-		
     source: Fuente
     source_tooltip: |
         <p>CONDITIONALLY requiere campo, si no se utiliza el nombre de reglas. Un indicador de la fuente de donde se extrajo el nombre.</p>
@@ -369,7 +362,6 @@ es:
         <ul>
         <li>Señora.</li>
         </ul>
-		
     title: Título
     title_tooltip: |
         <p>Un título que forma parte del nombre.</p>
@@ -379,7 +371,6 @@ es:
         <li>Jefe (de pie negro, jefe, d. 1877)</li>
         <li>Emperador de Oriente <em>(para Juan II Comneno. Emperador de Oriente.)</em></li>
         </ul>
-		
     primary_name: Parte principal del nombre
     primary_name_tooltip: |
         <p>La parte principal de una forma (por ejemplo un apellido o apellido de una persona).</p>
@@ -389,7 +380,6 @@ es:
         <li>Pie negro <em>(para el pie negro, jefe, d. 1877 [persona])</em></li>
         <li>International Business Machines <em>(para International Business Machines. División de microelectrónica [empresa])</em></li>
         </ul>
-		
     rest_of_name: Resto de nombre
     rest_of_name_tooltip: |
         <p>El elemento nombre o apellidos y nombres adicionales, e.g, segundo nombre, para la persona cuyo nombre aparece en el registro.</p>
@@ -398,7 +388,6 @@ es:
         <li>Winston <em>(para Churchill, Winston, señor, 1874-1965)</em></li>
         <li>Humphrey <em>(por Ward, Humphrey, la señora, 1851-1920)</em></li>
         </ul>
-		
     suffix: Sufijo
     suffix_tooltip: |
         <p>Un término después de un nombre que califica el nombre pero no es un título.</p>
@@ -407,7 +396,6 @@ es:
         <li>Jr.</li>
         <li>Fils</li>
         </ul>
-		
     fuller_form: Forma más completa
     fuller_form_tooltip: |
         <p>La forma más completa de nombres de primeras y medios, cuando abreviado.</p>
@@ -415,7 +403,6 @@ es:
         <ul>
         <li>Hilda Doolittle <em>(por H.D., Hilda Doolittle, 1886-1961)</em></li>
         </ul>
-		
     number: Número
     number_tooltip: |
         <p>Un número, a veces con un término, que califica el nombre. Para nombres personales, a menudo un número romano o un número romano y una parte posterior de un nombre. Para nombres corporativos, el número de parte / sección o reunión.</p>
@@ -425,7 +412,6 @@ es:
         <li>II <em>(por John Paul II)</em></li>
         <li>97, 2 º período de sesiones <em>(para el Congreso de Estados Unidos, 97, 2ª sesión)</em></li>
         </ul>
-		
     dates: Fechas
     dates_tooltip: |
         <p>DEPRECIADO. POR FAVOR USAR FECHAS DE EXISTENCIA SECCIÓN</p>
@@ -434,7 +420,6 @@ es:
         <ul>
         <li>1886-1961 <em>(para H.D., Hilda Doolittle, 1886-1961)</em></li>
         </ul>
-			
     use_dates: Fechas de uso
     use_dates_tooltip: |
         <p>Fechas en que este nombre fue utilizado por el agente.</p>
@@ -446,7 +431,6 @@ es:
         <li>Floristerías <em>(para la familia Smith (floristerías))</em>)</li>
         <li>Bronx, Nueva York, N.Y. <em>(para la iglesia de St. James (Bronx, Nueva York, N.Y.))</em></li>
         </ul>
-		
     sort_name: Tipo nombre
     sort_name_tooltip: |
         <p>Una versión del nombre concatenación de todas las partes del nombre proporcionado en un registro determinado agente. Utilizado para propósitos de la exhibición en la aplicación y para algunas exportaciones.</p>
@@ -455,18 +439,18 @@ es:
     is_display_name: Nombre para mostrar
     _singular: Nombre
     _plural: Nombres
-	
-  name_person: 
-    <<: * agent_name_attributes
-	
-  name_family: 
-    <<: * agent_name_attributes
+
+  name_person:
+    <<: *agent_name_attributes
+
+  name_family:
+    <<: *agent_name_attributes
     family_name: Nombre de la familia
     family_name_tooltip: |
         <p>El apellido, o apellido, para una familia, típicamente complementado con el término "familia".</p>
-	
+
   name_corporate_entity: 
-    <<: * agent_name_attributes
+    <<: *agent_name_attributes
     subordinate_name_1: Subordinado nombre 1
     subordinate_name_1_tooltip: |
         <p>Una unidad jerárquica con la entidad corporativa el nombre en el campo nombre primario.</p>
@@ -474,13 +458,12 @@ es:
         <ul>
         <li>División de microelectrónica <em>(de International Business Machines. División de microelectrónica)</em></li>
         </ul>
-		
     subordinate_name_2: Subordinado nombre 2
     subordinate_name_2_tooltip: |
         <p>Una unidad jerárquica con la entidad corporativa nombrada en el campo nombre primario y menor que la unidad denominada en el campo nombre 1 subordinado.</p>
-	
+
   name_software: 
-    <<: * agent_name_attributes
+    <<: *agent_name_attributes
     software_name: Nombre del software
     software_name_tooltip: |
         <p>El nombre de un paquete de software.</p>
@@ -489,7 +472,6 @@ es:
         <li>Photoshop <em>(para Adobe Photoshop CS3)</em></li>
         <li>Bagger <em>(para la biblioteca del Congreso Bagger 2.1.2)</em></li>
         </ul>
-		
     version: Versión
     version_tooltip: |
         <p>El número de versión u otro indicador para una versión específica de un paquete de software.</p>
@@ -498,7 +480,6 @@ es:
         <li>CS3 <em>(para Adobe Photoshop CS3)</em></li>
         <li>2.1.2 <em>(para la biblioteca del Congreso Bagger 2.1.2)</em></li>
         </ul>
-		
     manufacturer: Fabricante
     manufacturer_tooltip: |
         <p>El fabricante, creador u otra parte responsable para la distribución de un paquete de software, desarrollo o mantenimiento.</p>
@@ -507,11 +488,10 @@ es:
         <li>Adobe <em>(para Adobe Photoshop CS3)</em></li>
         <li>Biblioteca del Congreso <em>(para la biblioteca del Congreso Bagger 2.1.2)</em></li>
         </ul>
-	
   name: 
     _singular: Formulario de nombre
     _plural: Formas conocidas
-	
+
   agent_contact: &agent_contact: 
     name: Nombre de contacto
     name_tooltip: |
@@ -557,7 +537,7 @@ es:
         <p>Notas adicionales o información de contacto de la persona de contacto.</p>
     _singular: Contacto
     _plural: Los datos de contacto
-	
+
   note_attributes: &note_attributes: 
     label: Etiqueta
     label_tooltip: |
@@ -578,41 +558,41 @@ es:
     type: Tipo
     type_tooltip: |
       <p>El tipo de nota para el contenido.  Tipos de notas se utilizan para guiar la exportación de contenido de la nota a ciertos elementos en los formatos de datos específicos.</p>
-	
+
   related_agent: 
     relationship_type: Tipo de relación
     _singular: Agente relacionado
     _plural: Agentes relacionados
-	
+
   agent_relationship_parentchild: 
     relator: Tipo de relación
     description: Descripción
     ref: Agente relacionado
     date: Fecha
     _singular: Relación padre/hijo
-	
+
   agent_relationship_earlierlater: 
     relator: Tipo de relación
     description: Descripción
     ref: Agente relacionado
     date: Fecha
     _singular: Relación antes/después
-	
+
   agent_relationship_subordinatesuperior: 
     relator: Tipo de relación
     description: Descripción
     ref: Agente relacionado
     date: Fecha
     _singular: Relación subordinada/Superior
-	
+
   agent_relationship_associative: 
     relator: Tipo de relación
     description: Descripción
     date: Fecha
     ref: Agente relacionado
     _singular: Relación asociativa
-	
-  note: 
+
+  note:
     item: Artículo
     content_item: Elemento de contenido
     note_singlepart: Pieza única nota
@@ -631,15 +611,15 @@ es:
     note_type: Tipo de nota
     _singular: Nota
     _plural: Notas
-	
+
   note_text: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Texto
-	
+
   note_index: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Índice
-	
+
   note_index_item: 
     value: Valor
     value_tooltip: El contenido de cada entrada en la bibliografía. Al menos uno es requerido para cualquier nota de índice.
@@ -649,29 +629,29 @@ es:
     reference_tooltip: El objetivo para el elemento de índice.
     reference_text: Texto de referencia
     reference_text_tooltip: Una descripción de la referencia, si se justifica.
-	
+
   note_singlepart: 
-    <<: * note_attributes
-	
+    <<: *note_attributes
+
   note_multipart: 
-    <<: * note_attributes
+    <<: *note_attributes
     subnotes: Notas de la sub
     sub_notes: Notas de la sub
     sub_notes_singular: Nota sub
-	
+
   note_digital_object: 
-    <<: * note_attributes
-	
+    <<: *note_attributes
+
   note_bibliography: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Bibliografía
-	
+
   note_chronology: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Cronología
     title: Título
     items: Eventos
-	
+
   chronology_item: 
     event_date: Fecha del evento
     event_date_tooltip: |
@@ -680,11 +660,11 @@ es:
     events_tooltip: |
         <p>Una descripción de un evento correspondiente al elemento fecha cronología.</p>
     events_singular: Evento
-	
+
   note_definedlist: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Lista definida
-	
+
   definedlist_item: 
     label: Etiqueta
     label_tooltip: |
@@ -692,26 +672,26 @@ es:
     value: Valor
     value_tooltip: |
         <p>Un elemento de la lista se define en una lista definida.: </p>
-	
+
   note_orderedlist: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Lista ordenada
     enumeration: (Enumeración)
     enumeration_tooltip: |
         <p>Un atributo para indicar el tipo de numeración que se aplicará a los elementos de la nota</p>
-	
+
   note_bioghist: 
-    <<: * note_attributes
-	
+    <<: *note_attributes
+
   note_abstract: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Resumen
-	
+
   note_citation: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Citación
     xlink: XLink
-	
+
   note_citation_xlink: 
     actuate: Accionar
     arcrole: Papel de arco
@@ -720,12 +700,12 @@ es:
     show: Mostrar
     title: Título
     type: Tipo
-	
+
   note_outline: 
-    <<: * note_attributes
+    <<: *note_attributes
     option: Esquema
     levels: Niveles de
-	
+
   instance: &instance_attributes: 
     instance_type: Tipo
     instance_type_tooltip: |
@@ -734,13 +714,13 @@ es:
     digital_object: Objeto digital
     _plural: Instancias
     _singular: Instancia
-	
+
   instance_container: 
-    <<: * instance_attributes
-	
+    <<: *instance_attributes
+
   instance_digital_object: 
-    <<: * instance_attributes
-	
+    <<: *instance_attributes
+
   file_version: 
     _plural: Versiones de archivo
     _singular: Archivo de la versión
@@ -773,7 +753,7 @@ es:
         <li>MPEG Audio Layer 3 (mp3)</li>
         <li>Formato de documento portátil (pdf)</li>
         </ul>
-		
+
     file_format_version: Versión del formato de archivo
     file_format_version_tooltip: |
         <p>La versión del formato para el tipo de archivo.</p>
@@ -781,7 +761,7 @@ es:
         <ul>
         <li>5.0 <em>(para TIFF 5.0)</em></li>
         </ul>
-		
+
     file_size_bytes: Tamaño del archivo (Bytes)
     file_size_bytes_tooltip: |
         <p>El tamaño (en bytes) del archivo digital.</p>
@@ -798,10 +778,9 @@ es:
         <li>CRC-32</li>
         <li>SHA-1</li>
         <li>SHA-256</li>
-		</ul>
-        	
+        </ul>
     identifier: Identificador
-	
+
   extent: &extent_attributes: 
     portion: Porción
     portion_tooltip: |
@@ -813,7 +792,7 @@ es:
         <p>Un valor numérico para indicar el número de unidades en la declaración del alcance, por ejemplo, 5, 11.5, 245. Utilizado en conjunción con el tipo de medida para proporcionar una declaración estructurada grado.</p>
         <p>Ver DACS 2.5</p>
     extent_type: Tipo
-    extent_type_tooltip: &extent_type_tooltip |: 
+    extent_type_tooltip: &extent_type_tooltip |
         <p>Un término que indica el tipo de unidad que se utiliza para medir el grado de materiales descritos.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
         <p>Ver DACS 2.5</p>
@@ -825,8 +804,7 @@ es:
         <li>10 cartones récord, 6 archivos de cajas, 3 carpetas de gran tamaño.</li>
         <li>12 cajas de zapatos.</li>
         <li>4 archivos de cajas, tubos de 32.</li>
-		</ul>
-        	
+        </ul>
     physical_details: Detalles físicos
     physical_details_tooltip: |
         <p>Otros detalles físicos de los materiales describen, por ejemplo, negativos analógicos, b&w.</p>
@@ -840,30 +818,29 @@ es:
         <li>29 cm</li>
         <li>7 1/4 x 3 1/2 pulg.</li>
         <li>cinta de 1/2 pulg.</li>
-		</ul>
-        	
+        </ul>
     _plural: Grados
     _singular: Grado
-	
+
   container: &container_attributes: 
     type_1: Tipo de contenedor 1 
-    type_1_tooltip: &container_type_tooltip |: 
+    type_1_tooltip: &container_type_tooltip |
         <p>El tipo del contenedor primario en el cual está ubicado el material descrito.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
     indicator_1: Envase 1 indicador
-    indicator_1_tooltip: &container_indicator_tooltip |: 
+    indicator_1_tooltip: &container_indicator_tooltip |
         <p>Una expresión alfanumérica para indicar el lugar de un contenedor en una secuencia de contenedores.</p>
     barcode_1: Envase 1 código de barras
     barcode_1_tooltip: |
         <p>Un código de barras para la identificación del contenedor primario.  Puede usarse en lugar de o en el suplemento para el tipo de envase de 1.</p>
     type_2: Tipo de contenedor 2
-    type_2_tooltip: * container_type_tooltip
+    type_2_tooltip: *container_type_tooltip
     indicator_2: Envase 2 Indicador
-    indicator_2_tooltip: * container_indicator_tooltip
+    indicator_2_tooltip: *container_indicator_tooltip
     type_3: Tipo de contenedor 3
-    type_3_tooltip: * container_type_tooltip
+    type_3_tooltip: *container_type_tooltip
     indicator_3: Envase 3 indicador
-    indicator_3_tooltip: * container_indicator_tooltip
+    indicator_3_tooltip: *container_indicator_tooltip
     container_extent: Medida de contenedores
     container_extent_tooltip: |
         <p>CAMPO OBLIGATORIO CONDICIONAL
@@ -877,7 +854,7 @@ es:
     container_locations: Ubicaciones
     _plural: Contenedores
     _singular: Contenedor
-	
+
   external_document: &external_document_attributes: 
     title: Título
     title_tooltip: |
@@ -889,15 +866,14 @@ es:
         <ul>
         <li>http</li>
         <li>archivo</li>
-		</ul>
-        	
+        </ul>
     publish: ¿Publicar?
     publish_tooltip: |
         <p>Determina si se publica este documento externo a interfaces públicas (patrón).</p>
     document_link: Documento Link
     _plural: Documentos externos
     _singular: Documento externo
-	
+
   rights_statement: &rights_statement_attributes: 
     identifier: Identificador
     identifier_tooltip: |
@@ -918,8 +894,7 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Diarios por Alex Doe</li>
-		</ul>
-        	
+        </ul>
     ip_status: Estado de IP
     ip_status_tooltip: |
         <p>Un término que indica el estado de la propiedad intelectual de los materiales descritos.</p>
@@ -935,8 +910,7 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Libertad de información y protección de la privacidad Act [RSBC 1996] Capítulo 165</li>
-		</ul>
-        	
+        </ul>
     jurisdiction: Jurisdicción
     jurisdiction_tooltip: |
         <p>La entidad política autoriza a derechos de autor o estatuto, por ejemplo de país o región.</p>
@@ -946,8 +920,7 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Constraint(s) de uso</li>
-		</ul>
-        	
+        </ul>
     permissions: Permisos
     permissions_tooltip: |
         <p>Una descripción de qué tipo de acciones es permitida para el repositorio o el usuario final.</p>
@@ -957,8 +930,7 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Fotocopias, escanear o fotografiar de materiales no permitidos.</li>
-		</ul>
-        	
+        </ul>
     restriction_start_date: Fecha de inicio de restricciones
     restriction_start_date_tooltip: |
         <p>La fecha que las restricciones entren en vigor.</p>
@@ -971,23 +943,22 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Póngase en contacto con la familia del donante si se solicita acceso antes de que llegue la fecha de finalización de la restricción.</li>
-		</ul>
-        	
+        </ul>
     _plural: Declaraciones de derechos
     _singular: Declaración de los derechos
-	
+
   rights_type_intellectual_property: 
-    <<: * rights_statement_attributes
-	
+    <<: *rights_statement_attributes
+
   rights_type_license: 
-    <<: * rights_statement_attributes
-	
+    <<: *rights_statement_attributes
+
   rights_type_statute: 
-    <<: * rights_statement_attributes
-	
+    <<: *rights_statement_attributes
+
   rights_type_institutional_policy: 
-    <<: * rights_statement_attributes
-	
+    <<: *rights_statement_attributes
+
   date: &date_attributes: 
     label: Etiqueta
     label_tooltip: |
@@ -1011,8 +982,7 @@ es:
         <li>17 de marzo de 1906</li>
         <li>sin fecha</li>
         <li>desconocido <em>(para eventos)</em></li>
-		</ul>
-        	
+        </ul>
     begin: Begin
     begin_inline_help: por ejemplo AAAA, AAAA-MM o YYYY-MM-DD
     begin_tooltip: |
@@ -1041,36 +1011,36 @@ es:
         <p>Ver EAD atributo "calendario" y DACS 2.4.5.</p>
     _plural: Fechas
     _singular: Fecha
-	
+
   date_type_single: 
-    <<: * date_attributes
-	
+    <<: *date_attributes
+
   date_type_bulk: 
-    <<: * date_attributes
-	
+    <<: *date_attributes
+
   date_type_inclusive: 
-    <<: * date_attributes
- 	
+    <<: *date_attributes
+ 
   date_type_range: 
-    <<: * date_attributes
-	
+    <<: *date_attributes
+
   date_label: 
-    <<: * date_attributes
-    	
+    <<: *date_attributes
+    
   existence_date: 
-    <<: * date_attributes
-    	
+    <<: *date_attributes
+    
   usage_date: 
-    <<: * date_attributes
-    	
+    <<: *date_attributes
+    
   archival_record_date: 
-    <<: * date_attributes
-	
+    <<: *date_attributes
+
   date_fields: 
-    <<: * date_attributes
-	
+    <<: *date_attributes
+
   accession: 
-    <<: * section_tooltips
+    <<: *section_tooltips
     accession_date: Fecha de adhesión
     accession_date_inline_help: por ejemplo AAAA-MM-DD
     accession_date_tooltip: |
@@ -1122,8 +1092,7 @@ es:
         <li>Caja 2: Cartas</li>
         <li>Caja 3: Registros personales</li>
         <li>Caja 4: Mapas</li>
-		</ul>
-        	
+        </ul>
     provenance: Procedencia
     provenance_tooltip: |
        <p>Una nota que proporciona información de procedencia sobre una adhesión, como custodia historia, información detallada de adquisición, etc..</p>
@@ -1134,8 +1103,7 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Ver el calendario de retención del Campus.</li>
-		</ul>
-        	
+        </ul>
     restrictions_apply: Aplican restricciones.
     restrictions_apply_tooltip: |
         <p>Indicación de si se aplican restricciones a la adhesión.</p>
@@ -1154,8 +1122,7 @@ es:
         <p>Ejemplos</p>
         <ul>
         <li>Diarios en cuadro de diez tienen están restringidos por el donante hasta el 2030.</li>
-		</ul>
-        	
+        </ul>
     use_restrictions: Restricciones de uso.
     use_restrictions_tooltip: |
         <p>Una casilla de verificación para indicar que hay restricciones de uso de materiales en la adhesión.</p>
@@ -1172,8 +1139,7 @@ es:
         <li>Regalo</li>
         <li>Compra</li>
         <li>Transferencia</li>
-		</ul>
-        	
+        </ul>
     publish: ¿Publicar?
     publish_help: Mira esto si desea publicar esta adhesión al público.
     publish_tooltip: |
@@ -1196,18 +1162,18 @@ es:
     relator_type: Relator tipo
     _singular: Adhesión
     _plural: Adhesiones
-	
+
   interrelated_accession: 
     _plural: Adhesiones relacionadas
     relationship_type: Tipo de relación
-	
+
   accession_sibling_relationship: 
     _singular: Relación de hermanos
     relator: Este proceso de adhesión
     sibling_of: Hermano de
     relator_type: Relator tipo
     bound_with: "\"Bound with\"relación"
-	
+
   accession_parts_relationship: 
     _singular: "\"Part of\"relación"
     part: "\"Part of\"relación"
@@ -1215,8 +1181,8 @@ es:
     forms_part_of: Forma parte de
     has_part: Tiene parte
     relator_type: Relator tipo
-	
-	
+
+
   agent: &agent_attributes: 
     type: Tipo del agente
     type_tooltip: |
@@ -1245,27 +1211,27 @@ es:
     publish: Publicar
     _singular: Agente
     _plural: Agentes
-	
+
   agent_person: 
-    <<: * agent_attributes
+    <<: *agent_attributes
     _singular: Persona
     _plural: Gente
-	
+
   agent_family: 
-    <<: * agent_attributes
+    <<: *agent_attributes
     _singular: Familia
     _plural: Familias
-	
+
   agent_software: 
-    <<: * agent_attributes
+    <<: *agent_attributes
     _singular: Software
     _plural: Software
-	
+
   agent_corporate_entity: 
-    <<: * agent_attributes
+    <<: *agent_attributes
     _singular: Entidad corporativa
     _plural: Entidades corporativas
-	
+
   archival_object: &archival_object_attributes: 
     title: Título
     title_tooltip: |
@@ -1279,8 +1245,7 @@ es:
         <li>Caroline y Erwin Swann colección de caricaturas y dibujos animados</li>
         <li>Correspondencia de la Academia de Ciencias nacional</li>
         <li>Grabaciones de audio y video</li>
-		</ul>
-        	
+        </ul>
     ref_id: Ref ID
     ref_id_tooltip: |
         <p>Un ID de referencia automáticamente proporcionado y actualizable, que puede utilizarse como un destino para vincular, etc.. El Ref ID es la intención de generar automáticamente o importado desde un sistema existente y persistente.</p>
@@ -1298,8 +1263,7 @@ es:
         <li>La serie me</li>
         <li>Subseries 8</li>
         <li>Adhesión 2005-M-078</li>
-		</ul>
-        	
+        </ul>
     level: Nivel de Descripción
     level_tooltip: |
         <p>CAMPO OBLIGATORIO. Indica. el nivel jerárquico de los materiales que se está describiendo.</p>
@@ -1317,8 +1281,7 @@ es:
         <li>10 cartones récord, 6 archivos de cajas, 3 carpetas de gran tamaño.</li>
         <li>12 cajas de zapatos.</li>
         <li>4 archivos de cajas, tubos de 32.</li>
-		</ul>
-        	
+        </ul>
     publish: ¿Publicar?
     publish_tooltip: |
         <p>Determina si este recurso será publicado a las interfaces públicas (patrón).</p>
@@ -1333,11 +1296,11 @@ es:
     language_tooltip: |
         <p>El término lengua y código representado en el material descrito.</p>
         <p>Ver DACS 4.5</p>
-    "[: resource_id, 
+    "[:resource_id, :ref_id]": Ref ID
     has_unpublished_ancestor: ¿Ha inédito a antepasado?
     _singular: Archivo objeto
     _plural: Objetos de archiving
-	
+
   group: 
     group_code: Código de grupo
     group_code_tooltip: |
@@ -1349,17 +1312,55 @@ es:
         <ul>
         <li>Pasantes de verano 2013</li>
         <li>Personal de administración de colección</li>
-		</ul>
-        	
+        </ul>
     member_usernames: Miembros
     member_usernames_tooltip: |
         <p>Los miembros que forman parte de este grupo.</p>
-    permissions: "Los miembros pueden
-        <li>MSS 025 (un solo elemento)</li>
-        <li>Archives.RSS.0333 (tres elementos "Archives" + "RSS" + "0333")</li>
-        	
-    "[: id_0, 
-    "[: repo_id, 
+    permissions: "Los miembros pueden"
+    permission_types:
+      manage_repository: manage this repository (change groups and other settings)
+      update_location_record: create/modify/delete location records in this repository
+      update_subject_record: create/update subject records
+      update_agent_record: create/update agent records
+      update_vocabulary_record: create/update vocabulary records
+      update_accession_record: create/update accessions in this repository
+      update_resource_record: create/update resources in this repository
+      update_digital_object_record: create/update digital objects in this repository
+      update_event_record: create/update event records in this repository
+      view_repository: view the records in this repository
+      view_suppressed: view suppressed records in this repository
+      suppress_archival_record: suppress the major record types in this repository
+      delete_archival_record: delete the major record types in this repository
+      delete_event_record: delete event records in this repository
+      update_classification_record: create/update classifications and classification terms
+      delete_classification_record: delete classifications and classification terms
+      merge_agents_and_subjects: merge agent/subject records
+      merge_archival_record: merge the major record types in this repository
+      transfer_repository: transfer the entire contents of a repository
+      transfer_archival_record: transfer major record types between repositories
+      manage_subject_record: create/update/delete subject records
+      manage_agent_record: create/update/delete agent records
+      manage_vocabulary_record: create/update/delete vocabulary records
+      import_records: initiate import jobs
+      cancel_importer_job: cancel an import job
+    _singular: Group
+    _plural: Groups
+
+    resource:
+    <<: *archival_object_attributes
+    <<: *section_tooltips
+    id_0: Identifier
+    id_0_tooltip: |
+        <p>REQUIRED FIELD. The identification number assigned to each discrete Resource within a Repository.</p>
+        <p>See DACS 2.1.3</p>
+        <p>Examples</p>
+        <ul>
+        <li>R.001 (Two elements "R" + "001")</li>
+        <li>MSS 025 (A single element)</li>
+        <li>Archives.RSS.0333 (Three elements "Archives" + "RSS" + "0333")</li>
+        </ul>
+    "[:id_0, :id_1, :id_2, :id_3]": Identifier
+    "[:repo_id, :identifier]": Identifier
     identifier: Identificador
     title_tooltip: |
         <p>CAMPO OBLIGATORIO. El título asignado al recurso.</p>
@@ -1372,8 +1373,7 @@ es:
         <li>Caroline y Erwin Swann colección de caricaturas y dibujos animados</li>
         <li>Correspondencia de la Academia de Ciencias nacional</li>
         <li>Grabaciones de audio y video</li>
-		</ul>
-        	
+        </ul>
     resource_type: Tipo de recurso
     resource_type_tooltip: |
         <p>Una lista de términos utilizados por un repositorio para categorizar sus recursos en tipos básicos.</p>
@@ -1402,8 +1402,7 @@ es:
         <li>Registro de la colección de Jason Twirly</li>
         <li>Inventario de los documentos de la familia de Reese</li>
         <li>Lista de los dibujos y modelos de la firma arquitectónica Simon y Simon</li>
-		</ul>
-        	
+        </ul>
     finding_aid_filing_title: Encontrar ayuda presentar título
     finding_aid_filing_title_tooltip: |
         <p>Una versión modificada del título formal de la ayuda del hallazgo. Diseñado para facilitar la navegación y la clasificación de encontrar ayuda título listas.</p>
@@ -1412,8 +1411,7 @@ es:
         <li>Wayne (Bruce M.) Papeles</li>
         <li>Familia Rooney papeles</li>
         <li>Partido comunista de los registros de los Estados Unidos</li>
-		</ul>
-        	
+        </ul>
     finding_aid_date: Encontrar ayuda fecha
     finding_aid_date_tooltip: |
         <p>La expresión de la fecha para cuando se generó la actual ayuda de hallazgo de la descripción del recurso.</p>
@@ -1450,15 +1448,15 @@ es:
         <p>Para la grabación de cualquier información adicional sobre el hallazgo ayuda (no el recurso descrito) no cubierto por el otro buscar ayuda datos elementos.</p>
     _singular: Recurso
     _plural: Recursos
-	
+
   related_accession: 
     _singular: Adhesión relacionado
     _plural: Adhesiones relacionadas
-	
+
   related_resource: 
     _singular: Recursos relacionados
     _plural: Recursos relacionados
-	
+
   repository: 
     repo_code: Nombre corto del repositorio
     repo_code_tooltip: |
@@ -1468,8 +1466,8 @@ es:
         <li>YNHSCL <em>(de aquí su nombre especial colecciones biblioteca)</em></li>
         <li>MSCL <em>(para la biblioteca de colecciones especiales de Mandeville)</em></li>
         <li>Tamwag <em>(para archivos laborales Robert F. Wagner y biblioteca Tamiment)</em></li>
-		</ul>
-        	
+        </ul>
+
     name: Nombre del repositorio
     name_tooltip: |
         <p>CAMPO OBLIGATORIO. El nombre del repositorio que tiene responsabilidad administrativa y la custodia de los materiales descritos en la adhesión, recursos y módulos objeto digital de la aplicación.</p>
@@ -1479,8 +1477,8 @@ es:
         <li>Tu nombre aquí biblioteca colecciones especiales</li>
         <li>Biblioteca de colecciones especiales de Mandeville</li>
         <li>Archivos de la biblioteca tamiment y Robert F. Wagner laboral</li>
-		</ul>
-        	
+        </ul>
+
     org_code: Organización / Agencia código
     org_code_tooltip: |
         <p>Un código compatible con ISO/DIS 15511 información y documentación internacional identificador estándar para bibliotecas y organizaciones afines (ISIL). Para las instituciones de Estados Unidos, esto incluye los códigos de la lista de códigos MARC organización.</p>
@@ -1488,22 +1486,22 @@ es:
         <ul>
         <li>NNU-TL <em>(para Tamiment biblioteca y archivos laborales Robert F. Wagner)</em></li>
         <li>IU-Ar <em>(para los archivos de la Universidad de Illinois)</em></li>
-		</ul>
-        	
+        </ul>
+
     parent_institution_name: Nombre de la institución matriz
     parent_institution_name_tooltip: |
         <p>El nombre de la institución del padre que el repositorio es una parte.</p>
         <p>Ejemplos</p>        
-		<ul>
+        <ul>
         <li>Universidad de Illinois <em>(para los archivos de la Universidad de Illinois)</em></li>
         <li>Universidad de Nueva York <em>(para Tamiment biblioteca y archivos laborales Robert F. Wagner)</em></li>
-		</ul>
-        	
+        </ul>
+
     address_1: Dirección 1
-    address_1_tooltip: &address_tooltip |: 
+    address_1_tooltip: &address_tooltip |
         <p>La dirección postal o dirección del repositorio.</p>
     address_2: Dirección 2
-    address_2_tooltip: * address_tooltip
+    address_2_tooltip: *address_tooltip
     city: Ciudad
     district: Estado o región
     country: País
@@ -1524,7 +1522,7 @@ es:
         <p>Una dirección URL u otro identificador de ubicación de archivo hace referencia a un archivo que contiene un dispositivo de creación de marca para ser utilizado en el repositorio en línea encontrar SIDA. Un dispositivo típico de marca es un sello de Universidad o logotipo.</p>
     _singular: Repositorio
     _plural: Repositorios
-	
+
   term: &term_attributes: 
     # tooltips not displaying: 
     term: Término
@@ -1535,7 +1533,7 @@ es:
         <p>CAMPO OBLIGATORIO. Un indicador para expresar el tipo o la categoría de un término de sujeto.</p>
     _singular: Término
     _plural: Términos
-	
+
   subject: 
     authority_id: Identificador de autoridad
     authority_id_tooltip: |
@@ -1548,8 +1546,8 @@ es:
         <ul>
         <li>Medical Subject Headings (mesh)</li>
         <li>Biblioteca del Congreso Subject Headings (lcsh)</li>
-		</ul>
-        	
+        </ul>
+
     scope_note: Nota alcance
     scope_note_tooltip: |
         <p>Una nota que explica y aclara lo que significa y lo que no es en la definición del término y su uso como un encabezado.</p>
@@ -1557,8 +1555,8 @@ es:
         <ul>
         <li>Aquí están los trabajos introducidos en estudios biológicos de bacterias. Trabajos sobre la ciencia se introducen en el epígrafe bacteriología.</li>
         <li>"El derecho de la seguridad y privacidad en casa. de un hombre" - negro, Law dictionary, 4ª ed., 1951.</li>
-		</ul>
-        	
+        </ul>
+
     terms: Términos
     terms_tooltip: |
         <p>REQUIERE SUBREGISTRO. Utilizado para manejar cada término o subdivisión dentro de un determinado asunto. Cada registro de objeto debe tener al menos un término asociado.</p>
@@ -1567,7 +1565,7 @@ es:
     heading: Título de tema
     _singular: Asunto
     _plural: Temas
-	
+
   user: 
     username: Nombre de usuario
     username_tooltip: |
@@ -1607,16 +1605,16 @@ es:
         <p>Utiliza para indicar si el usuario debe tener privilegios de administrador completo para la aplicación.</p>
     _singular: Usuario
     _plural: Usuarios
-	
+
   collection_management: &collection_management_attributes: 
     cataloged_note: Nota catalogado
     cataloged_note_tooltip: |
         <p>Una nota acerca de catalogación de la unidad de archivo (adhesión, recurso, objeto digital), incluyendo la provisión de identificadores de registro de catálogo.</p>
         <p>Ejemplos</p>        
-		<ul>
+        <ul>
         <li>Número de registro del Catálogo</li>
-		</ul>
-        	
+        </ul>
+
     processing_hours_per_foot_estimate: Procesamiento de estimación hrs/ft
     processing_hours_per_foot_estimate_tooltip: |
         <p>El tiempo un repositorio estima que es necesaria para procesar una unidad de material de archivo (por ejemplo un pie lineal o un elemento en el caso de objetos digitales).  La estimación posible factor, o no, la producción de encontrar SIDA, registros del catálogo y otros productos de acceso.</p>
@@ -1624,7 +1622,7 @@ es:
     processing_total_extent_tooltip: |
         <p>Una expresión numérica para la extensión total (pies cúbicos, pies lineales, artículos, etc.) procesada.</p>
     processing_total_extent_type: Tipo de medida
-    processing_total_extent_type_tooltip: * extent_type_tooltip
+    processing_total_extent_type_tooltip: *extent_type_tooltip
     processing_total_extent_type_: --
     processing_hours_total: Procesamiento total horas
     processing_hours_total_short: Total de horas
@@ -1634,12 +1632,12 @@ es:
     processing_plan_tooltip: |
         <p>Para la grabación de un plan para el procesamiento de la unidad de archivo. El plan puede incluir un esquema de la disposición de la unidad de archivo, así como las instrucciones de cómo tratar a objetos particulares en la unidad de archivo.  El plan también podría especificar asignaciones diferentes para el personal del repositorio diferente.</p>
         <p>Ejemplos</p>        
-		<ul>
+        <ul>
         <li>Tema organizar alfabéticamente y archivos de proyecto cronológicamente.</li>
         <li>Los estudiantes de Margaret creará registros descriptivos.</li>
         <li>Gerente de proyecto será revisar, salida y cargar la ayuda encontrar codificados.</li>
-		</ul>
-        	
+        </ul>
+
     processing_priority: Prioridad
     processing_priority_tooltip: |
         <p>Indica la prioridad asignada a la elaboración de una unidad de archivo.</p>
@@ -1649,8 +1647,8 @@ es:
         <li>Alta</li>
         <li>Medio</li>
         <li>Baja</li>
-		</ul>
-        	
+        </ul>
+
     processing_started_date: Procesamiento iniciado fecha
     processing_status: Estado de procesamiento
     processing_status_tooltip: |
@@ -1661,8 +1659,8 @@ es:
         <li>Nuevo</li>
         <li>En progreso</li>
         <li>Completado</li>
-		</ul>
-        	
+        </ul>
+
     processing_funding_source: Fuente de financiamiento
     processing_funding_source_tooltip: |
         <p>Utilizado para indicar la fuente de financiación el procesamiento de los materiales descritos.</p>
@@ -1677,7 +1675,7 @@ es:
     parent: Padres
     _singular: Gestión de cobros
     _plural: Gestión de cobros
-	
+
   user_defined: 
     boolean_1: Boolean 1
     boolean_2: 2 booleano
@@ -1709,7 +1707,7 @@ es:
     enum_4: Valor controlado 4
     _singular: Definidos por el usuario
     _plural: Definidos por el usuario
-	
+
   enumeration: 
     # tooltips not displaying: 
     name: Nombre
@@ -1723,7 +1721,7 @@ es:
     merge_into: Combinar en
     _singular: Lista de valores controlados
     _plural: Listas de valor controladas
-	
+
   classification: 
     _singular: Clasificación
     _plural: Clasificaciones
@@ -1732,7 +1730,7 @@ es:
     description: Descripción
     creator: Creador
     id_separator: /
-	
+
   classification_term: 
     _singular: Término de clasificación
     _plural: Términos de clasificación
@@ -1740,7 +1738,7 @@ es:
     title: Título
     description: Descripción
     creator: Creador
-	
+
   preference: &preference_attributes: 
     defaults: Valores predeterminados
     global: Valores predeterminados de preferencia global
@@ -1753,7 +1751,7 @@ es:
     user_repo_message: Editar estos valores para definir las preferencias de usuario de este repositorio. Estos valores no se pueden sustituir.
     _singular: Preferencias
     _plural: Preferencias
-	
+
   defaults: &defaults_attributes: 
     general_section: Configuración general
     show_suppressed: ¿Mostrar suprimidos?
@@ -1793,11 +1791,11 @@ es:
     digital_object_browse_column_4_tooltip: El campo para mostrar en la columna 4.
     digital_object_browse_column_5: Columna 5
     digital_object_browse_column_5_tooltip: El campo para mostrar en la columna 5.
-    accept_default_message: ' > Acepte por defecto
+    accept_default_message: ' > Acepte por defecto:'
     no_value: '[ningún valor]'
     _singular: Valores predeterminados
     _plural: Valores predeterminados
-	
+
   reports: 
     CreatedAccessionsReport: Adhesiones creadas
     UnprocessedAccessionsReport: Adhesiones sin procesar
@@ -1811,7 +1809,7 @@ es:
       xlsx: XLSX (Excel)
       pdf: PDF
       html: HTML
-	
+
   validation_errors: 
     agent_must_be_unique: Registros del agente no pueden ser idénticos
     missing_required_property: Propiedad es necesaria pero faltaba
@@ -1821,7 +1819,7 @@ es:
     is_required_unless_a_begin_or_end_date_is_given: se requiere a menos que se da una fecha de inicio o final
     is_required_unless_an_expression_or_an_end_date_is_given: se requiere a menos que se da una expresión o una fecha de finalización
     is_required_unless_an_expression_or_a_begin_date_is_given: se requiere a menos que se da una expresión o una fecha de inicio
-	
+
     did_not_match_regular_expression: No coincide con la expresión regular % {regexp}
     too_few_characters: Debe ser por lo menos caracteres % {min_length}
     too_many_characters: Debe ser % {max_length} caracteres o menos
@@ -1869,7 +1867,7 @@ es:
     time_finished: Tiempo terminado
     owner: Propietario
     filenames: Importación de archivos
-	
+
   advanced_search: 
     type: 
       text: Texto

@@ -142,8 +142,8 @@ es:
       notes: Notas
 
   search_sorting:
-    sort_by: "Ordenar por
-    and: "y
+    sort_by: "Ordenar por"
+    and: "y"
     asc: Ascendente
     desc: Descendente
     relevance: Relevancia
@@ -249,31 +249,26 @@ es:
   batch_delete:
     archival_records:
       success: Registros eliminados
-      error: "No se puede eliminar registros
+      error: "No se puede eliminar registros"
     subjects:
       success: Temas eliminados
-      error: "No se puede eliminar temas
+      error: "No se puede eliminar temas"
     agents:
       success: Agentes eliminados
-      error: "No se puede eliminar agentes
-
+      error: "No se puede eliminar agentes"
   browser_support:
     bronze: ArchivesSpace no admite totalmente este navegador.  Por favor considere actualizar su navegador a las últimas versiones de Chrome, Firefox o Internet Explorer.
     unknown: ArchivesSpace no admite totalmente este navegador.  Por favor considere actualizar su navegador a las últimas versiones de Chrome, Firefox o Internet Explorer.
-
   welcome:
     heading: ¡ Bienvenido a ArchivesSpace
     message: La herramienta de administración de archivos amigable.
     message_logged_in: La herramienta de administración de archivos amigable.
-
   breadcrumb:
     home: Página de inicio
-
   save_changes_modal:
     body: Tienes algunos cambios pendientes.  Por favor guarde o despedir a estos cambios para continuar.
     save: Guardar cambios
     dismiss: Descartar cambios
-
   linker:
     link_to_prefix: Enlace a
     create_and_link_to_prefix: Crear y vincular
@@ -284,7 +279,7 @@ es:
     delete: "x"
 
   mixed_content:
-    wrap_prefix: "Envolver con
+    wrap_prefix: "Envolver con"
     help: "De tipo mixto activado contenido--' <' para elementos o texto resaltado envolver"
 
   import:
@@ -323,14 +318,14 @@ es:
         deleted: Adhesión <strong>% {accession.display_string}</strong> borrado
         transfer_description: Transferencia de esta adhesión a...
         transfer_target: Seleccione un repositorio para transferir a
-        spawned: "Esta adhesión ha sido generado de adhesión <strong>% {accession.display_string}"</strong>
+        spawned: "Esta adhesión ha sido generado de adhesión <strong>% {accession.display_string}</strong>"
       section:
         basic_information: Información básica
       action:
         create: Crear adhesión
         save: Salvar la adhesión
 
-  agent: & agent_attributes
+  agent: &agent_attributes
     _frontend:
       messages:
         created: Agente creado
@@ -382,7 +377,7 @@ es:
         updated_with_parent: Archivo objeto <strong>{archival_object.display_string} %</strong> actualizado
         please_select_a_resource_for_transfer: Por favor, elija un recurso
         transfer_success: Transferido con éxito archivo objeto <strong>% {archival_object.display_string}</strong> al recurso <strong>% {resource.title}</strong>
-        transfer_error: "No se puede transferir archivos objeto debido a un error o conflicto
+        transfer_error: "No se puede transferir archivos objeto debido a un error o conflicto"
         deleted: "Archivo objeto <strong>{archival_object.display_string} %</strong> eliminado"
         unsuppressed: Archivo objeto <strong>% {archival_object.title}</strong> suprimidas
         suppressed: Archivo objeto <strong>% {archival_object.title}</strong> suprimido
@@ -425,7 +420,7 @@ es:
         add_sibling: Añadir hermano
         save: Guardar el término clasificación
 
-  collection_management: & collection_management_attributes
+  collection_management: &collection_management_attributes
     _frontend:
       title_prefix: Procesamiento
       action:
@@ -688,7 +683,7 @@ es:
       messages:
         created: "Recurso <strong>% {resource.title}</strong> creado"
         updated: "Recurso <strong>% {resource.title}</strong> actualizado"
-        spawned: "Ha sido generado un nuevo recurso de adhesión <strong>% {accession.display_string}"</strong>
+        spawned: "Ha sido generado un nuevo recurso de adhesión <strong>% {accession.display_string}</strong>"
         deleted: "Recurso <strong>% {resource.title}</strong> borrado"
         published: "El recurso <strong>% {resource.title}</strong>subregistros y sus componentes han sido publicados"
         merge_description: Seleccione los recursos abajo para fusionar en
@@ -790,7 +785,7 @@ es:
       add_rows: Agregar filas
       submit: Guardar filas
       reset: RESET
-      showhide_prefix: "Columnas
+      showhide_prefix: "Columnas"
       showhide_suffix: visible
       showhide_none: Todas las columnas filtradas
       fill_toggle: Llene la columna
@@ -806,8 +801,8 @@ es:
       apply_sequence_fill: Aplicar la secuencia
       sequence_count_warning: Hay más filas que hay elementos en la secuencia.
       preview_sequence: Valores de secuencia de vista previa
-      sequence_summary: "% {count} elementos de la secuencia
-      sequence_summary_with_maxsize: "Para sus filas % {límite de}, los valores de secuencia de % {count} son
+      sequence_summary: "% {count} elementos de la secuencia"
+      sequence_summary_with_maxsize: "Para sus filas % {límite de}, los valores de secuencia de % {count} son"
       sequence_from_required: De se requiere
       sequence_to_required: Que es necesario
     reorder_columns:
@@ -818,7 +813,7 @@ es:
       no_rows: Por favor, introduzca valores para al menos una fila
       rows_with_errors: "% {count} filas con un error - haga clic en un campo de fila para ver los errores de esa fila"
       rows_no_errors: "Todas las filas son válidas"
-      error_summary_header: "Errores en fila
+      error_summary_header: "Errores en fila"
     help:
       keyboard_shortcuts: |
                   <div><strong>Atajos de teclado</strong></div>
@@ -840,11 +835,10 @@ es:
       reset: |
                   <div><strong>Resetear Formulario</strong></div>
                   <div><small>Click <strong>Cambiar</strong> para borrar el formulario y revertir la pegajosa, visible y el orden de las columnas a los valores predeterminados.</small></div>
-
   update_monitor:
     save_failed: <strong>Error al guardar los cambios</strong>
     stale_record: Este documento ha sido actualizado por otro usuario. Por favor, actualice la página para acceder a la versión más reciente.
-    other_editors: "Este documento se está editando actualmente por otro usuario.  Por favor, póngase en contacto con los usuarios siguientes para asegurar que sin conflictos se producen
+    other_editors: "Este documento se está editando actualmente por otro usuario.  Por favor, póngase en contacto con los usuarios siguientes para asegurar que sin conflictos se producen"
     repository_changed: "Este registro no puede salvarse, porque ha cambiado su repositorio activo. Para guardar este registro, abra otra ventana y restablecer su repositorio activo."
   job:
     _frontend:

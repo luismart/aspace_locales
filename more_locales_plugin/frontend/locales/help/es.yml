@@ -3,7 +3,7 @@ es:
     icon: "<span class='context-help-icon icon-question-sign'></span>"
     help_center: Centro de ayuda ArchivesSpace
     default_tooltip: Centro de ayuda ArchivesSpace
-    topics	
+    topics:
       # Accession help tooltips	
       accession: Ayuda sobre adhesiones
       accession_basic_information: Ayuda sobre información básica
