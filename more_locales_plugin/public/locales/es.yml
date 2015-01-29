@@ -1,24 +1,36 @@
-es:
+Ôªøes:
   brand:
-    title: ArchivesSpace p˙blico
-    home: P·gina de inicio
+    title: ArchivesSpace p√∫blico
+    home: P√°gina de inicio
     welcome_message: Bienvenido a ArchivesSpace.
-    welcome_search_label: "Encontrar lo que est·s buscando"
+    welcome_search_label: "Encuentra lo que buscas"
+
+  actions:
+    search: Buscar
+    browse: Navegar
+    show_advanced_search: Mostrar B√∫squeda Avanzada
+    hide_advanced_search: Ocultar B√∫squeda Avanzada
+
+
+  pagination:
+    first: Primera
+    last: √öltima
+    previous: "&#171;"
     next: "&#187;"
     summary_prefix: Mostrando
     summary_offset_connector: "-"
     summary_total_connector: de
     summary_suffix: Resultados
-    page_prefix: P·gina
+    page_prefix: P√°gina
     page_connector: de
 
-  search_results:	
+  search_results:
     searching: Buscando
     title: Todos los registros
     no_results: No hay resultados
-    no_results_prefix: No hay resultados de la b˙squeda
+    no_results_prefix: No hay resultados de la b√∫squeda
     result_type: Tipo de registro
-    result_title: TÌtulo
+    result_title: T√≠tulo
     filtered_by: Filtrado por
     modified: Modificado
     created: Creado
@@ -35,27 +47,49 @@ es:
       creators: Creador
       fullrecord: Palabra clave
       subjects_text: Materia
-      title: TÌtulo
+      title: T√≠tulo
       creators_text: Creador
-      scope: ¡mbito de aplicaciÛn
+      scope: √Åmbito de aplicaci√≥n
       notes: Notas
       source: Fuente
-      agents: Agentes
-      agents_text: Agentes
-      classification_uri: ClasificaciÛn
+      agents: Autoridades
+      agents_text: Autoridades
+      classification_uri: Clasificaci√≥n
       linked_agent_roles: Papel
 
   search_sorting:
     sort_by: "Ordenar por"
+    and: "y:"
+    asc: Ascendente
+    desc: Descendente
+    relevance: Relevancia
+    title_sort: T√≠tulo
+    user_mtime: Modificado
+    primary_type: Tipo de registro
+    processing_priority: Prioridad
+    processing_status: Estado
+    parent_id: Tipo de registro
+    create_time: Creado
+    authority_id: ID Autoridad
+    source: Fuente
+    rules: Reglas
+    outcome: Resultado
+    event_type: Tipo
+    identifier: Identificador
+    select: Select   
+
+  errors:
+    error_404: Registro no encontrado
+    error_404_message: "El registro que has intentado ver no existe o ha sido borrado."
     backend_down: No se puede conectar a la base de datos
-    backend_down_message: ArchivesSpace actualmente est· experimentando dificultades tÈcnicas. Disculpen las molestias. IntÈntalo de nuevo m·s tarde.
+    backend_down_message: ArchivesSpace actualmente est√° experimentando dificultades t√©cnicas. Disculpen las molestias. Int√©ntalo de nuevo m√°s tarde.
 
   boolean:
-    "true": "SÌ"
+    "true": "S√≠"
     "false": "No"
 
   navbar:
-    search_placeholder: Introduzca los tÈrminos de b˙squeda
+    search_placeholder: Introduzca los t√©rminos de b√∫squeda
     search_all: Todos los registros
 
   advanced_search:
@@ -63,14 +97,14 @@ es:
       AND: Y
       OR: O
       NOT: No
-    button_text: B˙squeda de
+    button_text: B√∫squeda de
     reset: Resetear
     nav_switcher:
       show: Mostrar avanzadas
       hide: Ocultar avanzado
     index_switcher:
-      show: Mostrar b˙squeda avanzada
-      hide: Ocultar b˙squeda avanzada
+      show: Mostrar b√∫squeda avanzada
+      hide: Ocultar b√∫squeda avanzada
 
   accession:
     _public:
@@ -82,21 +116,21 @@ es:
       section:
         components: Componentes
         summary: Resumen
-      messages:	
-        no_components: Archivo objeto no tiene ning˙n componente
+      messages:
+        no_components: Archivo objeto no tiene ning√∫n componente
 
   resource:
-    _singular: ColecciÛn
+    _singular: Colecci√≥n
     _plural: Colecciones
     _public:
       section:
         components: Componentes
         summary: Resumen
-      messages:	
-        no_components: Recurso no tiene ning˙n componente
+      messages:
+        no_components: Recurso no tiene ning√∫n componente
 
   related_resource:
-    _singular: ColecciÛn relacionado
+    _singular: Colecci√≥n relacionada
     _plural: Colecciones relacionadas
 
   digital_object: &digital_object_attributes
@@ -104,8 +138,8 @@ es:
       section:
         components: Componentes
         summary: Resumen
-      messages:	
-        no_components: Objeto digital no tiene ning˙n componente
+      messages:
+        no_components: Objeto digital no tiene ning√∫n componente
 
   digital_object_component:
     _public:
@@ -113,7 +147,7 @@ es:
         components: Componentes
         summary: Resumen
       messages:
-        no_components: Componente de objeto digital no tiene ning˙n componente
+        no_components: Componente de objeto digital no tiene ning√∫n componente
 
   agent:
     _singular: Nombre
@@ -131,5 +165,5 @@ es:
       link_to_digital_object: Enlace al registro
 
   record_tree:
-    record_tree_tab: ¡rbol de registro
+    record_tree_tab: √Årbol de registro
     search_tab: Buscar componentes

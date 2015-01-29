@@ -1,4 +1,4 @@
-es:
+﻿es:
   enumerations:
     linked_event_archival_record_roles:
       source:  Fuente
@@ -239,7 +239,7 @@ es:
       transmitter:  Transmisor
       validator:  Validador
     name_source: 
-      cash:  Encabezamientos de temas canadienses
+      cash:  Encabezamientos de materias canadienses
       ingest:  Fuente ingerido no especificado
       lcshac:  Biblioteca del encabezamientos Congreso infantil
       local:  Fuentes locales
@@ -295,7 +295,7 @@ es:
       work:  Trabajo
       image:  Imagen
     event_event_type: 
-      accession:  Adhesión
+      accession:  Adquisición
       accumulation:  Acumulación
       acknowledgement:  Reconocimiento
       acknowledgement_sent:  Reconocimiento enviado
@@ -345,7 +345,7 @@ es:
       under_revision:  Bajo revisión
       unprocessed:  Sin procesar
     instance_instance_type: 
-      accession:  Adhesión
+      accession:  Adquisición
       audio:  Audio
       books:  Libros
       computer_disks:  Discos de computadora
@@ -370,7 +370,7 @@ es:
       records:  Registros
     subject_source: 
       aat:  "Arte & arquitectura Report"
-      cash:  Encabezamientos de temas canadienses
+      cash:  Encabezamientos de materias canadienses
       gmgpc:  "TGM II, género y términos característicos físicos"
       ingest:  Fuente ingerido no especificado
       lcsh:  Biblioteca del Congreso encabezamientos
@@ -943,7 +943,7 @@ es:
       copyright:  Derechos de autor
       creation:  Creación
       deaccession:  Emprenderá
-      agent_relation:  Relación de agente
+      agent_relation:  Relación de autoridad
       digitized:  Digitalizado
       existence:  Existencia
       event:  Evento
@@ -1346,12 +1346,12 @@ es:
       novalue:  Ningún valor definido
 
   enumeration_names: 
-    accession_acquisition_type:  Tipo de adquisición de adhesión
-    accession_parts_relator:  Adhesión piezas Relator
-    accession_parts_relator_type:  Adhesión piezas Relator tipo
-    accession_sibling_relator:  "Adhesión hermano Relator"
-    accession_sibling_relator_type:  Adhesión hermano Relator tipo
-    accession_resource_type:  Tipo de recurso de adhesión
+    accession_acquisition_type:  Tipo de adquisición de adquisición
+    accession_parts_relator:  Adquisición piezas Relator
+    accession_parts_relator_type:  Adquisición piezas Relator tipo
+    accession_sibling_relator:  "Adquisición hermano Relator"
+    accession_sibling_relator_type:  Adquisición hermano Relator tipo
+    accession_resource_type:  Tipo de recurso de adquisición
     agent_contact_salutation:  Agente saludo contacto
     agent_relationship_associative_relator:  Agente relación asociativa Relator
     agent_relationship_earlierlater_relator:  Agente relación Earlierlater Relator
@@ -1384,7 +1384,7 @@ es:
     language_iso639_2:  Idioma ISO 639-2
     linked_agent_archival_record_relators:  Agente vinculado relatores expediente archivado
     linked_agent_event_roles:  Agente vinculado evento Roles
-    linked_agent_role:  Papel de agente vinculado
+    linked_agent_role:  Papel de autoridad vinculado
     linked_event_archival_record_roles:  Papeles registro Archival evento vinculado
     location_temporary:  Ubicación temporal
     name_person_name_order:  Pedido de nombre nombre de la persona
