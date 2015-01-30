@@ -1019,19 +1019,19 @@
 
   date_type_inclusive: 
     <<: *date_attributes
- 
+
   date_type_range: 
     <<: *date_attributes
 
   date_label: 
     <<: *date_attributes
-    
+
   existence_date: 
     <<: *date_attributes
-    
+
   usage_date: 
     <<: *date_attributes
-    
+
   archival_record_date: 
     <<: *date_attributes
 
@@ -1349,7 +1349,7 @@
     _singular: Group
     _plural: Groups
 
-    resource:
+  resource:
     <<: *archival_object_attributes
     <<: *section_tooltips
     id_0: Identifier
@@ -1813,20 +1813,20 @@
     is_required_unless_an_expression_or_an_end_date_is_given: se requiere a menos que se da una expresión o una fecha de finalización
     is_required_unless_an_expression_or_a_begin_date_is_given: se requiere a menos que se da una expresión o una fecha de inicio
 
-    did_not_match_regular_expression: No coincide con la expresión regular % {regexp}
-    too_few_characters: Debe ser por lo menos caracteres % {min_length}
-    too_many_characters: Debe ser % {max_length} caracteres o menos
-    too_few_items: Por lo menos los elementos % {min_items} es necesario
-    invalid_value: Valor no válido '% {valor}'. Debe ser uno de '% {valid_set}'
-    wrong_type: Debe ser un % {desired_type} (proporcionó un % {actual_type})
-    must_be_one_of: Debe ser uno de % {allowed_types} (proporcionó un % {actual_type})
+    did_not_match_regular_expression: "No coincide con la expresión regular % {regexp}"
+    too_few_characters: "Debe ser por lo menos caracteres % {min_length}"
+    too_many_characters: "Debe ser % {max_length} caracteres o menos"
+    too_few_items: "Por lo menos los elementos % {min_items} es necesario"
+    invalid_value: "Valor no válido '% {valor}'. Debe ser uno de '% {valid_set}'"
+    wrong_type: "Debe ser un % {desired_type} (proporcionó un % {actual_type})"
+    must_be_one_of: "Debe ser uno de % {allowed_types} (proporcionó un % {actual_type})"
     id_already_in_use: Ese ID ya está en uso
-    username_already_in_use: Nombre de usuario '% {username}' ya está en uso
+    username_already_in_use: "Nombre de usuario '% {username}' ya está en uso"
     cant_be_empty: No puede estar vacío
     password_did_not_match: Valor introducido no coincide con la contraseña
     group_code_already_in_use: Código de grupo debe ser único dentro de un repositorio
-    one_or_more_required_(or_enter_a_title): uno o más necesaria (o escriba un título)
-    must_not_be_an_empty_string_(or_enter_a_date): No debe ser una cadena vacía (o escriba una fecha)
+    one_or_more_required_(or_enter_a_title): "uno o más necesaria (o escriba un título)"
+    must_not_be_an_empty_string_(or_enter_a_date): "No debe ser una cadena vacía (o escriba una fecha)"
     is_required_when__source__is_blank: se requiere 'Origen' es en blanco
     is_required_when__rules__is_blank: se requiere 'Reglas' son en blanco
     is_required_if_there_is_an_authority_id: es necesario si hay un 'identificador de autoridad'

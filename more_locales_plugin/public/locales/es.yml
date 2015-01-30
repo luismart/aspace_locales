@@ -94,9 +94,9 @@
 
   advanced_search:
     operator:
-      AND: Y
-      OR: O
-      NOT: No
+      AND: "Y"
+      OR: "O"
+      NOT: "No"
     button_text: Búsqueda de
     reset: Resetear
     nav_switcher:
