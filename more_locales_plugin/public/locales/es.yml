@@ -1,169 +1,169 @@
-es:
+﻿es:
   brand:
-    title: ArchivesSpace Public Interface
-    home: Home
-    welcome_message: Welcome to ArchivesSpace.
-    welcome_search_label: "Find what you're looking for:"
+    title: ArchivesSpace público
+    home: Página de inicio
+    welcome_message: Bienvenido a ArchivesSpace.
+    welcome_search_label: "Encuentra lo que buscas"
 
   actions:
-    search: Search
-    browse: Browse
-    show_advanced_search: Show Advanced Search
-    hide_advanced_search: Hide Advanced Search
+    search: Buscar
+    browse: Navegar
+    show_advanced_search: Mostrar Búsqueda Avanzada
+    hide_advanced_search: Ocultar Búsqueda Avanzada
 
 
   pagination:
-    first: First
-    last: Last
+    first: Primera
+    last: Última
     previous: "&#171;"
     next: "&#187;"
-    summary_prefix: Showing
+    summary_prefix: Mostrando
     summary_offset_connector: "-"
-    summary_total_connector: of
-    summary_suffix: Results
-    page_prefix: Page
-    page_connector: of
+    summary_total_connector: de
+    summary_suffix: Resultados
+    page_prefix: Página
+    page_connector: de
 
   search_results:
-    searching: Searching
-    title: All Records
-    no_results: No Records
-    no_results_prefix: There were no search results for
-    result_type: Record Type
-    result_title: Title
-    filtered_by: Filtered By
-    modified: Last Modified
-    created: Created
-    text_placeholder: Filter by text
-    clear_all: Clear All
-    created: Created
-    modified: Modified
-    component_switch: Include Components
+    searching: Buscando
+    title: Todos los registros
+    no_results: No hay resultados
+    no_results_prefix: No hay resultados de la búsqueda
+    result_type: Tipo de registro
+    result_title: Título
+    filtered_by: Filtrado por
+    modified: Modificado
+    created: Creado
+    text_placeholder: Filtrar por texto
+    clear_all: Borrar todo
+    created: Creado
+    modified: Modificado
+    component_switch: Incluyen componentes
     filter:
-      query: Text
-      subjects: Subject
-      primary_type: Type
-      repository: Repository
-      creators: Creator
-      fullrecord: Keyword
-      subjects_text: Subject
-      title: Title
-      creators_text: Creator
-      scope: Scope
-      notes: Notes
-      source: Source
-      agents: Agents
-      agents_text: Agents
-      classification_uri: Classification
-      linked_agent_roles: Role
+      query: Texto
+      subjects: Materia
+      primary_type: Tipo
+      repository: Repositorio
+      creators: Creador
+      fullrecord: Palabra clave
+      subjects_text: Materia
+      title: Título
+      creators_text: Creador
+      scope: Ámbito de aplicación
+      notes: Notas
+      source: Fuente
+      agents: Autoridades
+      agents_text: Autoridades
+      classification_uri: Clasificación
+      linked_agent_roles: Papel
 
   search_sorting:
-    sort_by: "Sort by:"
-    and: "and:"
-    asc: Ascending
-    desc: Descending
-    relevance: Relevance
-    title_sort: Title
-    user_mtime: Modified
-    primary_type: Record Type
-    processing_priority: Priority
-    processing_status: Status
-    parent_id: Record Type
-    create_time: Created
-    authority_id: Authority ID
-    source: Source
-    rules: Rules
-    outcome: Outcome
-    event_type: Type
-    identifier: Identifier
-    select: Select
+    sort_by: "Ordenar por"
+    and: "y:"
+    asc: Ascendente
+    desc: Descendente
+    relevance: Relevancia
+    title_sort: Título
+    user_mtime: Modificado
+    primary_type: Tipo de registro
+    processing_priority: Prioridad
+    processing_status: Estado
+    parent_id: Tipo de registro
+    create_time: Creado
+    authority_id: ID Autoridad
+    source: Fuente
+    rules: Reglas
+    outcome: Resultado
+    event_type: Tipo
+    identifier: Identificador
+    select: Select   
 
   errors:
-    error_404: Record Not Found
-    error_404_message: "The record you've tried to access does not exist or may have been removed."
-    backend_down: Unable to Connect to Database
-    backend_down_message: ArchivesSpace is currently experiencing technical difficulties. We apologise for the inconvenience. Please try again later.
+    error_404: Registro no encontrado
+    error_404_message: "El registro que has intentado ver no existe o ha sido borrado."
+    backend_down: No se puede conectar a la base de datos
+    backend_down_message: ArchivesSpace actualmente está experimentando dificultades técnicas. Disculpen las molestias. Inténtalo de nuevo más tarde.
 
   boolean:
-    "true": "Yes"
+    "true": "Sí"
     "false": "No"
 
   navbar:
-    search_placeholder: Enter your search terms
-    search_all: All Records
+    search_placeholder: Introduzca los términos de búsqueda
+    search_all: Todos los registros
 
   advanced_search:
     operator:
-      AND: And
-      OR: Or
-      NOT: Not
-    button_text: Search
-    reset: Clear
+      AND: Y
+      OR: O
+      NOT: No
+    button_text: Búsqueda de
+    reset: Resetear
     nav_switcher:
-      show: Show Advanced
-      hide: Hide Advanced
+      show: Mostrar avanzadas
+      hide: Ocultar avanzado
     index_switcher:
-      show: Show Advanced Search
-      hide: Hide Advanced Search
+      show: Mostrar búsqueda avanzada
+      hide: Ocultar búsqueda avanzada
 
   accession:
     _public:
       section:
-        summary: Summary
+        summary: Resumen
 
   archival_object:
     _public:
       section:
-        components: Components
-        summary: Summary
+        components: Componentes
+        summary: Resumen
       messages:
-        no_components: Archival Object has no components
+        no_components: Archivo objeto no tiene ningún componente
 
   resource:
-    _singular: Collection
-    _plural: Collections
+    _singular: Colección
+    _plural: Colecciones
     _public:
       section:
-        components: Components
-        summary: Summary
+        components: Componentes
+        summary: Resumen
       messages:
-        no_components: Resource has no components
+        no_components: Recurso no tiene ningún componente
 
   related_resource:
-    _singular: Related Collection
-    _plural: Related Collections
+    _singular: Colección relacionada
+    _plural: Colecciones relacionadas
 
   digital_object: &digital_object_attributes
     _public:
       section:
-        components: Components
-        summary: Summary
+        components: Componentes
+        summary: Resumen
       messages:
-        no_components: Digital Object has no components
+        no_components: Objeto digital no tiene ningún componente
 
   digital_object_component:
     _public:
       section:
-        components: Components
-        summary: Summary
+        components: Componentes
+        summary: Resumen
       messages:
-        no_components: Digital Object Component has no components
+        no_components: Componente de objeto digital no tiene ningún componente
 
   agent:
-    _singular: Name
-    _plural: Names
+    _singular: Nombre
+    _plural: Nombres
     _public:
       section:
-        summary: Summary
+        summary: Resumen
 
   components:
-    expand: Expand
-    collapse: Collapse
+    expand: Ampliar
+    collapse: Colapso
 
   instance:
     _public:
-      link_to_digital_object: Link to Record
+      link_to_digital_object: Enlace al registro
 
   record_tree:
-    record_tree_tab: Record Tree
-    search_tab: Search Components
+    record_tree_tab: Árbol de registro
+    search_tab: Buscar componentes
