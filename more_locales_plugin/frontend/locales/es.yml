@@ -182,9 +182,9 @@
 
   advanced_search:
     operator:
-      AND: Y
-      OR: O
-      NOT: No
+      AND: "Y"
+      OR: "O"
+      NOT: "No"
     date_operator:
       equal: es igual a
       greater_than: mayor que
