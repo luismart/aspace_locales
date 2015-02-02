@@ -5,86 +5,86 @@
     default_tooltip: Centro de ayuda ArchivesSpace
     topics:
       # Accession help tooltips
-      accession: Ayuda sobre adhesiones
+      accession: Ayuda sobre adquisiciones
       accession_basic_information: Ayuda sobre información básica
-      accession_extents: Ayuda en grados
+      accession_extents: Ayuda en cantidad de material
       accession_dates: Ayuda en las fechas
       accession_related_resources: Ayuda sobre recursos relacionados
       accession_linked_agents: Ayuda sobre autoridad enlaces
       accession_subjects: Ayuda sobre materias
       accession_external_documents: Ayuda sobre documentos externos
       accession_rights_statements: Ayuda sobre las declaraciones de derechos
-      accession_deaccessions: Ayuda en Deaccessions
+      accession_deaccessions: Ayuda en expurgos
       accession_instances: Ayuda en las instancias de
-      accession_collection_management: Ayuda en la gestión de cobros
+      accession_collection_management: Ayuda en la gestión de la colección de adquisiciones
       accession_classification: Ayuda sobre clasificaciones
       accession_user_defined: Ayuda sobre definidos por el usuario
       # Resource help tooltips
       resource: Ayuda sobre recursos
       resource_basic_information: Ayuda sobre información básica
       resource_dates: Ayuda en las fechas
-      resource_extents: Ayuda en grados
+      resource_extents: Ayuda en cantidad de material de recursos
       resource_finding_aid: Ayudar en la búsqueda de ayuda
-      resource_related_accessions: Ayuda sobre adhesiones relacionadas
+      resource_related_accessions: Ayuda sobre adquisiciones relacionadas
       resource_linked_agents: Ayuda sobre autoridad enlaces
       resource_subjects: Ayuda sobre materias
       resource_notes: Ayuda sobre notas
       resource_external_documents: Ayuda sobre documentos externos
       resource_rights_statements: Ayuda sobre las declaraciones de derechos
       resource_instances: Ayuda en las instancias de
-      resource_deaccessions: Ayuda en Deaccessions
-      resource_collection_management: Ayuda en la gestión de cobros
+      resource_deaccessions: Ayuda en expurgos de recursos
+      resource_collection_management: Ayuda en la gestión de la colección de recursos
       resource_classification: Ayuda sobre clasificaciones
       resource_user_defined: Ayuda sobre definidos por el usuario
       # Archival Object help tooltips
       archival_object: Ayuda sobre objetos de archiving
       archival_object_basic_information: Ayuda sobre información básica
       archival_object_dates: Ayuda en las fechas
-      archival_object_extents: Ayuda en grados
+      archival_object_extents: Ayuda en cantidad de material de objetos de archivo
       archival_object_finding_aid: Ayudar en la búsqueda de ayuda
-      archival_object_related_accessions: Ayuda sobre adhesiones relacionadas
+      archival_object_related_accessions: Ayuda sobre adquisiciones relacionadas
       archival_object_linked_agents: Ayuda sobre autoridad enlaces
       archival_object_subjects: Ayuda sobre materias
       archival_object_notes: Ayuda sobre notas
       archival_object_external_documents: Ayuda sobre documentos externos
       archival_object_rights_statements: Ayuda sobre las declaraciones de derechos
       archival_object_instances: Ayuda en las instancias de
-      archival_object_deaccessions: Ayuda en Deaccessions
-      archival_object_collection_management: Ayuda en la gestión de cobros
+      archival_object_deaccessions: Ayuda en expurgo de objetos de archivo
+      archival_object_collection_management: Ayuda en la gestión de la colección de objetos de archivo
       archival_object_classification: Ayuda sobre clasificaciones
       archival_object_user_defined: Ayuda sobre definidos por el usuario
       # Digital Object help tooltips
       digital_object: Ayuda sobre objeto Digital
       digital_object_basic_information: Ayuda sobre información básica
       digital_object_dates: Ayuda en las fechas
-      digital_object_extents: Ayuda en grados
+      digital_object_extents: Ayuda en cantidad de material de objetos digitales
       digital_object_finding_aid: Ayudar en la búsqueda de ayuda
-      digital_object_related_accessions: Ayuda sobre adhesiones relacionadas
+      digital_object_related_accessions: Ayuda sobre adquisiciones relacionadas
       digital_object_linked_agents: Ayuda sobre autoridad enlaces
       digital_object_subjects: Ayuda sobre materias
       digital_object_notes: Ayuda sobre notas
       digital_object_external_documents: Ayuda sobre documentos externos
       digital_object_rights_statements: Ayuda sobre las declaraciones de derechos
       digital_object_instances: Ayuda en las instancias de
-      digital_object_deaccessions: Ayuda en Deaccessions
-      digital_object_collection_management: Ayuda en la gestión de cobros
+      digital_object_deaccessions: Ayuda en expurgo de objetos digitales
+      digital_object_collection_management: Ayuda en la gestión de la colección de objetos digitales
       digital_object_classification: Ayuda sobre clasificaciones
       digital_object_user_defined: Ayuda sobre definidos por el usuario
       # Digital Object Component help tooltips
       digital_object_component: Ayuda sobre los componentes del objeto Digital
       digital_object_component_basic_information: Ayuda sobre información básica
       digital_object_component_dates: Ayuda en las fechas
-      digital_object_component_extents: Ayuda en grados
+      digital_object_component_extents: Ayuda en cantidad de componentes de objetos digitales
       digital_object_component_finding_aid: Ayudar en la búsqueda de ayuda
-      digital_object_component_related_accessions: Ayuda sobre adhesiones relacionadas
+      digital_object_component_related_accessions: Ayuda sobre adquisiciones relacionadas
       digital_object_component_linked_agents: Ayuda sobre autoridad enlaces
       digital_object_component_subjects: Ayuda sobre materias
       digital_object_component_notes: Ayuda sobre notas
       digital_object_component_external_documents: Ayuda sobre documentos externos
       digital_object_component_rights_statements: Ayuda sobre las declaraciones de derechos
       digital_object_component_instances: Ayuda en las instancias de
-      digital_object_component_deaccessions: Ayuda en Deaccessions
-      digital_object_component_collection_management: Ayuda en la gestión de cobros
+      digital_object_component_deaccessions: Ayuda en expurgo de componentes de objetos digitales
+      digital_object_component_collection_management: Ayuda en la gestión de la colección de componentes de objetos digitales
       digital_object_component_classification: Ayuda sobre clasificaciones
       digital_object_component_user_defined: Ayuda sobre definidos por el usuario
       # Subjects
@@ -130,8 +130,8 @@
       event: Ayuda sobre eventos
       event_basic_information: Ayuda sobre información básica
       event_date: Ayuda en la fecha/hora del evento
-      event_linked_agents: Ayuda sobre autoridad enlaces
-      event_linked_records: Ayuda sobre registro enlaces
+      event_linked_agents: Ayuda sobre enlaces de autoridad
+      event_linked_records: Ayuda sobre enlaces de registro
       # Classification
       classification: Ayuda sobre clasificaciones
       classification_term: Ayuda sobre clasificaciones

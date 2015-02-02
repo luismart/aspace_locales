@@ -16,7 +16,7 @@
     edit: Editar
     edit_groups: Editar grupos
     export: Exportación
-    view: Vista
+    view: Ver
     spawn: Abrir
     show_all: Mostrar todo
     transfer_record: Transferencia
@@ -35,9 +35,9 @@
     remove: Quitar
     refresh_page: Recargar página
     new_prefix: Nuevo
-    save_prefix: Salvar
+    save_prefix: Guardar
     save_plus_one: "+ 1"
-    save_anyway: Salvar
+    save_anyway: Guardar
     select: Seleccione
     set_default: Conjunto como predeterminado
     suppress: Suprimir
@@ -114,7 +114,7 @@
     component_switch: Mostrar componentes
     filter:
       query: Texto
-      subjects: Asunto
+      subjects: Materia
       primary_type: Tipo de registro
       digital_object_type: Tipo
       level: Nivel
@@ -136,7 +136,7 @@
       agents: Agente
       creators: Creador
       fullrecord: Palabra clave
-      subjects_text: Asunto
+      subjects_text: Materia
       title: Título
       creators_text: Creador
       notes: Notas
@@ -175,7 +175,7 @@
     language: Idioma
     restrictions: Restricciones
     ead_id: ID DE EAD
-    finding_aid_status: Encontrar ayuda estado
+    finding_aid_status: Estado del finding aid
     digital_object_id: ID de objeto digital
     digital_object_type: Tipo de objeto digital
     publish: Publicar
@@ -262,15 +262,15 @@
     unknown: ArchivesSpace no admite totalmente este navegador.  Por favor considere actualizar su navegador a las últimas versiones de Chrome, Firefox o Internet Explorer.
 
   welcome:
-    heading: ¡ Bienvenido a ArchivesSpace
-    message: La herramienta de administración de archivos amigable.
-    message_logged_in: La herramienta de administración de archivos amigable.
+    heading: Bienvenido a ArchivesSpace
+    message: Tu herramienta de administración de archivos.
+    message_logged_in: Tu herramienta de administración de archivos.
 
   breadcrumb:
     home: Página de inicio
 
   save_changes_modal:
-    body: Tienes algunos cambios pendientes.  Por favor guarde o despedir a estos cambios para continuar.
+    body: Tienes algunos cambios pendientes. Por favor guarde o despedir a estos cambios para continuar.
     save: Guardar cambios
     dismiss: Descartar cambios
 
@@ -328,7 +328,7 @@
         basic_information: Información básica
       action:
         create: Crear adquisición
-        save: Salvar la adquisición
+        save: Guardar la adquisición
 
   agent: &agent_attributes
     _frontend:
@@ -356,17 +356,17 @@
   agent_corporate_entity:
     _frontend:
       action:
-        save: Salvar la entidad corporativa
+        save: Guardar la entidad corporativa
 
   agent_family:
     _frontend:
       action:
-        save: Salvar a familia
+        save: Guardar familia
 
   agent_person:
     _frontend:
       action:
-        save: Salvar a persona
+        save: Guardar persona
 
   agent_software:
     _frontend:
@@ -376,24 +376,24 @@
   archival_object:
     _frontend:
       messages:
-        created: Archivo objeto <strong>% {archival_object.display_string}</strong> del recurso <strong>% {resource.title}</strong> creado
-        created_with_parent: Archivo objeto <strong>% {archival_object.display_string}</strong> creado como niño de <strong>% {parent.display_string}</strong> del recurso <strong>% {resource.title}</strong>
-        updated: Archivo objeto <strong>{archival_object.display_string} %</strong> actualizado
-        updated_with_parent: Archivo objeto <strong>{archival_object.display_string} %</strong> actualizado
+        created: Objeto de archivo <strong>% {archival_object.display_string}</strong> del recurso <strong>% {resource.title}</strong> creado
+        created_with_parent: Objeto de archivo <strong>% {archival_object.display_string}</strong> creado como niño de <strong>% {parent.display_string}</strong> del recurso <strong>% {resource.title}</strong>
+        updated: Objeto de archivo <strong>{archival_object.display_string} %</strong> actualizado
+        updated_with_parent: Objeto de archivo <strong>{archival_object.display_string} %</strong> actualizado
         please_select_a_resource_for_transfer: Por favor, elija un recurso
-        transfer_success: Transferido con éxito archivo objeto <strong>% {archival_object.display_string}</strong> al recurso <strong>% {resource.title}</strong>
+        transfer_success: Transferido con éxito el objeto de archivo <strong>% {archival_object.display_string}</strong> al recurso <strong>% {resource.title}</strong>
         transfer_error: "No se puede transferir archivos objeto debido a un error o conflicto"
-        deleted: "Archivo objeto <strong>{archival_object.display_string} %</strong> eliminado"
-        unsuppressed: Archivo objeto <strong>% {archival_object.title}</strong> suprimidas
-        suppressed: Archivo objeto <strong>% {archival_object.title}</strong> suprimido
-        suppressed_info: Archivo objeto se suprime y no se pueden editar
+        deleted: "Objeto de archivo <strong>{archival_object.display_string} %</strong> eliminado"
+        unsuppressed: Objeto de archivo <strong>% {archival_object.title}</strong> suprimido
+        suppressed: Objeto de archivo <strong>% {archival_object.title}</strong> suprimido
+        suppressed_info: Objeto de archivo se suprime y no se pueden editar
         has_unpublished_ancestor: Por favor tenga en cuenta que este registro tiene un antepasado que es inédito.
       section:
         basic_information: Información básica
       action:
         add_child: Agregar hijo
         add_sibling: Añadir hermano
-        save: Guardar archivo objeto
+        save: Guardar objeto de archivo
 
   classification:
     _frontend:
@@ -578,7 +578,7 @@
       messages:
         created: Ubicación creada
         updated: Ubicación
-        deleted: Ubicación eliminado
+        deleted: Ubicación eliminada
       section:
         basic_information: Información básica
         search_embedded: Registros vinculados
@@ -588,7 +588,7 @@
         create: Crear ubicación
         batch: Lote ubicaciones
         save: Guardar ubicación
-        single: Única ubicación
+        single: Ubicación única
         delete_confirm_message: "<p>Tenga en cuenta <strong>no se puede deshacer esta acción.</strong>.</p><p>Si esta ubicación está actualmente vinculada a una o más instancias no se puede eliminar.</p>"
 
   location_batch:
@@ -620,10 +620,10 @@
   note:
     _frontend:
       preview:
-        raw: Crudo
-        raw_title: El contenido de la nota crudo
-        parsed: El formato
-        parsed_title: ¿Cómo se procesará la nota en la aplicación pública
+        raw: Texto en bruto
+        raw_title: El contenido de la nota en bruto
+        parsed: Texto formateado
+        parsed_title: Cómo se visualizará la nota
       messages:
         select_a_note_type: "<em>Por favor seleccione un tipo de nota</em>"
       action:
@@ -701,7 +701,7 @@
         suppressed_info: Se suprimieron y no se pueden editar recursos
       section:
         basic_information: Información básica
-        finding_aid: Encontrar ayuda datos
+        finding_aid: Datos del finding aid
       action:
         add_child: Agregar hijo
         rapid_data_entry: Entrada de datos rápida
@@ -845,7 +845,7 @@
     save_failed: <strong>Error al guardar los cambios</strong>
     stale_record: Este documento ha sido actualizado por otro usuario. Por favor, actualice la página para acceder a la versión más reciente.
     other_editors: "Este documento se está editando actualmente por otro usuario.  Por favor, póngase en contacto con los usuarios siguientes para asegurar que sin conflictos se producen"
-    repository_changed: "Este registro no puede salvarse, porque ha cambiado su repositorio activo. Para guardar este registro, abra otra ventana y restablecer su repositorio activo."
+    repository_changed: "Este registro no puede guardarse, porque ha cambiado su repositorio activo. Para guardar este registro, abra otra ventana y restablecer su repositorio activo."
   job:
     _frontend:
       audit_data: Datos de auditoría
@@ -855,7 +855,7 @@
         new: Nuevo trabajo de importación
         cancel: Cancelar trabajo
         add_file: Agregar archivo
-        follow_log: Siga Log
+        follow_log: Siga el Log
       section:
         basic_information: Información básica
         status: Estado de trabajo
@@ -864,14 +864,14 @@
         active_jobs: Trabajos activos
         archived_jobs: Trabajos archivados
       messages:
-        status_changed_running: El trabajo de importación ha empezado a correr. Actualiza la página...
+        status_changed_running: El trabajo de importación ha comenzado. Actualiza la página...
         status_changed_completed: Ha completado el trabajo de importación.
         status_changed_failed: El trabajo de importación ha fallado.
         status_changed_canceled: El trabajo de importación ha sido cancelado.
-        no_active_jobs: No hay activos import trabajos.
-        no_archived_jobs: No hay archivados importación trabajos.
-        upload_successful: Sube imágenes de éxito. Redirigiendo a la página de trabajo...
+        no_active_jobs: No hay trabajos de importación activos.
+        no_archived_jobs: No hay trabajos de importación archivados.
+        upload_successful: Imagen subida con exito. Redirigiendo a la página de trabajo...
         import_type_missing: Por favor, seleccione un tipo de importación
-        queue_position_next: Esta importación es el siguiente en la cola.
-        queue_position: "Esta importación es {posición} % en la cola."
+        queue_position_next: Esta importación es la siguiente.
+        queue_position: "Esta importación es la {posición} % en la cola."
         drag_and_drop_hint: Arrastrar y soltar archivos aquí

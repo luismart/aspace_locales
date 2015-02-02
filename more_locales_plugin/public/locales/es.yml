@@ -117,7 +117,7 @@
         components: Componentes
         summary: Resumen
       messages:
-        no_components: Archivo objeto no tiene ningún componente
+        no_components: Objeto de archivo no tiene ningún componente
 
   resource:
     _singular: Colección

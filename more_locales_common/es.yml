@@ -145,7 +145,7 @@
     coordinate_3_indicator_tooltip: |
         <p>Utilizado para grabar un indicador como un número o una letra que identifica a una ubicación en combinación con la etiqueta coordenada asociada.</p>
     display_string: Cadena de presentación
-    has_unpublished_ancestor: ¿Ha inédito a antepasado?
+    has_unpublished_ancestor: ¿Tiene una serie/subserie por encima sin publicar?
     _singular: Ubicación
     _plural: Ubicaciones
 
@@ -186,8 +186,8 @@
         <p>El papel en el que conste vinculado se relaciona con el registro actual.</p>
     ref: Registro
     ref_plural: Registros
-    _singular: Enlace de registro
-    _plural: Registro enlaces
+    _singular: Registro enlazado
+    _plural: Registro enlazado
 
   linked_agent: &linked_agent_attributes
     role: Papel
@@ -204,8 +204,8 @@
         <p>Las Autoridades pueden consultarse utilizando Autocompletar, usando una función de navegación, o pueden crearse en la demanda.</p>
     terms: Términos
     title: Título
-    _singular: Enlace de autoridad
-    _plural: Agente enlaces
+    _singular: Autoridad enlazada
+    _plural: Autoridades enlazadas
 
   accession_linked_agent: 
     <<: *linked_agent_attributes
@@ -329,9 +329,9 @@
     notification: ¿Notificación?
     notification_tooltip: |
         <p>Indicando que recibió notificación de la emprenderá una casilla de verificación.</p>
-    dates: Obrar fecha
-    _plural: Deaccessions
-    _singular: Emprenderá
+    dates: Fecha expurgos
+    _plural: Expurgos
+    _singular: Expurgo
 
   agent_name: &agent_name_attributes
     authority_id: Identificador de autoridad
@@ -547,9 +547,9 @@
     content: Contenido
     content_tooltip: |
         <p>El contenido de la nota.</p>
-    items: Artículos
-    items_singular: Artículo
-    item_singular: Artículo
+    items: Items
+    items_singular: Item
+    item_singular: Item
     publish: ¿Publicar?
     publish_tooltip: |
         <p>Determina si esta nota al público (patrón) interfaces.</p>
@@ -594,7 +594,7 @@
     _singular: Relación asociativa
 
   note:
-    item: Artículo
+    item: Item
     content_item: Elemento de contenido
     note_singlepart: Pieza única nota
     note_orderedlist: Lista ordenada
@@ -606,7 +606,7 @@
     note_digital_object: Nota de objeto digital
     note_bioghist: "Nota de biografía histórica"
     note_citation: Citación
-    note_abstract: Resumen
+    note_abstract: Resumen introductorio
     note_outline: Esquema
     note_text: Texto
     note_type: Tipo de nota
@@ -636,9 +636,9 @@
 
   note_multipart: 
     <<: *note_attributes
-    subnotes: Notas de la sub
-    sub_notes: Notas de la sub
-    sub_notes_singular: Nota sub
+    subnotes: Subnotas
+    sub_notes: Subnotas
+    sub_notes_singular: Subnotas
 
   note_digital_object: 
     <<: *note_attributes
@@ -808,9 +808,9 @@
     physical_details_tooltip: |
         <p>Otros detalles físicos de los materiales describen, por ejemplo, negativos analógicos, b&w.</p>
         <p>Ver DACS 2.5</p>
-    dimensions: Dimensiones
+    dimensions: Tamaño
     dimensions_tooltip: |
-        <p>Dimensiones de los materiales descritos.</p>
+        <p>Tamaño de los materiales descritos.</p>
         <p>Ver DACS 2.5</p>
         <p>Ejemplos</p>
         <ul>
@@ -818,8 +818,8 @@
         <li>7 1/4 x 3 1/2 pulg.</li>
         <li>cinta de 1/2 pulg.</li>
         </ul>
-    _plural: Grados
-    _singular: Grado
+    _plural: Cantidades de materiales
+    _singular: Cantiada de material
 
   container: &container_attributes
     type_1: Tipo de contenedor 1 
@@ -982,7 +982,7 @@
         <li>sin fecha</li>
         <li>desconocido <em>(para eventos)</em></li>
         </ul>
-    begin: Begin
+    begin: Comienzo
     begin_inline_help: por ejemplo AAAA, AAAA-MM o YYYY-MM-DD
     begin_tooltip: |
         <p>Una fecha normalizada (en la forma AAAA, AAAA-MM o YYYY-MM-DD) que representa una sola fecha o la primera cita en un intervalo de fechas.</p>
@@ -996,7 +996,7 @@
         <p>Ver 2.4.7-2.4.16 DACS</p>
         <p>Años A.D. se expresan con cuatro dígitos.</p>
         <p>Años antes de Cristo se expresan como un número negativo, por ejemplo,-214 para 214 A.C.</p>
-    certainty: Certeza
+    certainty: Fechas probables
     certainty_tooltip: |
         <p>El nivel de confianza de la información dada en un comunicado de fecha. Esta información es opcional y sólo se debe agregar al calificar la información de fecha como potencialmente incierto basado en la descripción o las reglas de catalogación en uso.</p>
         <p>Ver EAD atributo "certeza".</p>
@@ -1106,7 +1106,7 @@
         <ul>
         <li>Ver el calendario de retención del Campus.</li>
         </ul>
-    restrictions_apply: Aplican restricciones.
+    restrictions_apply: ¿Se aplican restricciones?
     restrictions_apply_tooltip: |
         <p>Indicación de si se aplican restricciones a la adquisición.</p>
         <p>Ver DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.4-4.3.6</p>
@@ -1164,10 +1164,10 @@
     relator: Relator
     relator_type: Relator tipo
     _singular: Adquisición
-    _plural: Adhesiones
+    _plural: Adquisiciones
 
   interrelated_accession: 
-    _plural: Adhesiones relacionadas
+    _plural: Adquisiciones relacionadas
     relationship_type: Tipo de relación
 
   accession_sibling_relationship: 
@@ -1255,7 +1255,7 @@
     ref_id_export_prefix: aspace_
     dates: Fechas
     dates_tooltip: |
-        <p>SUBREGISTRO CONDICIONAL REQUERIDO. Un archivo objeto debe tener un título o un subregistro de fecha.</p>
+        <p>SUBREGISTRO CONDICIONAL REQUERIDO. Un objeto de archivo debe tener un título o un subregistro de fecha.</p>
     extents: Grados
     ref_id_auto_generation_message: "--generado automáticamente al guardar..."
     component_id: Identificador único componente
@@ -1289,7 +1289,7 @@
     publish_tooltip: |
         <p>Determina si este recurso será publicado a las interfaces públicas (patrón).</p>
     restrictions: ¿Restricciones?
-    restrictions_apply: Aplican restricciones.
+    restrictions_apply: ¿Se aplican restricciones?
     restrictions_tooltip: |
         <p>Indica si los materiales descritos se limitan en modo alguno. Descripción adicional de la restricción debe proporcionarse en notas apropiadas o declaraciones de derechos para el registro donde se produce la restricción.</p>
         <p>Ver DACS 4.1-4.4</p>
@@ -1300,9 +1300,9 @@
         <p>El término lengua y código representado en el material descrito.</p>
         <p>Ver DACS 4.5</p>
     "[:resource_id, :ref_id]": Ref ID
-    has_unpublished_ancestor: ¿Ha inédito a antepasado?
-    _singular: Archivo objeto
-    _plural: Objetos de archiving
+    has_unpublished_ancestor: ¿Tiene una serie/subserie por encima sin publicar?
+    _singular: Objeto de archivo
+    _plural: Objetos de archivo
 
   group: 
     group_code: Código de grupo
@@ -1352,7 +1352,7 @@
   resource:
     <<: *archival_object_attributes
     <<: *section_tooltips
-    id_0: Identifier
+    id_0: Identificador
     id_0_tooltip: |
         <p>REQUIRED FIELD. The identification number assigned to each discrete Resource within a Repository.</p>
         <p>See DACS 2.1.3</p>
@@ -1362,8 +1362,8 @@
         <li>MSS 025 (A single element)</li>
         <li>Archives.RSS.0333 (Three elements "Archives" + "RSS" + "0333")</li>
         </ul>
-    "[:id_0, :id_1, :id_2, :id_3]": Identifier
-    "[:repo_id, :identifier]": Identifier
+    "[:id_0, :id_1, :id_2, :id_3]": Identificador
+    "[:repo_id, :identifier]": Identificador
     identifier: Identificador
     title_tooltip: |
         <p>CAMPO OBLIGATORIO. El título asignado al recurso.</p>
@@ -1397,7 +1397,7 @@
         <p>La ubicación de la EAD generada a partir de la descripción del recurso, una declaración del directorio de archivo o una dirección URL de la web. La situación termina normalmente.</p>
     finding_aid_tooltip: |
         <p>Utilizado para grabar los datos administrativos sobre la instancia de descripción archivística, generalmente para cuando la descripción se exporta en descripción archivística codificada (EAD).</p>
-    finding_aid_title: Encontrar ayuda título
+    finding_aid_title: Título del finding aid
     finding_aid_title_tooltip: |
         <p>El título (bibliográfico) para la ayuda de encontrar asociado con este recurso.</p>
         <p>Ejemplos</p>
@@ -1406,7 +1406,7 @@
         <li>Inventario de los documentos de la familia de Reese</li>
         <li>Lista de los dibujos y modelos de la firma arquitectónica Simon y Simon</li>
         </ul>
-    finding_aid_filing_title: Encontrar ayuda presentar título
+    finding_aid_filing_title: Título formal del finding aid
     finding_aid_filing_title_tooltip: |
         <p>Una versión modificada del título formal de la ayuda del hallazgo. Diseñado para facilitar la navegación y la clasificación de encontrar ayuda título listas.</p>
         <p>Ejemplos</p>
@@ -1415,10 +1415,10 @@
         <li>Familia Rooney papeles</li>
         <li>Partido comunista de los registros de los Estados Unidos</li>
         </ul>
-    finding_aid_date: Encontrar ayuda fecha
+    finding_aid_date: Fecha del finding aid
     finding_aid_date_tooltip: |
         <p>La expresión de la fecha para cuando se generó la actual ayuda de hallazgo de la descripción del recurso.</p>
-    finding_aid_author: Encontrar ayuda autor
+    finding_aid_author: Autor del finding aid
     finding_aid_author_tooltip: |
         <p>Los nombres (s) de los autoridads responsables de crear el contenido de la ayuda de encontrar o su codificación.</p>
     finding_aid_description_rules: Reglas de Descripción
@@ -1443,10 +1443,10 @@
     finding_aid_revision_description: Descripción de la revisión
     finding_aid_revision_description_tooltip: |
         <p>El último número de revisión hecho para ayudar a encontrar una descripción.</p>
-    finding_aid_status: Encontrar ayuda estado
+    finding_aid_status: Estado del finding aid
     finding_aid_status_tooltip: |
         <p>Indica el estado de la ayuda del hallazgo.</p>
-    finding_aid_note: Encontrar ayuda Nota
+    finding_aid_note: Nota del finding aid
     finding_aid_note_tooltip: |
         <p>Para la grabación de cualquier información adicional sobre el hallazgo ayuda (no el recurso descrito) no cubierto por el otro buscar ayuda datos elementos.</p>
     _singular: Recurso
@@ -1454,7 +1454,7 @@
 
   related_accession: 
     _singular: Adquisición relacionado
-    _plural: Adhesiones relacionadas
+    _plural: Adquisiciones relacionadas
 
   related_resource: 
     _singular: Recursos relacionados
@@ -1556,11 +1556,11 @@
         </ul>
     terms: Términos
     terms_tooltip: |
-        <p>REQUIERE SUBREGISTRO. Utilizado para manejar cada término o subdivisión dentro de un determinado asunto. Cada registro de objeto debe tener al menos un término asociado.</p>
+        <p>REQUIERE SUBREGISTRO. Utilizado para manejar cada término o subdivisión dentro de una determinada materia. Cada registro de objeto debe tener al menos un término asociado.</p>
     external_documents_tooltip: |
         <p>Permite enlaces a la documentación externa, por ejemplo, cómo un encabezamiento en particular es para ser utilizado.</p>
-    heading: Título de tema
-    _singular: Asunto
+    heading: Título de la materia
+    _singular: Materia
     _plural: Materias
 
   user: 
@@ -1666,8 +1666,8 @@
     rights_determined_true: Sí
     rights_determined_false: No
     parent: Padres
-    _singular: Gestión de cobros
-    _plural: Gestión de cobros
+    _singular: Gestión de la colección
+    _plural: Gestión de las colecciones
 
   user_defined: 
     boolean_1: Boolean 1
@@ -1773,7 +1773,7 @@
     resource_browse_column_4_tooltip: El campo para mostrar en la columna 4.
     resource_browse_column_5: Columna 5
     resource_browse_column_5_tooltip: El campo para mostrar en la columna 5.
-    digital_object_browse_section: Digital_Object ver columnas
+    digital_object_browse_section: Objeto digital ver columnas
     digital_object_browse_column_1: Columna 1
     digital_object_browse_column_1_tooltip: El campo para mostrar en la columna 1.
     digital_object_browse_column_2: Columna 2
@@ -1790,8 +1790,8 @@
     _plural: Valores predeterminados
 
   reports: 
-    CreatedAccessionsReport: Adhesiones creadas
-    UnprocessedAccessionsReport: Adhesiones sin procesar
+    CreatedAccessionsReport: Adquisiciones creadas
+    UnprocessedAccessionsReport: Adquisiciones sin procesar
     parameters: 
       from: De
       from_tooltip: 
@@ -1872,7 +1872,7 @@
       title: Título
       creators: Creador
       notes: Notas
-      subjects: Asunto
+      subjects: Materia
     boolean: 
       published: ¿Publicado?
       suppressed: ¿Suprimido?

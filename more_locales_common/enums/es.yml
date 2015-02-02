@@ -240,19 +240,19 @@
       validator: Validador
     name_source: 
       cash: Encabezamientos de materias canadienses
-      ingest: Fuente ingerido no especificado
+      ingest: Sin especificar
       lcshac: Biblioteca del encabezamientos Congreso infantil
       local: Fuentes locales
       naf: Archivo de autoridad de NACO
-      nad: NAD / ARK II nombre de base de datos de autoridad
+      nad: NAD / ARK II Name Authority Database
       nal: Encabezamientos biblioteca agrícola nacionales
       rvm: Répertoire de vedettes-matière
-      ulan: Unión lista de nombres del artista
+      ulan: Union List of Artist Names
     name_rule: 
       local: Reglas locales
       aacr: Reglas de catalogación angloamericanas
-      dacs: "Describir archivos"
-      rda: Acceso y descripción de recursos
+      dacs: "Describing Archives: A Content Standard"
+      rda: Resource Description and Access
     extent_extent_type: 
       cassettes: Cassettes
       cubic_feet: Pies cúbicos
@@ -283,11 +283,11 @@
       cartographic: Cartográfica
       mixed_materials: Materiales mezclados
       moving_image: Imagen en movimiento
-      notated_music: Escribe música
+      notated_music: Música anotada
       software_multimedia: Software, Multimedia
       sound_recording: Grabación de sonido
-      sound_recording_musical: (Musical) de grabación de sonido
-      sound_recording_nonmusical: (No musicales) de grabación de sonido
+      sound_recording_musical: Grabación de sonido(Musical)
+      sound_recording_nonmusical: Gabación de sonido(No musicales)
       still_image: Imagen fija
       text: Texto
     digital_object_level: 
@@ -299,7 +299,7 @@
       accumulation: Acumulación
       acknowledgement: Reconocimiento
       acknowledgement_sent: Reconocimiento enviado
-      agreement_received: Acuerdo recibida
+      agreement_received: Acuerdo recibido
       agreement_sent: Acuerdo enviado
       agreement_signed: Acuerdo firmado
       appraisal: Valoración
@@ -317,7 +317,7 @@
       decryption: Descifrado
       deletion: Eliminación
       digital_signature_validation: Validación de firma digital
-      fixity_check: Fijeza Check
+      fixity_check: Check de fjeza
       ingestion: Ingestión
       message_digest_calculation: Mensaje Digest cálculo
       migration: Migración
@@ -341,7 +341,7 @@
       isadg: Norma internacional de descripción archivística - General
     resource_finding_aid_status: 
       completed: Completado
-      in_progress: En progreso
+      in_progress: En proceso
       under_revision: Bajo revisión
       unprocessed: Sin procesar
     instance_instance_type: 
@@ -350,12 +350,12 @@
       books: Libros
       computer_disks: Discos de computadora
       digital_object: Objeto digital
-      digital_object_link: Objeto digital Link
+      digital_object_link: Enlace a objeto digital
       graphic_materials: Materiales gráficos
       maps: Mapas
       microform: Microforma
       mixed_materials: Materiales mezclados
-      moving_images: Las imágenes en movimiento
+      moving_images: Imágenes en movimiento
       realia: Realia
       text: Texto
     accession_acquisition_type: 
@@ -369,16 +369,16 @@
       papers: Papeles
       records: Registros
     subject_source: 
-      aat: "Arte & arquitectura Report"
+      aat: "Thesaurus Getty de Arte & Arquitectura"
       cash: Encabezamientos de materias canadienses
       gmgpc: "TGM II, género y términos característicos físicos"
-      ingest: Fuente ingerido no especificado
-      lcsh: Biblioteca del Congreso encabezamientos
-      lcshac: Biblioteca del encabezamientos Congreso infantil
+      ingest: Sin especificar
+      lcsh: Encabezamientos de la Biblioteca del Congreso 
+      lcshac: Encabezamientos de la Biblioteca Congreso infantil
       local: Fuentes locales
       mesh: Encabezamientos de materia médica
       nal: Encabezamientos biblioteca agrícola nacionales
-      rbgenr: Términos de género"
+      rbgenr: Términos de género
       rvm: Répertoire de vedettes-matière
       tgn: Thesaurus Getty de nombres geográficos
     event_outcome: 
@@ -921,21 +921,21 @@
       class: Clase
       collection: Colección
       file: Archivo
-      fonds: Fonds
-      item: Artículo
+      fonds: Fondos
+      item: Ítem
       otherlevel: Otro nivel
       recordgrp: Grupo de registro
       series: Serie
-      subfonds: Fonds sub
+      subfonds: Subfondos
       subgrp: Subgrupo
-      subseries: Sub serie
+      subseries: Subserie
     container_location_status: 
-      current: Corriente
+      current: Actual
       previous: Anterior
     date_type: 
       expression: Expresión
       single: Solo
-      bulk: Fechas a granel
+      bulk: Fechas en bloque
       inclusive: Fechas extremas
       range: Gama
     date_label: 
@@ -1261,41 +1261,41 @@
       topical: Tópico
       uniform_title: Título uniforme
     _note_types: &note_type_definitions
-      accessrestrict: Condiciones que rigen el acceso
-      accruals: Pasivación
-      acqinfo: Fuente inmediata de adquisición
-      altformavail: Existencia y localización de copias
-      appraisal: Valoración
-      arrangement: Arreglo
-      bibliography: Bibliografía
-      bioghist: Biográfico / histórico
-      custodhist: Historia privativas de la libertad
-      fileplan: Plan de archivo
+      accessrestrict: Nota de condiciones de acceso
+      accruals: Nota de nuevos ingresos
+      acqinfo: Nota de información de ingreso
+      altformavail: Nota de formatos alternativos disponibles
+      appraisal: Nota de Valoración
+      arrangement: Nota de organización
+      bibliography: Nota de bibliografía
+      bioghist: Nota biográfica/histórica
+      custodhist: Nota de historia de la custodia
+      fileplan: Nota de plan de archivo
       index: Índice
-      odd: General
-      otherfindaid: Otras ayudas de encontrar
-      originalsloc: Existencia y la localización de los originales
-      phystech: Características físicas y requisitos técnicos
-      prefercite: Citación recomendado
-      processinfo: Procesamiento de la información
-      relatedmaterial: Relacionados con el material de archivo
-      scopecontent: Alcance y contenido
-      separatedmaterial: Materiales separados
-      userestrict: Condiciones de uso
-      dimensions: Dimensiones
-      legalstatus: Estatus legal
-      summary: Resumen
-      edition: Edición
-      extent: Grado
+      odd: Nota de otros datos descriptivos
+      otherfindaid: Nota de otros instrumentos de descripción
+      originalsloc: Nota de existencia y la localización de los originales
+      phystech: Nota de características físicas y requisitos técnicos
+      prefercite: Nota de cita preferida
+      processinfo: Nota de procesamiento del documento
+      relatedmaterial: Nota de material relacionado con el archivo
+      scopecontent: Nota de alcance y contenido
+      separatedmaterial: Nota de documentos separados
+      userestrict: Nota de restricciones de uso
+      dimensions: Nota de tamaño
+      legalstatus: Nota de situación jurídica
+      summary: Nota de resumen
+      edition: Nota de edición
+      extent: Nota de cantidad de material
       note: Nota general
-      inscription: Inscripción
-      langmaterial: Lengua de materiales
-      physdesc: Descripción física
-      relatedmaterial: Materiales relacionados
-      abstract: Resumen
-      physloc: Ubicación física
-      materialspec: Detalles específicos de los materiales
-      physfacet: Faceta física
+      inscription: Nota de inscripción
+      langmaterial: Nota de lengua de materiales
+      physdesc: Nota de descripción física
+      relatedmaterial: Nota de materiales relacionados
+      abstract: Resumen introductorio
+      physloc: Nota de ubicación física
+      materialspec: Nota de detalles específicos de los materiales
+      physfacet: Nota de apariencia del material
     note_digital_object_type: 
       <<: *note_type_definitions
     note_multipart_type: 
@@ -1305,7 +1305,7 @@
     linked_agent_role: 
       creator: Creador
       source: Fuente
-      subject: Asunto
+      subject: Materia
     agent_relationship_associative_relator: 
       is_associative_with: Asociativa con relacionados
     agent_relationship_earlierlater_relator: 
@@ -1331,7 +1331,7 @@
       person: Persona
       family: Familia
       corporate_entity: Entidad corporativa
-      subject: Asunto
+      subject: Materia
       function: Función
       occupation: Ocupación
       title: Título
@@ -1364,7 +1364,7 @@
     container_type: Tipo de contenedor
     country_iso_3166: País ISO 3166
     date_calendar: Calendario
-    date_certainty: Fecha certeza
+    date_certainty: Fecha probable
     date_era: Fecha Era
     date_label: Etiqueta de fecha
     date_type: Tipo de fecha
