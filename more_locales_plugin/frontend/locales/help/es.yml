@@ -5,7 +5,7 @@
     default_tooltip: Centro de ayuda ArchivesSpace
     topics:
       # Accession help tooltips
-      accession: Ayuda sobre adquisiciones
+      accession: Ayuda sobre acta de ingreso
       accession_basic_information: Ayuda sobre información básica
       accession_extents: Ayuda en cantidad de material
       accession_dates: Ayuda en las fechas
@@ -16,7 +16,7 @@
       accession_rights_statements: Ayuda sobre las declaraciones de derechos
       accession_deaccessions: Ayuda en expurgos
       accession_instances: Ayuda en las instancias de
-      accession_collection_management: Ayuda en la gestión de la colección de adquisiciones
+      accession_collection_management: Ayuda en la gestión de la colección de acta de ingreso
       accession_classification: Ayuda sobre clasificaciones
       accession_user_defined: Ayuda sobre definidos por el usuario
       # Resource help tooltips
@@ -25,7 +25,7 @@
       resource_dates: Ayuda en las fechas
       resource_extents: Ayuda en cantidad de material de recursos
       resource_finding_aid: Ayudar en la búsqueda de ayuda
-      resource_related_accessions: Ayuda sobre adquisiciones relacionadas
+      resource_related_accessions: Ayuda sobre acta de ingreso relacionadas
       resource_linked_agents: Ayuda sobre autoridad enlaces
       resource_subjects: Ayuda sobre materias
       resource_notes: Ayuda sobre notas
@@ -42,7 +42,7 @@
       archival_object_dates: Ayuda en las fechas
       archival_object_extents: Ayuda en cantidad de material de objetos de archivo
       archival_object_finding_aid: Ayudar en la búsqueda de ayuda
-      archival_object_related_accessions: Ayuda sobre adquisiciones relacionadas
+      archival_object_related_accessions: Ayuda sobre entradas relacionadas
       archival_object_linked_agents: Ayuda sobre autoridad enlaces
       archival_object_subjects: Ayuda sobre materias
       archival_object_notes: Ayuda sobre notas
@@ -59,7 +59,7 @@
       digital_object_dates: Ayuda en las fechas
       digital_object_extents: Ayuda en cantidad de material de objetos digitales
       digital_object_finding_aid: Ayudar en la búsqueda de ayuda
-      digital_object_related_accessions: Ayuda sobre adquisiciones relacionadas
+      digital_object_related_accessions: Ayuda sobre entradas relacionadas
       digital_object_linked_agents: Ayuda sobre autoridad enlaces
       digital_object_subjects: Ayuda sobre materias
       digital_object_notes: Ayuda sobre notas
@@ -76,7 +76,7 @@
       digital_object_component_dates: Ayuda en las fechas
       digital_object_component_extents: Ayuda en cantidad de componentes de objetos digitales
       digital_object_component_finding_aid: Ayudar en la búsqueda de ayuda
-      digital_object_component_related_accessions: Ayuda sobre adquisiciones relacionadas
+      digital_object_component_related_accessions: Ayuda sobre acta de ingreso relacionadas
       digital_object_component_linked_agents: Ayuda sobre autoridad enlaces
       digital_object_component_subjects: Ayuda sobre materias
       digital_object_component_notes: Ayuda sobre notas
@@ -98,7 +98,7 @@
       agent_person_names: Ayuda con los nombres
       agent_person_contact_details: Ayuda sobre los datos de contacto
       agent_person_notes: Ayuda sobre notas
-      agent_person_related_agents: Ayuda sobre autoridads relacionados
+      agent_person_related_agents: Ayuda sobre autoridades relacionadas
       agent_person_external_documents: Ayuda sobre documentos externos
       # Agent Family
       agent_family: Ayuda en familia (autoridad)
@@ -106,7 +106,7 @@
       agent_family_names: Ayuda con los nombres
       agent_family_contact_details: Ayuda sobre los datos de contacto
       agent_family_notes: Ayuda sobre notas
-      agent_family_related_agents: Ayuda sobre autoridads relacionados
+      agent_family_related_agents: Ayuda sobre autoridades relacionadas
       agent_family_external_documents: Ayuda sobre documentos externos
       # Agent Corporate Entity
       agent_corporate_entity: Ayuda sobre entidad corporativa (autoridad)
@@ -114,7 +114,7 @@
       agent_corporate_entity_names: Ayuda con los nombres
       agent_corporate_entity_contact_details: Ayuda sobre los datos de contacto
       agent_corporate_entity_notes: Ayuda sobre notas
-      agent_corporate_entity_related_agents: Ayuda sobre autoridads relacionados
+      agent_corporate_entity_related_agents: Ayuda sobre autoridades relacionadas
       agent_corporate_entity_external_documents: Ayuda sobre documentos externos
       # Agent Software
       agent_software: Ayuda sobre Software (autoridad)
@@ -122,7 +122,7 @@
       agent_software_names: Ayuda con los nombres
       agent_software_contact_details: Ayuda sobre los datos de contacto
       agent_software_notes: Ayuda sobre notas
-      agent_software_related_agents: Ayuda sobre autoridads relacionados
+      agent_software_related_agents: Ayuda sobre autoridades relacionadas
       agent_software_external_documents: Ayuda sobre documentos externos
       # Location
       location: Ayuda en localizaciones

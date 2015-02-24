@@ -1,8 +1,8 @@
 ﻿es:
   states:
-    suppressed: Suprimido
+    suppressed: Bloqueado
     deleted: Eliminado
-    auto_generated: Sistema genera cuando guarda
+    auto_generated: Generado automáticamente
 
   boolean: 
     "true": "Verdadero"
@@ -21,7 +21,7 @@
         <p>Indica el alcance y la naturaleza física de los materiales que se está describiendo.</p>
         <p>Ver DACS 2.5</p>
     linked_agents_tooltip: |
-        <p>Agentes asociados como un creador, fuente o tema de los materiales descritos para proporcionar información sobre su contexto.</p>
+        <p>Autoridades asociados como un creador, fuente o tema de los materiales descritos para proporcionar información sobre su contexto.</p>
     subjects_tooltip: |
         <p>Utilizado para vincular los materias con los materiales descritos.</p>
     notes_tooltip: |
@@ -66,7 +66,7 @@
     level: VRA Core Level
     level_tooltip: |
         <p>Principalmente para uso en niveles múltiples registros obedientes VRA Core para indicar la descripción se trata de una colección, una obra o una imagen.</p>
-    digital_object_type: Tipo
+    digital_object_type: Tipo de objeto digital
     digital_object_type_tooltip: |
         <p>Un término genérico que indica el tipo de contenido básico del objeto digital. Las opciones por defecto corresponden al elemento MODS &lt; typeOfResource &gt;.</p>
     language: Idioma
@@ -96,7 +96,7 @@
         <p>Un identificador único para el componente objeto Digital.</p>
     dates: Fechas
     _singular: Componente de objeto digital
-    _plural: Objeto digital componentes
+    _plural: Componentes de objeto digital
 
   location: &location_attributes
     title: Título
@@ -124,24 +124,24 @@
         <p>CAMPO OBLIGATORIO CONDICIONAL
         <p>Utilizado para grabar un número de clasificación que identifica una ubicación.</p>
     coordinates: Coordenadas
-    coordinate_1_label: Coordinar la etiqueta 1
+    coordinate_1_label: Etiqueta 1 de las coordenadas
     coordinate_1_label_tooltip: |
         <p>CAMPO OBLIGATORIO CONDICIONAL
         <p>Utilizado para grabar una etiqueta (por ejemplo "Estante", "Gama", "Cajón") para una ubicación específica.</p>
-    coordinate_1_indicator: Coordinar indicador 1
+    coordinate_1_indicator: Indicador 1 de las coordenadas
     coordinate_1_indicator_tooltip: |
         <p>CAMPO OBLIGATORIO CONDICIONAL
         <p>Utilizado para grabar un indicador como un número o una letra que identifica a una ubicación en combinación con la etiqueta coordenada asociada.</p>
-    coordinate_2_label: Coordinar la etiqueta 2
+    coordinate_2_label: Etiqueta 2 de las coordenadas
     coordinate_2_label_tooltip: |
         <p>Utilizado para grabar una etiqueta (por ejemplo "Estante", "Gama", "Cajón") para una ubicación específica.</p>
-    coordinate_2_indicator: Coordinar indicador 2
+    coordinate_2_indicator: Indicador 2 de las coordenadas
     coordinate_2_indicator_tooltip: |
         <p>Utilizado para grabar un indicador como un número o una letra que identifica a una ubicación en combinación con la etiqueta coordenada asociada.</p>
-    coordinate_3_label: Coordinar la etiqueta 3
+    coordinate_3_label: Etiqueta 3 de las coordenadas
     coordinate_3_label_tooltip: |
         <p>Utilizado para grabar una etiqueta (por ejemplo "Estante", "Gama", "Cajón") para una ubicación específica.</p>
-    coordinate_3_indicator: Coordinar indicador 3
+    coordinate_3_indicator: Indicador 3 de las coordenadas
     coordinate_3_indicator_tooltip: |
         <p>Utilizado para grabar un indicador como un número o una letra que identifica a una ubicación en combinación con la etiqueta coordenada asociada.</p>
     display_string: Cadena de presentación
@@ -157,7 +157,7 @@
     coordinate_1_range: Coordenadas gama 1
     coordinate_2_range: Coordenadas gama 2
     coordinate_3_range: Coordenadas gama 3
-    start: Gama Inicio
+    start: Gama inicio
     end: Gama final
     _singular: Lote ubicaciones
     _plural: Lote ubicaciones
@@ -181,23 +181,23 @@
     _plural: Ubicaciones
 
   linked_record:
-    role: Papel
+    role: Función
     role_tooltip: |
-        <p>El papel en el que conste vinculado se relaciona con el registro actual.</p>
+        <p>El rol en el que conste vinculado se relaciona con el registro actual.</p>
     ref: Registro
     ref_plural: Registros
     _singular: Registro enlazado
-    _plural: Registro enlazado
+    _plural: Registros enlazados
 
   linked_agent: &linked_agent_attributes
-    role: Papel
+    role: Función
     role_tooltip: |
         <p>CAMPO OBLIGATORIO. Una indicación de qué función (creador, fuente o tema) el autoridad tiene en lo que respecta a su relación con un determinado registro descripción.</p>
-    relator: Relator
+    relator: Tipo de relación
     relator_tooltip: |
         <p>Una indicación de qué papel el autoridad tiene en lo que respecta a su función como se indica en cómo está ligado (por ejemplo, creador, fuente o tema) a un determinado registro descripción. Por ejemplo, un autoridad puede estar vinculado como creador a un registro, pero con el papel más específico de "ilustrador".</p>
         <p>Ver la lista de códigos MARC para relatores.</p>
-    ref: Agente
+    ref: Autoridad
     # ref_tooltip is not displaying: 
     ref_tooltip: |
         <p>La Autoridad relacionado con el material descrito en el expediente.</p>
@@ -257,9 +257,9 @@
     linked_agents_tooltip: |
         <p>SUBREGISTRO REQUERIDO
     linked_records_tooltip: |
-        <p>SUBREGISTRO REQUERIDO: Asocia Adquisición, Objetos Digitales, o Recursos con el Evento</p>
+        <p>SUBREGISTRO REQUERIDO: Asocia acta de ingreso, Objetos Digitales, o Recursos con el Evento</p>
     types: 
-      accession: Adquisición
+      accession: Acta de ingreso
       accumulation: Acumulación
       acknowledgement: Reconocimiento
       acknowledgement_sent: Reconocimiento enviado
@@ -275,17 +275,17 @@
       contribution: Contribución
       copyright_transfer: Transferencia de derechos de autor
       custody_transfer: Transferencia de custodia
-      deaccession: Emprenderá
+      deaccession: Expurgo
       decompression: Descompresión
       decryption: Descifrado
       deletion: Eliminación
       digital_signature_validation: Validación de firma digital
-      fixity_check: Fijeza Check
-      ingestion: Ingestión
+      fixity_check: Chequeo de fijeza 
+      ingestion: Ingesta
       message_digest_calculation: Mensaje Digest cálculo
       migration: Migración
       normalization: Normalización
-      processed: Procesados
+      processed: Procesado
       publication: Publicación
       replication: Replicación
       resource_merge: Combinación de recursos
@@ -300,7 +300,7 @@
 
   deaccession:
     <<: *section_tooltips
-    scope: Porción
+    scope: Parte
     scope_tooltip: |
         <p>Se utiliza para especificar si una declaración de medida se refiere a la totalidad o parte de una determinada agregación descrita u objeto.</p>
     description: Descripción
@@ -445,20 +445,20 @@
 
   name_family:
     <<: *agent_name_attributes
-    family_name: Nombre de la familia
+    family_name: Apellidos
     family_name_tooltip: |
         <p>El apellido, o apellido, para una familia, típicamente complementado con el término "familia".</p>
 
   name_corporate_entity: 
     <<: *agent_name_attributes
-    subordinate_name_1: Subordinado nombre 1
+    subordinate_name_1: Nombre subordinado 1
     subordinate_name_1_tooltip: |
         <p>Una unidad jerárquica con la entidad corporativa el nombre en el campo nombre primario.</p>
         <p>Ejemplos</p>
         <ul>
         <li>División de microelectrónica <em>(de International Business Machines. División de microelectrónica)</em></li>
         </ul>
-    subordinate_name_2: Subordinado nombre 2
+    subordinate_name_2: Nombre subordinado 2
     subordinate_name_2_tooltip: |
         <p>Una unidad jerárquica con la entidad corporativa nombrada en el campo nombre primario y menor que la unidad denominada en el campo nombre 1 subordinado.</p>
 
@@ -491,7 +491,7 @@
 
   name: 
     _singular: Formulario de nombre
-    _plural: Formas conocidas
+    _plural: Formularios de nombre
 
   agent_contact: &agent_contact
     name: Nombre de contacto
@@ -568,21 +568,21 @@
   agent_relationship_parentchild: 
     relator: Tipo de relación
     description: Descripción
-    ref: Agente relacionado
+    ref: Autoridad relacionada
     date: Fecha
     _singular: Relación padre/hijo
 
   agent_relationship_earlierlater: 
     relator: Tipo de relación
     description: Descripción
-    ref: Agente relacionado
+    ref: Autoridad relacionada
     date: Fecha
     _singular: Relación antes/después
 
   agent_relationship_subordinatesuperior: 
     relator: Tipo de relación
     description: Descripción
-    ref: Agente relacionado
+    ref: Autoridad relacionada
     date: Fecha
     _singular: Relación subordinada/Superior
 
@@ -590,13 +590,13 @@
     relator: Tipo de relación
     description: Descripción
     date: Fecha
-    ref: Agente relacionado
+    ref: Autoridad relacionada
     _singular: Relación asociativa
 
   note:
     item: Item
-    content_item: Elemento de contenido
-    note_singlepart: Pieza única nota
+    content_item: Contenido del ítem
+    note_singlepart: Nota única
     note_orderedlist: Lista ordenada
     note_multipart: Nota multiparte
     note_definedlist: Lista definida
@@ -605,8 +605,8 @@
     note_bibliography: Bibliografía
     note_digital_object: Nota de objeto digital
     note_bioghist: "Nota de biografía histórica"
-    note_citation: Citación
-    note_abstract: Resumen introductorio
+    note_citation: Cita
+    note_abstract: Resumen
     note_outline: Esquema
     note_text: Texto
     note_type: Tipo de nota
@@ -690,14 +690,14 @@
 
   note_citation: 
     <<: *note_attributes
-    option: Citación
+    option: Cita
     xlink: XLink
 
   note_citation_xlink: 
-    actuate: Accionar
-    arcrole: Papel de arco
+    actuate: Actuate
+    arcrole: Arc Role
     href: Href
-    role: Papel
+    role: Role
     show: Mostrar
     title: Título
     type: Tipo
@@ -705,7 +705,7 @@
   note_outline: 
     <<: *note_attributes
     option: Esquema
-    levels: Niveles de
+    levels: Niveles
 
   instance: &instance_attributes
     instance_type: Tipo
@@ -724,9 +724,9 @@
 
   file_version: 
     _plural: Versiones de archivo
-    _singular: Archivo de la versión
+    _singular: Versión de archivo
     file: Archivo
-    file_uri: Archivo de URI
+    file_uri: URI Archivo
     file_uri_tooltip: |
         <p>Un identificador para un archivo asociado a un objeto digital, accesible en la web o en un directorio de archivos.</p>
     publish: ¿Publicar?
@@ -736,10 +736,10 @@
     use_statement_tooltip: |
         <p>Un descriptor que indique el uso al que se destine el archivo digital (por ejemplo, una imagen en miniatura).</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
-    xlink_actuate_attribute: XLink accionar atributo
+    xlink_actuate_attribute: Accionar atributo XLink
     xlink_actuate_attribute_tooltip: |
         <p>Un atributo XLink utilizado para la exportación para indicar cómo debe mostrar el objeto digital (por ejemplo si el enlace se produce automáticamente o debe ser solicitado por el usuario). Se utiliza en conjunción con el atributo XLink Mostrar.</p>
-    xlink_show_attribute: Atributo XLink Mostrar
+    xlink_show_attribute: Mostrar atributo XLink 
     xlink_show_attribute_tooltip: |
         <p>Un atributo XLink utilizado para la exportación para indicar cómo debe mostrarse el destino de un vínculo. Se utiliza en conjunción con el atributo XLink accione.</p>
     file_format_name: Nombre de formato de archivo
@@ -764,7 +764,7 @@
     file_size_bytes: Tamaño del archivo (Bytes)
     file_size_bytes_tooltip: |
         <p>El tamaño (en bytes) del archivo digital.</p>
-    checksum: Suma de comprobación
+    checksum: Checksum
     checksum_tooltip: |
         <p>Una firma digital para el monitoreo de la integridad y la autenticidad de un archivo digital.</p>
     checksum_method: Método de suma de comprobación
@@ -781,10 +781,10 @@
     identifier: Identificador
 
   extent: &extent_attributes
-    portion: Porción
+    portion: Parte
     portion_tooltip: |
         <p>Se utiliza para especificar si una declaración de medida se refiere a la totalidad o parte de una determinada agregación descrita u objeto.</p>
-        <p>Cualquier agregación descrita u objeto con una sentencia de grado debe tener una declaración de medida con la porción establecida en "todo".</p>
+        <p>Cualquier agregación descrita u objeto con una sentencia de grado debe tener una declaración de medida con la parte establecida en "todo".</p>
         <p>Ver DACS 2.5.7</p>
     number: Número
     number_tooltip: |
@@ -795,7 +795,7 @@
         <p>Un término que indica el tipo de unidad que se utiliza para medir el grado de materiales descritos.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
         <p>Ver DACS 2.5</p>
-    container_summary: Extracto de contenedor
+    container_summary: Resumen de contenedor
     container_summary_tooltip: |
         <p>Una lista de envase y tipos de envase los materiales descritos en el registro del componente de la vivienda.</p>
         <p>Ejemplos</p>
@@ -819,14 +819,14 @@
         <li>cinta de 1/2 pulg.</li>
         </ul>
     _plural: Cantidades de materiales
-    _singular: Cantiada de material
+    _singular: Cantidad de material
 
   container: &container_attributes
     type_1: Tipo de contenedor 1 
     type_1_tooltip: &container_type_tooltip |
         <p>El tipo del contenedor primario en el cual está ubicado el material descrito.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
-    indicator_1: Envase 1 indicador
+    indicator_1: Indicador envase 1 
     indicator_1_tooltip: &container_indicator_tooltip |
         <p>Una expresión alfanumérica para indicar el lugar de un contenedor en una secuencia de contenedores.</p>
     barcode_1: Envase 1 código de barras
@@ -834,17 +834,17 @@
         <p>Un código de barras para la identificación del contenedor primario.  Puede usarse en lugar de o en el suplemento para el tipo de envase de 1.</p>
     type_2: Tipo de contenedor 2
     type_2_tooltip: *container_type_tooltip
-    indicator_2: Envase 2 Indicador
+    indicator_2: Indicador envase 2
     indicator_2_tooltip: *container_indicator_tooltip
     type_3: Tipo de contenedor 3
     type_3_tooltip: *container_type_tooltip
-    indicator_3: Envase 3 indicador
+    indicator_3: Indicador envase 3
     indicator_3_tooltip: *container_indicator_tooltip
     container_extent: Medida de contenedores
     container_extent_tooltip: |
         <p>CAMPO OBLIGATORIO CONDICIONAL
         <p>Necesaria si se especifica el tipo de medida de contenedor.</p>
-    container_extent_type: Tipo de medida de contenedor
+    container_extent_type: Tipo de medida
     container_extent_type_tooltip: |
         <p>CAMPO OBLIGATORIO CONDICIONAL
         <p>Necesaria si se especifica la medida del envase.</p>
@@ -889,7 +889,7 @@
     active_false: Inactivo
     materials: Materiales
     materials_tooltip: |
-        <p>Un término o frase breve que describe los materiales en la adquisición, recurso o colección a la que grabación los derechos se aplica.</p>
+        <p>Un término o frase breve que describe los materiales en el acta de ingreso, recurso o colección a la que grabación los derechos se aplica.</p>
         <p>Ejemplos</p>
         <ul>
         <li>Diarios por Alex Doe</li>
@@ -903,7 +903,7 @@
     license_identifier_terms: Términos de licencia identificador
     license_identifier_terms_tooltip: |
         <p>Una declaración (fragmento de texto o Resumen) de los permisos concedidos en la licencia.</p>
-    statute_citation: Estatuto Citation
+    statute_citation: Cita de Estatuto
     statute_citation_tooltip: |
         <p>Una citación, URI u otra referencia al estatuto relacionadas con esta declaración de derechos.</p>
         <p>Ejemplos</p>
@@ -1040,14 +1040,14 @@
 
   accession: 
     <<: *section_tooltips
-    accession_date: Fecha de adquisición
+    accession_date: Fecha de entrada
     accession_date_inline_help: por ejemplo AAAA-MM-DD
     accession_date_tooltip: |
         <p>CAMPO OBLIGATORIO
         necessarily the same date as when the record is created.</p>: 
     accession_id: Identificador
     accession_id_tooltip: |
-        <p>El número de la base de datos interna para un registro específico de adquisición.</p>
+        <p>El número de la base de datos interna para un registro específico de acta de ingreso.</p>
     identifier: Identificador
     id_0: Identificador
     id_0_tooltip: |
@@ -1078,7 +1078,7 @@
         Inhalation guards should be worn during processing.</p>: 
     disposition: Disposición
     disposition_tooltip: |
-        <p>Una nota para describir cómo una adquisición particular que han sido asignada a diferentes recursos.</p>
+        <p>Una nota para describir cómo un acta de ingreso particular que han sido asignada a diferentes recursos.</p>
         <p>Ejemplos</p>        
         <p>Las fotografías fueron separadas y asignadas a las fotografías 025.</p>
         <p>Las cartas a William Colton agregaron a la colección de correspondencia William Colton, mientras que los mapas de corrientes locales del país fueron agregados a los registros de la colección del Condado de río.</p>
@@ -1087,7 +1087,7 @@
         <p>Un partido que todos nota de campo por cualquier información que no encaja en ninguna de las más específicamente definido campos.</p>
     inventory: Inventario
     inventory_tooltip: |
-        <p>Una lista de los recipientes y su contenido inventando una adquisición. En el AT, la lista del cuadro puede ser compuesta en el campo, copiada y pegada en el campo o que se hace referencia como un documento externo. La referencia al documento externo puede grabarse aquí o en un subregistro de documentos externos.</p>
+        <p>Una lista de los recipientes y su contenido inventando una entrada. En el AT, la lista del cuadro puede ser compuesta en el campo, copiada y pegada en el campo o que se hace referencia como un documento externo. La referencia al documento externo puede grabarse aquí o en un subregistro de documentos externos.</p>
         <p>Ejemplo
         <ul>
         <li>Caja 1: Diarios</li>
@@ -1097,45 +1097,45 @@
         </ul>
     provenance: Procedencia
     provenance_tooltip: |
-       <p>Una nota que proporciona información de procedencia sobre una adquisición, como custodia historia, información detallada de adquisición, etc..</p>
+       <p>Una nota que proporciona información de procedencia sobre un acta de ingreso, como custodia historia, información detallada de entrada, etc..</p>
        <p>Ver DACS 5.1-5.2</p>
     retention_rule: Regla de retención
     retention_rule_tooltip: |
-        <p>Una nota indicando la retención autoridad o regla para la adquisición.
+        <p>Una nota indicando la retención autoridad o regla para la entrada.
         <p>Ejemplos</p>
         <ul>
         <li>Ver el calendario de retención del Campus.</li>
         </ul>
     restrictions_apply: ¿Se aplican restricciones?
     restrictions_apply_tooltip: |
-        <p>Indicación de si se aplican restricciones a la adquisición.</p>
+        <p>Indicación de si se aplican restricciones al acta de ingreso.</p>
         <p>Ver DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.4-4.3.6</p>
     resource_type: Tipo de recurso
     resource_type_tooltip: |
         <p>Una lista de términos utilizados por un repositorio para categorizar sus recursos en tipos básicos.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
-    access_restrictions: ¿Las restricciones de acceso?
+    access_restrictions: ¿Restricciones de acceso?
     access_restrictions_tooltip: |
         <p>Una casilla de verificación para indicar el acceso a los materiales está restringido.</p>
         <p>Ver DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.5-4.3.6</p>
     access_restrictions_note: Nota de las restricciones de acceso
     access_restrictions_note_tooltip: |
-        <p>Una declaración indicando qué materiales en la adquisición tienen acceso restringido, lo que la autoridad de la restricción es y por cuánto tiempo la restricción estará en efecto. Información adicional también puede grabarse en un subregistro de derechos.</p>
+        <p>Una declaración indicando qué materiales en el acta de ingreso tienen acceso restringido, lo que la autoridad de la restricción es y por cuánto tiempo la restricción estará en efecto. Información adicional también puede grabarse en un subregistro de derechos.</p>
         <p>Ejemplos</p>
         <ul>
         <li>Diarios en cuadro de diez tienen están restringidos por el donante hasta el 2030.</li>
         </ul>
     use_restrictions: Restricciones de uso.
     use_restrictions_tooltip: |
-        <p>Una casilla de verificación para indicar que hay restricciones de uso de materiales en la adquisición.</p>
+        <p>Una casilla de verificación para indicar que hay restricciones de uso de materiales en la entrada.</p>
     use_restrictions_note: Nota de las restricciones de uso
     use_restrictions_note_tooltip: |
         <p>Una declaración indicando que los materiales tienen restricciones de uso, cómo pueden utilizarse los materiales, lo que la autoridad de la restricción es y por cuánto tiempo la restricción estará en efecto. Información adicional también puede grabarse en un subregistro de derechos.</p>
         <p>Ejemplos</p>        
         <p>En la casilla 33 manuscritos son frágiles; fotocopias deben utilizarse en su lugar.</p>
-    acquisition_type: Tipo de adquisición
+    acquisition_type: Tipo de acta de ingreso
     acquisition_type_tooltip: |
-        <p>Un descriptor categórico para el tipo de adquisición. Repositorios
+        <p>Un descriptor categórico para el tipo de acta de ingreso. Repositorios
         may customize the list of data values.</p>: 
         <p>Ejemplos</p>
         <ul>
@@ -1144,50 +1144,50 @@
         <li>Transferencia</li>
         </ul>
     publish: ¿Publicar?
-    publish_help: Mira esto si desea publicar esta adquisición al público.
+    publish_help: Mira esto si desea publicar esta entrada al público.
     publish_tooltip: |
-        <p>Determina si se publicará esta adquisición a interfaces públicas (patrón).</p>
+        <p>Determina si se publicará este acta de ingreso a interfaces públicas (patrón).</p>
     restrictions: ¿Restricciones?
     restrictions_tooltip: |
-        <p>Indicación de si se aplican restricciones a la adquisición.</p>
+        <p>Indicación de si se aplican restricciones al acta de ingreso.</p>
         <p>Ver DACS 4.1.5 - 4.1.6; 4.2.5 - 4.2.7, 4.3.4 - 4.3.6</p>
     title: Título
     title_tooltip: |
-        <p>El título asignado a un recurso o de adquisición. El título de adquisición
+        <p>El título asignado a un recurso o de entrada. El título de entrada
         need not be the same as the resource title. Moreover, a title need not: 
         be expressed for the accession record, as it can be implicitly : 
         inherited from the resource record to which the accession is: 
         linked.</p>: 
         <p>Ver 2.3.18-2.3.22 DACS</p>
     related_resources_tooltip: |
-        <p>Utilizado para vincular los recursos asociados con este proceso de adquisición.</p>
-    relator: Relator
-    relator_type: Relator tipo
-    _singular: Adquisición
-    _plural: Adquisiciones
+        <p>Utilizado para vincular los recursos asociados con este proceso de entrada.</p>
+    relator: Tipo de relación
+    relator_type: Tipos de relación
+    _singular: Acta de ingreso
+    _plural: Actas de ingreso
 
   interrelated_accession: 
-    _plural: Adquisiciones relacionadas
+    _plural: Actas de ingreso relacionadas
     relationship_type: Tipo de relación
 
   accession_sibling_relationship: 
     _singular: Relación de hermanos
-    relator: Este proceso de adquisición
+    relator: Este proceso de entrada
     sibling_of: Hermano de
-    relator_type: Relator tipo
-    bound_with: "\"Bound with\"relación"
+    relator_type: Tipo de relación
+    bound_with: "\"Unido a\"relación"
 
   accession_parts_relationship: 
-    _singular: "\"Part of\"relación"
-    part: "\"Part of\"relación"
-    relator: Este proceso de adquisición
+    _singular: "\"Parte de\"relación"
+    part: "\"Parte de\"relación"
+    relator: Este proceso de entrada
     forms_part_of: Forma parte de
     has_part: Tiene parte
-    relator_type: Relator tipo
+    relator_type: Tipo de relación
 
 
   agent: &agent_attributes
-    type: Tipo del autoridad
+    type: Tipo de autoridad
     type_tooltip: |
         <p>El tipo de entidad representada por el registro del autoridad.</p>
         <p>Ver entidad DACS 10.2 y autoridad PREMIS</p>
@@ -1196,7 +1196,7 @@
       agent_person: Persona
       agent_corporate_entity: Entidad corporativa
       agent_software: Software
-    name: Nombre del autoridad
+    name: Nombre de autoridad
     names:
     names_tooltip: |
         <p>SUBREGISTRO REQUERIDO
@@ -1218,7 +1218,7 @@
   agent_person: 
     <<: *agent_attributes
     _singular: Persona
-    _plural: Gente
+    _plural: Personas
 
   agent_family: 
     <<: *agent_attributes
@@ -1256,9 +1256,9 @@
     dates: Fechas
     dates_tooltip: |
         <p>SUBREGISTRO CONDICIONAL REQUERIDO. Un objeto de archivo debe tener un título o un subregistro de fecha.</p>
-    extents: Grados
+    extents: Extensiones
     ref_id_auto_generation_message: "--generado automáticamente al guardar..."
-    component_id: Identificador único componente
+    component_id: Identificador único de componente
     component_id_tooltip: |
         <p>Expresa un ID único, en el contexto de la descripción del recurso, para el componente.</p>
         <p>Ejemplos</p>
@@ -1267,7 +1267,7 @@
         <li>Subseries 8</li>
         <li>Adquisición 2005-M-078</li>
         </ul>
-    level: Nivel de Descripción
+    level: Nivel de descripción
     level_tooltip: |
         <p>CAMPO OBLIGATORIO. Indica. el nivel jerárquico de los materiales que se está describiendo.</p>
         <p>Consulte el capítulo 1 de la DACS</p>
@@ -1275,7 +1275,7 @@
     other_level: Otro nivel
     other_level_tooltip: |
         <p>REQUIERE campo si "Otro nivel" es el valor seleccionado para el nivel. Expresa el tipo de nivel fuera de los valores especificados en el esquema EAD.</p>
-    container_summary: Extracto de contenedor
+    container_summary: Resumen de contenedor
     container_summary_tooltip: |
         <p>Para registrar el número y tipo de contenedores que comprende una descripción del recurso. Esto se considera un texto Resumen y no idénticos con los subregistros de medida.</p>
         <p>Ver DACS 2.5</p>
@@ -1294,7 +1294,7 @@
         <p>Indica si los materiales descritos se limitan en modo alguno. Descripción adicional de la restricción debe proporcionarse en notas apropiadas o declaraciones de derechos para el registro donde se produce la restricción.</p>
         <p>Ver DACS 4.1-4.4</p>
     repository_processing_note: Repositorio procesamiento Nota
-    automate_title: Genere automáticamente el título
+    automate_title: Generar automáticamente el título
     language: Idioma
     language_tooltip: |
         <p>El término lengua y código representado en el material descrito.</p>
@@ -1323,10 +1323,10 @@
     permission_types:
       manage_repository: "manage this repository (change groups and other settings)"
       update_location_record: create/modify/delete location records in this repository
-      update_subject_record: create/update subject records
-      update_agent_record: create/update agent records
-      update_vocabulary_record: create/update vocabulary records
-      update_accession_record: create/update accessions in this repository
+      update_subject_record: create/update registros de subject 
+      update_agent_record: create/update registros de autoridad 
+      update_vocabulary_record: create/update registros de vocabulary 
+      update_accession_record: create/update registros de entradas in this repository
       update_resource_record: create/update resources in this repository
       update_digital_object_record: create/update digital objects in this repository
       update_event_record: create/update event records in this repository
@@ -1366,7 +1366,7 @@
     "[:repo_id, :identifier]": Identificador
     identifier: Identificador
     title_tooltip: |
-        <p>CAMPO OBLIGATORIO. El título asignado al recurso.</p>
+        <p>CAMPO OBLIGATORIO. El título asignado al fondo.</p>
         <p>Ver DACS 2.3</p>
         <p>Ejemplos</p>
         <ul>
@@ -1377,7 +1377,7 @@
         <li>Correspondencia de la Academia de Ciencias nacional</li>
         <li>Grabaciones de audio y video</li>
         </ul>
-    resource_type: Tipo de recurso
+    resource_type: Tipo de fondo
     resource_type_tooltip: |
         <p>Una lista de términos utilizados por un repositorio para categorizar sus recursos en tipos básicos.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
@@ -1420,12 +1420,12 @@
         <p>La expresión de la fecha para cuando se generó la actual ayuda de hallazgo de la descripción del recurso.</p>
     finding_aid_author: Autor del finding aid
     finding_aid_author_tooltip: |
-        <p>Los nombres (s) de los autoridads responsables de crear el contenido de la ayuda de encontrar o su codificación.</p>
+        <p>Los nombres (s) de los autoridades responsables de crear el contenido de la ayuda de encontrar o su codificación.</p>
     finding_aid_description_rules: Reglas de Descripción
     finding_aid_description_rules_tooltip: |
         <p>Indica las reglas descriptivas usadas para guiar la descripción del recurso.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
-    finding_aid_language: Lenguaje de Descripción
+    finding_aid_language: Lenguaje de descripción
     finding_aid_language_tooltip: |
         <p>Indica que todas las lenguas presentes en el hallazgo ayuda generada a partir de la descripción del recurso.</p>
     finding_aid_sponsor: Patrocinador
@@ -1449,16 +1449,16 @@
     finding_aid_note: Nota del finding aid
     finding_aid_note_tooltip: |
         <p>Para la grabación de cualquier información adicional sobre el hallazgo ayuda (no el recurso descrito) no cubierto por el otro buscar ayuda datos elementos.</p>
-    _singular: Recurso
-    _plural: Recursos
+    _singular: Fondo
+    _plural: Fondos
 
   related_accession: 
-    _singular: Adquisición relacionado
-    _plural: Adquisiciones relacionadas
+    _singular: Acta de ingreso relacionada
+    _plural: Actas de ingreso relacionadas
 
   related_resource: 
-    _singular: Recursos relacionados
-    _plural: Recursos relacionados
+    _singular: Fondos relacionados
+    _plural: Fondos relacionados
 
   repository: 
     repo_code: Nombre corto del repositorio
@@ -1472,7 +1472,7 @@
         </ul>
     name: Nombre del repositorio
     name_tooltip: |
-        <p>CAMPO OBLIGATORIO. El nombre del repositorio que tiene responsabilidad administrativa y la custodia de los materiales descritos en la adquisición, recursos y módulos objeto digital de la aplicación.</p>
+        <p>CAMPO OBLIGATORIO. El nombre del repositorio que tiene responsabilidad administrativa y la custodia de los materiales descritos en la entrada, recursos y módulos objeto digital de la aplicación.</p>
         <p>Ver DACS 2.2</p>
         <p>Ejemplos</p>
         <ul>
@@ -1480,7 +1480,7 @@
         <li>Biblioteca de colecciones especiales de Mandeville</li>
         <li>Archivos de la biblioteca tamiment y Robert F. Wagner laboral</li>
         </ul>
-    org_code: Organización / Agencia código
+    org_code: Organización / Código de agencia
     org_code_tooltip: |
         <p>Un código compatible con ISO/DIS 15511 información y documentación internacional identificador estándar para bibliotecas y organizaciones afines (ISIL). Para las instituciones de Estados Unidos, esto incluye los códigos de la lista de códigos MARC organización.</p>
         <p>Ejemplos</p>
@@ -1529,7 +1529,7 @@
         <p>CAMPO OBLIGATORIO. Un descriptor de parte de un encabezado. Un encabezado debe tener al menos un término asociado.</p>
     term_type: Tipo
     term_type_tooltip: |
-        <p>CAMPO OBLIGATORIO. Un indicador para expresar el tipo o la categoría de un término de sujeto.</p>
+        <p>CAMPO OBLIGATORIO. Un indicador para expresar el tipo o la categoría de un término de materia.</p>
     _singular: Término
     _plural: Términos
 
@@ -1604,17 +1604,17 @@
     _plural: Usuarios
 
   collection_management: &collection_management_attributes
-    cataloged_note: Nota catalogado
+    cataloged_note: Nota de catalogación
     cataloged_note_tooltip: |
-        <p>Una nota acerca de catalogación de la unidad de archivo (adquisición, recurso, objeto digital), incluyendo la provisión de identificadores de registro de catálogo.</p>
+        <p>Una nota acerca de catalogación de la unidad de archivo (acta de ingreso, recurso, objeto digital), incluyendo la provisión de identificadores de registro de catálogo.</p>
         <p>Ejemplos</p>        
         <ul>
         <li>Número de registro del Catálogo</li>
         </ul>
-    processing_hours_per_foot_estimate: Procesamiento de estimación hrs/ft
+    processing_hours_per_foot_estimate: Procesamiento estimación hrs/ft
     processing_hours_per_foot_estimate_tooltip: |
         <p>El tiempo un repositorio estima que es necesaria para procesar una unidad de material de archivo (por ejemplo un pie lineal o un elemento en el caso de objetos digitales).  La estimación posible factor, o no, la producción de encontrar SIDA, registros del catálogo y otros productos de acceso.</p>
-    processing_total_extent: Extensión Total de procesamiento
+    processing_total_extent: Extensión total de procesamiento
     processing_total_extent_tooltip: |
         <p>Una expresión numérica para la extensión total (pies cúbicos, pies lineales, artículos, etc.) procesada.</p>
     processing_total_extent_type: Tipo de medida
@@ -1643,10 +1643,10 @@
         <li>Medio</li>
         <li>Baja</li>
         </ul>
-    processing_started_date: Procesamiento iniciado fecha
+    processing_started_date: Procesamiento fecha inicio 
     processing_status: Estado de procesamiento
     processing_status_tooltip: |
-        <p>Para indicar el estado actual del proceso de una unidad de archivo (adquisición, recurso u objeto digital).</p>
+        <p>Para indicar el estado actual del proceso de una unidad de archivo (acta de ingreso, recurso u objeto digital).</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
         <p>Ejemplos</p>
         <ul>
@@ -1659,10 +1659,10 @@
         <p>Utilizado para indicar la fuente de financiación el procesamiento de los materiales descritos.</p>
     processors: Procesadores
     processors_tooltip: |
-        <p>Para el listado del personal a quien se ha asignado el procesamiento de la unidad de archivo (adquisición, recursos u objetos digitales).</p>
+        <p>Para el listado del personal a quien se ha asignado el procesamiento de la unidad de archivo (acta de ingreso, recursos u objetos digitales).</p>
     rights_determined: ¿Derechos determinados?
     rights_determined_tooltip: | 
-        <p>Indica si se han determinado los derechos para una unidad de archivo (adquisición, recurso u objeto digital) y un registro de derechos creada y vinculada a la unidad de archivo.</p>
+        <p>Indica si se han determinado los derechos para una unidad de archivo (acta de ingreso, recurso u objeto digital) y un registro de derechos creada y vinculada a la unidad de archivo.</p>
     rights_determined_true: Sí
     rights_determined_false: No
     parent: Padres
@@ -1747,11 +1747,11 @@
 
   defaults: &defaults_attributes
     general_section: Configuración general
-    show_suppressed: ¿Mostrar suprimidos?
-    show_suppressed_tooltip: Si se muestran registros suprimidos que tiene permiso para ver al navegar.
+    show_suppressed: ¿Mostrar bloqueados?
+    show_suppressed_tooltip: Si se muestran registros bloqueados que tiene permiso para ver al navegar.
     publish: ¿Publicar?
     publish_tooltip: Si desea publicar nuevos registros por defecto.
-    accession_browse_section: Adquisición Browse columnas
+    accession_browse_section: Navegar columnas de entrada
     accession_browse_column_1: Columna 1
     accession_browse_column_1_tooltip: El campo para mostrar en la columna 1.
     accession_browse_column_2: Columna 2
@@ -1762,7 +1762,7 @@
     accession_browse_column_4_tooltip: El campo para mostrar en la columna 4.
     accession_browse_column_5: Columna 5
     accession_browse_column_5_tooltip: El campo para mostrar en la columna 5.
-    resource_browse_section: Recursos ver columnas
+    resource_browse_section: Fondos ver columnas
     resource_browse_column_1: Columna 1
     resource_browse_column_1_tooltip: El campo para mostrar en la columna 1.
     resource_browse_column_2: Columna 2
@@ -1790,8 +1790,8 @@
     _plural: Valores predeterminados
 
   reports: 
-    CreatedAccessionsReport: Adquisiciones creadas
-    UnprocessedAccessionsReport: Adquisiciones sin procesar
+    CreatedAccessionsReport: Informe de actas de ingreso creado
+    UnprocessedAccessionsReport: Actas de ingreso sin procesar
     parameters: 
       from: De
       from_tooltip: 
@@ -1804,14 +1804,14 @@
       html: HTML
 
   validation_errors: 
-    agent_must_be_unique: Registros del autoridad no pueden ser idénticos
-    missing_required_property: Propiedad es necesaria pero faltaba
+    agent_must_be_unique: Registros de autoridad no pueden ser idénticos
+    missing_required_property: Propiedad es necesaria pero falta
     missing_property: Faltaba propiedad
     not_a_valid_date: No es una fecha válida
     must_not_be_before_begin: No se debe comenzar antes
-    is_required_unless_a_begin_or_end_date_is_given: se requiere a menos que se da una fecha de inicio o final
-    is_required_unless_an_expression_or_an_end_date_is_given: se requiere a menos que se da una expresión o una fecha de finalización
-    is_required_unless_an_expression_or_a_begin_date_is_given: se requiere a menos que se da una expresión o una fecha de inicio
+    is_required_unless_a_begin_or_end_date_is_given: se requiere al menos que se da una fecha de inicio o final
+    is_required_unless_an_expression_or_an_end_date_is_given: se requiere al menos que se da una expresión o una fecha de finalización
+    is_required_unless_an_expression_or_a_begin_date_is_given: se requiere al menos que se da una expresión o una fecha de inicio
 
     did_not_match_regular_expression: "No coincide con la expresión regular % {regexp}"
     too_few_characters: "Debe ser por lo menos caracteres % {min_length}"
@@ -1834,7 +1834,7 @@
     location_fields_error: >
       You must either specify a barcode, a classification, or both a coordinate 1 label and coordinate 1 indicator: 
     location_must_be_unique_within_a_record: Debe ser único dentro de un registro
-    location_cannot_be_deleted_if_linked: Ubicación actualmente está vinculada a uno o más registros de instancia y no puede ser suprimido. Por favor, enlace estas instancias a nuevas ubicaciones antes de eliminar el registro del lugar.
+    location_cannot_be_deleted_if_linked: Ubicación actualmente está vinculada a uno o más registros de instancia y no puede ser bloqueado. Por favor, enlace estas instancias a nuevas ubicaciones antes de eliminar el registro del lugar.
     cannot_be_previous_if_location_is_not_temporary: No se puede transferir a la anterior si la situación es temporal. 
     authority_id_must_be_unique: Identificador de autoridad ya está en uso
     either_type_1_or_barcode_is_required: Un envase debe contener 1 tipo de envase o código de barras. 
@@ -1843,12 +1843,12 @@
     _plural: Trabajos de importación
     import_type: Tipo de importación
     import_type_ead_xml: EAD
-    import_type_accession_csv: Adquisición CSV
+    import_type_accession_csv: Acta de ingreso CSV
     import_type_digital_object_csv: Objeto digital CSV
     import_type_eac_xml: EAC
-    import_type_marcxml: MarcXML (recursos)
-    import_type_marcxml_accession: MarcXML (adquisición)
-    import_type_marcxml_subjects_and_agents: MarcXML (sujetos y autoridads solamente)
+    import_type_marcxml: MarcXML (fondos)
+    import_type_marcxml_accession: MarcXML (acta de ingreso)
+    import_type_marcxml_subjects_and_agents: MarcXML (materias y autoridades solamente)
     status: Estado
     status_completed: Completado
     status_queued: Cola
@@ -1875,7 +1875,7 @@
       subjects: Materia
     boolean: 
       published: ¿Publicado?
-      suppressed: ¿Suprimido?
+      suppressed: ¿Bloqueado?
     date: 
       create_time: Creado
       user_mtime: Actualizado
