@@ -31,7 +31,7 @@
     rights_statements_tooltip: |
         <p>Información sobre la situación de los derechos de los materiales descritos y si hay restictions específicos o los permisos que se han indicado.</p>
     instances_tooltip: |
-        <p>Descripción de enlaces a información sobre instancias físicas o digitales del material.</p>
+        <p>Descripción de enlaces a información sobre representaciones físicas o digitales del material.</p>
     deaccessions_tooltip: |
         <p>Información de los registros sobre los materiales que pueda haber sido separados y desechados, regresó a un donante o transferido a otra institución.</p>
     collection_management_tooltip: |
@@ -168,13 +168,13 @@
         <p>CAMPO OBLIGATORIO. Indica si la declaración de la ubicación de este registro es actual o se refiere a una ubicación anterior para el caso descrito.</p>
     start_date: Fecha de inicio
     start_date_tooltip: |
-        <p>CAMPO OBLIGATORIO. Indica la fecha en la cual la instancia descrita fue almacenada en este lugar, o una fecha conocida de que los materiales fueron almacenados aquí.</p>
+        <p>CAMPO OBLIGATORIO. Indica la fecha en la cual la representación descrita fue almacenada en este lugar, o una fecha conocida de que los materiales fueron almacenados aquí.</p>
     end_date: Fecha de finalización
     end_date_tooltip: |
-        <p>Indica la fecha en la cual la instancia descrita fue trasladada desde esta ubicación.</p>
+        <p>Indica la fecha en la cual la representación descrita fue trasladada desde esta ubicación.</p>
     note: Nota
     note_tooltip: |
-        <p>Utiliza para registrar información adicional acerca de la instancia y su relación con este sitio.</p>
+        <p>Utiliza para registrar información adicional acerca de la representación y su relación con este sitio.</p>
     location: Ubicación
     ref: Ubicación
     _singular: Ubicación
@@ -713,8 +713,8 @@
         <p>Una designación de la manifestación de los materiales descritos. La designación de instancia es opcional, pero necesaria para abrir y para completar un registro de contenedor para el material descrito.</p>
         <p>Los valores en esta lista de valores controlados pueden ser modificados.</p>
     digital_object: Objeto digital
-    _plural: Instancias
-    _singular: Instancia
+    _plural: Representaciones
+    _singular: Representación
 
   instance_container: 
     <<: *instance_attributes
@@ -1396,7 +1396,7 @@
     ead_location_tooltip: |
         <p>La ubicación de la EAD generada a partir de la descripción del recurso, una declaración del directorio de archivo o una dirección URL de la web. La situación termina normalmente.</p>
     finding_aid_tooltip: |
-        <p>Utilizado para grabar los datos administrativos sobre la instancia de descripción archivística, generalmente para cuando la descripción se exporta en descripción archivística codificada (EAD).</p>
+        <p>Utilizado para grabar los datos administrativos sobre la representación de descripción archivística, generalmente para cuando la descripción se exporta en descripción archivística codificada (EAD).</p>
     finding_aid_title: Título del finding aid
     finding_aid_title_tooltip: |
         <p>El título (bibliográfico) para la ayuda de encontrar asociado con este recurso.</p>
@@ -1834,7 +1834,7 @@
     location_fields_error: >
       You must either specify a barcode, a classification, or both a coordinate 1 label and coordinate 1 indicator: 
     location_must_be_unique_within_a_record: Debe ser único dentro de un registro
-    location_cannot_be_deleted_if_linked: Ubicación actualmente está vinculada a uno o más registros de instancia y no puede ser bloqueado. Por favor, enlace estas instancias a nuevas ubicaciones antes de eliminar el registro del lugar.
+    location_cannot_be_deleted_if_linked: Ubicación actualmente está vinculada a uno o más registros de representación y no puede ser bloqueado. Por favor, enlace estas instancias a nuevas ubicaciones antes de eliminar el registro del lugar.
     cannot_be_previous_if_location_is_not_temporary: No se puede transferir a la anterior si la situación es temporal. 
     authority_id_must_be_unique: Identificador de autoridad ya está en uso
     either_type_1_or_barcode_is_required: Un envase debe contener 1 tipo de envase o código de barras. 

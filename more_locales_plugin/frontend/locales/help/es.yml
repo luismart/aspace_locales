@@ -15,7 +15,7 @@
       accession_external_documents: Ayuda sobre documentos externos
       accession_rights_statements: Ayuda sobre las declaraciones de derechos
       accession_deaccessions: Ayuda en expurgos
-      accession_instances: Ayuda en las instancias de
+      accession_instances: Ayuda en las representaciones de
       accession_collection_management: Ayuda en la gestión de la colección de acta de ingreso
       accession_classification: Ayuda sobre clasificaciones
       accession_user_defined: Ayuda sobre definidos por el usuario
@@ -65,7 +65,7 @@
       digital_object_notes: Ayuda sobre notas
       digital_object_external_documents: Ayuda sobre documentos externos
       digital_object_rights_statements: Ayuda sobre las declaraciones de derechos
-      digital_object_instances: Ayuda en las instancias de
+      digital_object_instances: Ayuda en las representaciones de
       digital_object_deaccessions: Ayuda en expurgo de objetos digitales
       digital_object_collection_management: Ayuda en la gestión de la colección de objetos digitales
       digital_object_classification: Ayuda sobre clasificaciones

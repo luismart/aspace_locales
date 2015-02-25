@@ -1357,7 +1357,7 @@
     agent_relationship_earlierlater_relator: Agent Relationship Earlierlater Relator
     agent_relationship_parentchild_relator: Agent Relationship Parentchild Relator
     agent_relationship_subordinatesuperior_relator: Agent Relationship Subordinatesuperior Relator
-    archival_record_level: Nivel de registro archivo
+    archival_record_level: Nivel de registro de archivo
     collection_management_processing_priority: Prioridad de la tramitación de la gestión de la colección
     collection_management_processing_status: Estado de tramitación de la gestión de la colección
     container_location_status: Estado de ubicación de contenedores
@@ -1380,7 +1380,7 @@
     file_version_use_statement: Archivo versión uso declaración
     file_version_xlink_actuate_attribute: Archivo versión Xlink accionar atributo
     file_version_xlink_show_attribute: Atributo de archivo versión Xlink Mostrar
-    instance_instance_type: Tipo de instancia
+    instance_instance_type: Tipo de representación
     language_iso639_2: Idioma ISO 639-2
     linked_agent_archival_record_relators: Linked Agent Archival Record Relators
     linked_agent_event_roles: Linked Agent Event Roles

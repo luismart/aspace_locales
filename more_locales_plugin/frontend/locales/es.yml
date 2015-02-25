@@ -75,7 +75,7 @@
     publish_confirm_title: ¿Publicar?
     publish_confirm_message: "<p>Realizar esta acción va a publicar este documento, los registros secundarios (documentos externos, notas, etc.) y todos los componentes de la jerarquía.</p>"
     view_search_results: Ir a los resultados de búsqueda
-    view_published: Vista Publicada
+    view_published: Ver publicados
 
   states:
     auto_generated: Generado automáticamente
@@ -558,10 +558,10 @@
   instance:
     _frontend:
       messages:
-        select_a_type: Por favor, seleccione un tipo de instancia
+        select_a_type: Por favor, seleccione un tipo de representación
       action:
         add_digital_object: Agregar objeto Digital
-        add: Añadir instancia
+        add: Añadir representación
 
   linked_agent:
     _frontend:
@@ -777,12 +777,12 @@
 
   rde:
     date_type: Tipo de fecha
-    instance_type: Tipo de instancia
+    instance_type: Tipo de representación
     column_label: Columna
     sections:
       basic_information: Información básica
       date: Fecha
-      instance: Instancia
+      instance: Representación
       notes: Notas
       file_version: Versión del archivo
     actions:
