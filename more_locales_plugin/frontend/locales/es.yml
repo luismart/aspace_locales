@@ -76,6 +76,9 @@
     publish_confirm_message: "<p>Realizar esta acción va a publicar este documento, los registros secundarios (documentos externos, notas, etc.) y todos los componentes de la jerarquía.</p>"
     view_search_results: Ir a los resultados de búsqueda
     view_published: Vista Publicada
+    print_to_pdf: Print Resource To PDF
+    resource_to_pdf: Resource to Print
+    download_pdf: Download PDF
 
   states:
     auto_generated: Sistema genera cuando guarda
@@ -256,6 +259,9 @@
     agents:
       success: Agentes eliminados
       error: "No se puede eliminar autoridads"
+    locations:
+      success: Locations deleted
+      error: "Unable to delete locations:"
 
   browser_support:
     bronze: ArchivesSpace no admite totalmente este navegador.  Por favor considere actualizar su navegador a las últimas versiones de Chrome, Firefox o Internet Explorer.
@@ -850,9 +856,9 @@
     _frontend:
       audit_data: Datos de auditoría
       actions:
-        create: Crear trabajo de importación
-        save: Trabajo en cola importación
-        new: Nuevo trabajo de importación
+        create: Create Job
+        save: Queue Job
+        new: New Background Job
         cancel: Cancelar trabajo
         add_file: Agregar archivo
         follow_log: Siga Log
@@ -860,9 +866,10 @@
         basic_information: Información básica
         status: Estado de trabajo
         logs: Registro
-        generated_uris: Registros importados
+        generated_uris: "New & Modified Records"
         active_jobs: Trabajos activos
         archived_jobs: Trabajos archivados
+        files: Files
       messages:
         status_changed_running: El trabajo de importación ha empezado a correr. Actualiza la página...
         status_changed_completed: Ha completado el trabajo de importación.
@@ -875,3 +882,5 @@
         queue_position_next: Esta importación es el siguiente en la cola.
         queue_position: "Esta importación es {posición} % en la cola."
         drag_and_drop_hint: Arrastrar y soltar archivos aquí
+        find_and_replace_warning: Find and replace jobs can and will make major changes to your database. You are <strong>strongly</strong> advised to backup your database AND to run your job in a test instance before proceeding. There is no "undo".
+        find_and_replace_instructions: Choose a base record to scope this find and replace operation. Then choose a record type to target and a property of that type. The operation will run in every target record in the tree of the base record, or in the base record itself if the target type is "Resource".

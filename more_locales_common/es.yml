@@ -100,6 +100,7 @@
 
   location: &location_attributes
     title: Título
+    temporary_question: Temporary?
     temporary: Temporal
     temporary_tooltip: |
         <p>Utiliza para indicar si esta ubicación es un tipo específico de ubicación temporal (por ejemplo un área de exposición).</p>
@@ -146,6 +147,7 @@
         <p>Utilizado para grabar un indicador como un número o una letra que identifica a una ubicación en combinación con la etiqueta coordenada asociada.</p>
     display_string: Cadena de presentación
     has_unpublished_ancestor: ¿Ha inédito a antepasado?
+    holdings: Holdings
     _singular: Ubicación
     _plural: Ubicaciones
 
@@ -1050,6 +1052,9 @@
         <p>El número de la base de datos interna para un registro específico de adquisición.</p>
     identifier: Identificador
     id_0: Identificador
+    id_1: Identifier 2
+    id_2: Identifier 3
+    id_3: Identifier 4
     id_0_tooltip: |
         <p>CAMPO OBLIGATORIO
         repository.</p>: 
@@ -1838,17 +1843,10 @@
     cannot_be_previous_if_location_is_not_temporary: No se puede transferir a la anterior si la situación es temporal. 
     authority_id_must_be_unique: Identificador de autoridad ya está en uso
     either_type_1_or_barcode_is_required: Un envase debe contener 1 tipo de envase o código de barras. 
-  job: 
-    _singular: Trabajo de importación
-    _plural: Trabajos de importación
-    import_type: Tipo de importación
-    import_type_ead_xml: EAD
-    import_type_accession_csv: Adquisición CSV
-    import_type_digital_object_csv: Objeto digital CSV
-    import_type_eac_xml: EAC
-    import_type_marcxml: MarcXML (recursos)
-    import_type_marcxml_accession: MarcXML (adquisición)
-    import_type_marcxml_subjects_and_agents: MarcXML (sujetos y autoridads solamente)
+  job:
+    _singular: Background Job
+    _plural: Background Jobs
+    job_type: Job Type
     status: Estado
     status_completed: Completado
     status_queued: Cola
@@ -1860,6 +1858,26 @@
     time_finished: Tiempo terminado
     owner: Propietario
     filenames: Importación de archivos
+
+  import_job:
+    _singular: Import Job
+    filenames: Import Files
+    import_type: Tipo de importación
+    import_type_ead_xml: EAD
+    import_type_accession_csv: Adquisición CSV
+    import_type_digital_object_csv: Objeto digital CSV
+    import_type_eac_xml: EAC
+    import_type_marcxml: MarcXML (recursos)
+    import_type_marcxml_accession: MarcXML (adquisición)
+    import_type_marcxml_subjects_and_agents: MarcXML (sujetos y autoridads solamente)
+
+  find_and_replace_job:
+    _singular: Find and Replace Job
+    find: String to find
+    replace: Replacement string
+    jsonmodel_type: Record or subrecord type
+    record_type: Record or subrecord type
+    property: Target property
 
   advanced_search: 
     type: 
