@@ -2,7 +2,7 @@
   brand:
     title: ArchivesSpace público
     home: Página de inicio
-    welcome_message: Bienvenido a ArchivesSpace.
+    welcome_message: Bienvenido al ArchivesSpace de la Fundación Juan March
     welcome_search_label: "Encuentra lo que buscas"
 
   actions:
@@ -57,7 +57,7 @@
       agents: Autoridades
       agents_text: Autoridades
       classification_uri: Clasificación
-      linked_agent_roles: Papel
+      linked_agent_roles: Función
 
   search_sorting:
     sort_by: "Ordenar por"
@@ -78,7 +78,7 @@
     outcome: Resultado
     event_type: Tipo
     identifier: Identificador
-    select: Select   
+    select: Seleccionar   
 
   errors:
     error_404: Registro no encontrado
@@ -100,10 +100,10 @@
       OR: "O"
       NOT: "No"
     button_text: Búsqueda de
-    reset: Resetear
+    reset: Limpiar
     nav_switcher:
-      show: Mostrar avanzadas
-      hide: Ocultar avanzado
+      show: Mostrar opciones avanzadas
+      hide: Ocultar opciones avanzadas
     index_switcher:
       show: Mostrar búsqueda avanzada
       hide: Ocultar búsqueda avanzada
@@ -119,21 +119,21 @@
         components: Componentes
         summary: Resumen
       messages:
-        no_components: Archivo objeto no tiene ningún componente
+        no_components: El objeto de archivo no tiene ningún componente
 
   resource:
-    _singular: Colección
-    _plural: Colecciones
+    _singular: Fondo
+    _plural: Fondos
     _public:
       section:
         components: Componentes
         summary: Resumen
       messages:
-        no_components: Recurso no tiene ningún componente
+        no_components: El fondo no tiene ningún componente
 
   related_resource:
-    _singular: Colección relacionada
-    _plural: Colecciones relacionadas
+    _singular: Fondo relacionado
+    _plural: Fondos relacionados
 
   digital_object: &digital_object_attributes
     _public:
@@ -141,7 +141,7 @@
         components: Componentes
         summary: Resumen
       messages:
-        no_components: Objeto digital no tiene ningún componente
+        no_components: El objeto digital no tiene ningún componente
 
   digital_object_component:
     _public:
@@ -149,7 +149,7 @@
         components: Componentes
         summary: Resumen
       messages:
-        no_components: Componente de objeto digital no tiene ningún componente
+        no_components: El componente del objeto digital no tiene ningún otro componente
 
   agent:
     _singular: Nombre
@@ -160,7 +160,7 @@
 
   components:
     expand: Ampliar
-    collapse: Colapso
+    collapse: Colapsar
 
   instance:
     _public:

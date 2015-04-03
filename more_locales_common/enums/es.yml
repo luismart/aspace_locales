@@ -27,7 +27,7 @@
       aui: Autor de introducción, etc..
       aus: Autor del guión, etc..
       ant: Antecedente bibliográfico
-      bnd: BINDER
+      bnd: Encuadernador
       bdd: Diseñador de encuadernación
       blw: Escritor de propaganda
       bkd: Diseñador de libro
@@ -240,19 +240,19 @@
       validator: Validador
     name_source: 
       cash: Encabezamientos de materias canadienses
-      ingest: Fuente ingerido no especificado
+      ingest: Sin especificar
       lcshac: Biblioteca del encabezamientos Congreso infantil
       local: Fuentes locales
       naf: Archivo de autoridad de NACO
-      nad: NAD / ARK II nombre de base de datos de autoridad
+      nad: NAD / ARK II Name Authority Database
       nal: Encabezamientos biblioteca agrícola nacionales
       rvm: Répertoire de vedettes-matière
-      ulan: Unión lista de nombres del artista
+      ulan: Union List of Artist Names
     name_rule: 
       local: Reglas locales
       aacr: Reglas de catalogación angloamericanas
-      dacs: "Describir archivos"
-      rda: Acceso y descripción de recursos
+      dacs: "Describing Archives: A Content Standard"
+      rda: Resource Description and Access
     extent_extent_type: 
       cassettes: Cassettes
       cubic_feet: Pies cúbicos
@@ -281,13 +281,13 @@
       gregorian: Gregoriano
     digital_object_digital_object_type: 
       cartographic: Cartográfica
-      mixed_materials: Materiales mezclados
+      mixed_materials: Materiales diversos
       moving_image: Imagen en movimiento
-      notated_music: Escribe música
+      notated_music: Música anotada
       software_multimedia: Software, Multimedia
       sound_recording: Grabación de sonido
-      sound_recording_musical: (Musical) de grabación de sonido
-      sound_recording_nonmusical: (No musicales) de grabación de sonido
+      sound_recording_musical: Grabación de sonido(Musical)
+      sound_recording_nonmusical: Gabación de sonido(No musicales)
       still_image: Imagen fija
       text: Texto
     digital_object_level: 
@@ -295,11 +295,11 @@
       work: Trabajo
       image: Imagen
     event_event_type: 
-      accession: Adquisición
+      accession: Acta de ingreso
       accumulation: Acumulación
       acknowledgement: Reconocimiento
       acknowledgement_sent: Reconocimiento enviado
-      agreement_received: Acuerdo recibida
+      agreement_received: Acuerdo recibido
       agreement_sent: Acuerdo enviado
       agreement_signed: Acuerdo firmado
       appraisal: Valoración
@@ -312,17 +312,17 @@
       component_transfer: Transferencia de componente
       copyright_transfer: Transferencia de derechos de autor
       custody_transfer: Transferencia de custodia
-      deaccession: Emprenderá
+      deaccession: Expurgo
       decompression: Descompresión
       decryption: Descifrado
       deletion: Eliminación
       digital_signature_validation: Validación de firma digital
-      fixity_check: Fijeza Check
-      ingestion: Ingestión
+      fixity_check: Check de fjeza
+      ingestion: Ingesta
       message_digest_calculation: Mensaje Digest cálculo
       migration: Migración
       normalization: Normalización
-      processed: Procesados
+      processed: Procesado
       publication: Publicación
       replication: Replicación
       rights_transferred: Derechos transferidos
@@ -338,24 +338,24 @@
       cco: Catalogación de bienes culturales
       dacs: "Describir archivos"
       rad: Reglas para la descripción archivística
-      isadg: Norma internacional de descripción archivística - General
+      isadg: Norma internacional de descripción archivística - General (ISADG)
     resource_finding_aid_status: 
       completed: Completado
-      in_progress: En progreso
+      in_progress: En proceso
       under_revision: Bajo revisión
       unprocessed: Sin procesar
     instance_instance_type: 
-      accession: Adquisición
+      accession: Acta de ingreso
       audio: Audio
       books: Libros
       computer_disks: Discos de computadora
       digital_object: Objeto digital
-      digital_object_link: Objeto digital Link
+      digital_object_link: Enlace a objeto digital
       graphic_materials: Materiales gráficos
       maps: Mapas
       microform: Microforma
-      mixed_materials: Materiales mezclados
-      moving_images: Las imágenes en movimiento
+      mixed_materials: Materiales diversos
+      moving_images: Imágenes en movimiento
       realia: Realia
       text: Texto
     accession_acquisition_type: 
@@ -369,22 +369,22 @@
       papers: Papeles
       records: Registros
     subject_source: 
-      aat: "Arte & arquitectura Report"
+      aat: "Thesaurus Getty de Arte & Arquitectura"
       cash: Encabezamientos de materias canadienses
       gmgpc: "TGM II, género y términos característicos físicos"
-      ingest: Fuente ingerido no especificado
-      lcsh: Biblioteca del Congreso encabezamientos
-      lcshac: Biblioteca del encabezamientos Congreso infantil
+      ingest: Sin especificar
+      lcsh: Encabezamientos de la Biblioteca del Congreso 
+      lcshac: Encabezamientos de la Biblioteca Congreso Infantil
       local: Fuentes locales
       mesh: Encabezamientos de materia médica
       nal: Encabezamientos biblioteca agrícola nacionales
-      rbgenr: Términos de género"
+      rbgenr: Términos de género
       rvm: Répertoire de vedettes-matière
-      tgn: Thesaurus Getty de nombres geográficos
+      tgn: Thesaurus Getty de Nombres Geográficos
     event_outcome: 
       pass: Pase
       partial pass: Paso parcial
-      fail: Fail
+      fail: Fallo
     agent_contact_salutation: 
       mr: Señor
       mrs: Señora.
@@ -394,7 +394,7 @@
     container_type: 
       box: Caja
       carton: Cartón
-      case: Caso
+      case: Cajón
       folder: Carpeta
       frame: Marco
       object: Objeto
@@ -404,26 +404,26 @@
     file_version_use_statement: 
       audio-clip: Clip de audio
       audio-master: Audio-Master
-      audio-master-edited: Audio-Master-editado
-      audio-service: Audio-servicio
+      audio-master-edited: Audio-Master-Editado
+      audio-service: Audio-Servicio
       audio-streaming: Audio-Streaming
       image-master: Imagen-Master
-      image-master-edited: Imagen-Master-editado
+      image-master-edited: Imagen-Master-Editado
       image-service: Servicio de imagen
-      image-service-edited: Imagen-servicio-editado
+      image-service-edited: Imagen-Servicio-Editado
       image-thumbnail: Imagen-miniatura
-      text-codebook: Texto-Codebook
-      text-data: Datos de texto
+      text-codebook: Codebook
+      text-data: Datos textuales
       text-data_definition: Definición de datos de texto
-      text-georeference: Texto-georeferenciar
-      text-ocr-edited: Texto-Ocr-editado
-      text-ocr-unedited: Texto-Ocr-inéditos
-      text-tei-transcripted: Texto-Tei-transcripción
-      text-tei-translated: Texto-Tei-traducido
+      text-georeference: Texto-georeferenciado
+      text-ocr-edited: Texto-OCR-editado
+      text-ocr-unedited: Texto-OCR-sin editar
+      text-tei-transcripted: Texto-TEI-transcripción
+      text-tei-translated: Texto-TEI-traducido
       video-clip: Videoclip
       video-master: Video-Master
-      video-master-edited: Video-Master-editado
-      video-service: Video-servicio
+      video-master-edited: Video-Master-Editado
+      video-service: Video-Servicio
       video-streaming: Streaming Video
     file_version_checksum_methods: 
       md5: MD5
@@ -921,28 +921,28 @@
       class: Clase
       collection: Colección
       file: Archivo
-      fonds: Fonds
-      item: Artículo
+      fonds: Fondos
+      item: Ítem
       otherlevel: Otro nivel
       recordgrp: Grupo de registro
       series: Serie
-      subfonds: Fonds sub
+      subfonds: Subfondos
       subgrp: Subgrupo
-      subseries: Sub serie
+      subseries: Subserie
     container_location_status: 
-      current: Corriente
+      current: Actual
       previous: Anterior
     date_type: 
       expression: Expresión
-      single: Solo
-      bulk: Fechas a granel
+      single: Individual
+      bulk: Fechas en bloque
       inclusive: Fechas extremas
       range: Gama
     date_label: 
       broadcast: Difusión
       copyright: Derechos de autor
       creation: Creación
-      deaccession: Emprenderá
+      deaccession: Expurgo
       agent_relation: Relación de autoridad
       digitized: Digitalizado
       existence: Existencia
@@ -953,8 +953,8 @@
       usage: Uso
       other: Otros
     date_certainty: 
-      approximate: Aproximado
-      inferred: Deducido
+      approximate: Aproximada
+      inferred: Deducida
       questionable: Cuestionable
     extent_portion: 
       whole: Todo
@@ -968,7 +968,7 @@
       onLoad: onLoad
       onRequest: onRequest
     file_version_xlink_show_attribute: 
-      new: Nuevo
+      new: Nueva
       replace: reemplazar
       embed: Insertar
       other: otros
@@ -1261,41 +1261,41 @@
       topical: Tópico
       uniform_title: Título uniforme
     _note_types: &note_type_definitions
-      accessrestrict: Condiciones que rigen el acceso
-      accruals: Pasivación
-      acqinfo: Fuente inmediata de adquisición
-      altformavail: Existencia y localización de copias
-      appraisal: Valoración
-      arrangement: Arreglo
-      bibliography: Bibliografía
-      bioghist: Biográfico / histórico
-      custodhist: Historia privativas de la libertad
-      fileplan: Plan de archivo
+      accessrestrict: Nota de condiciones de acceso
+      accruals: Nota de nuevos ingresos
+      acqinfo: Nota de información de adquisiciones
+      altformavail: Nota de formatos alternativos disponibles
+      appraisal: Nota de valoración
+      arrangement: Nota de organización
+      bibliography: Nota de bibliografía
+      bioghist: Nota biográfica/histórica
+      custodhist: Nota de historia archivística
+      fileplan: Nota de proyecto de expediente
       index: Índice
-      odd: General
-      otherfindaid: Otras ayudas de encontrar
-      originalsloc: Existencia y la localización de los originales
-      phystech: Características físicas y requisitos técnicos
-      prefercite: Citación recomendado
-      processinfo: Procesamiento de la información
-      relatedmaterial: Relacionados con el material de archivo
-      scopecontent: Alcance y contenido
-      separatedmaterial: Materiales separados
-      userestrict: Condiciones de uso
-      dimensions: Dimensiones
-      legalstatus: Estatus legal
-      summary: Resumen
-      edition: Edición
-      extent: Grado
+      odd: Nota de otros datos descriptivos
+      otherfindaid: Nota de otros instrumentos de descripción
+      originalsloc: Nota de existencia y la localización de los originales
+      phystech: Nota de características físicas y requisitos técnicos
+      prefercite: Nota de cita preferida
+      processinfo: Nota de información del proceso
+      relatedmaterial: Nota de material relacionado
+      scopecontent: Nota de alcance y contenido
+      separatedmaterial: Nota de documentos separados
+      userestrict: Nota de restricciones de uso
+      dimensions: Nota de tamaño
+      legalstatus: Nota de situación jurídica
+      summary: Nota de resumen
+      edition: Nota de edición
+      extent: Nota de cantidad de material
       note: Nota general
-      inscription: Inscripción
-      langmaterial: Lengua de materiales
-      physdesc: Descripción física
-      relatedmaterial: Materiales relacionados
-      abstract: Resumen
-      physloc: Ubicación física
-      materialspec: Detalles específicos de los materiales
-      physfacet: Faceta física
+      inscription: Nota de inscripción
+      langmaterial: Nota de idioma de materiales
+      physdesc: Nota de descripción física
+      relatedmaterial: Nota de materiales relacionados
+      abstract: Resumen introductorio
+      physloc: Nota de ubicación física
+      materialspec: Nota de detalles específicos de los materiales
+      physfacet: Nota de apariencia del material
     note_digital_object_type: 
       <<: *note_type_definitions
     note_multipart_type: 
@@ -1305,12 +1305,12 @@
     linked_agent_role: 
       creator: Creador
       source: Fuente
-      subject: Asunto
+      subject: Materia
     agent_relationship_associative_relator: 
-      is_associative_with: Asociativa con relacionados
+      is_associative_with: Associative with Related
     agent_relationship_earlierlater_relator: 
-      is_earlier_form_of: Forma anterior de relacionados
-      is_later_form_of: Más tarde forma de hipervínculo
+      is_earlier_form_of: Earlier Form of Related
+      is_later_form_of: Later Form of Related
     agent_relationship_parentchild_relator: 
       is_child_of: Hijo de relacionados
       is_parent_of: Padre de relacionados
@@ -1320,9 +1320,9 @@
       forms_part_of: Forma parte de
       has_part: Tiene parte
     accession_parts_relator_type: 
-      part: Relación de "\"Part\""
+      part: Relación de "\"Parte\""
     accession_sibling_relator_type: 
-      bound_with: Relación de "\"Bound With\""
+      bound_with: Relación de "\"Unido a\""
     agent_relationship_subordinatesuperior_relator: 
       is_subordinate_to: Es subordinado a relacionados
       is_superior_of: El superior de relacionados
@@ -1331,7 +1331,7 @@
       person: Persona
       family: Familia
       corporate_entity: Entidad corporativa
-      subject: Asunto
+      subject: Materia
       function: Función
       occupation: Ocupación
       title: Título
@@ -1350,64 +1350,64 @@
       find_and_replace_job: Batch Find and Replace (Beta)
 
   enumeration_names: 
-    accession_acquisition_type: Tipo de adquisición de adquisición
-    accession_parts_relator: Adquisición piezas Relator
-    accession_parts_relator_type: Adquisición piezas Relator tipo
-    accession_sibling_relator: "Adquisición hermano Relator"
-    accession_sibling_relator_type: Adquisición hermano Relator tipo
-    accession_resource_type: Tipo de recurso de adquisición
-    agent_contact_salutation: Agente saludo contacto
-    agent_relationship_associative_relator: Agente relación asociativa Relator
-    agent_relationship_earlierlater_relator: Agente relación Earlierlater Relator
-    agent_relationship_parentchild_relator: Agente relación Parentchild Relator
-    agent_relationship_subordinatesuperior_relator: Agente relación Subordinatesuperior Relator
-    archival_record_level: Nivel de registro archivo
-    collection_management_processing_priority: Colección Gestión tramitación prioritaria
-    collection_management_processing_status: Colección gestión estado de procesamiento
+    accession_acquisition_type: Tipo de acta de ingreso
+    accession_parts_relator: Partes de acta de ingreso relacionadas
+    accession_parts_relator_type: Tipos de partes de acta de ingreso relacionadas
+    accession_sibling_relator: "Tipo de relación de acta de ingreso de hermano"
+    accession_sibling_relator_type: Tipo de relacioón de acta de ingreso de hermano
+    accession_resource_type: Tipo de fondos de acta de ingreso
+    agent_contact_salutation: Saludo autoridad
+    agent_relationship_associative_relator: Agent Relationship Associative Relator
+    agent_relationship_earlierlater_relator: Agent Relationship Earlierlater Relator
+    agent_relationship_parentchild_relator: Agent Relationship Parentchild Relator
+    agent_relationship_subordinatesuperior_relator: Agent Relationship Subordinatesuperior Relator
+    archival_record_level: Nivel de registro de archivo
+    collection_management_processing_priority: Prioridad de la tramitación de la gestión de la colección
+    collection_management_processing_status: Estado de tramitación de la gestión de la colección
     container_location_status: Estado de ubicación de contenedores
     container_type: Tipo de contenedor
     country_iso_3166: País ISO 3166
     date_calendar: Calendario
-    date_certainty: Fecha certeza
+    date_certainty: Fecha probable
     date_era: Fecha Era
     date_label: Etiqueta de fecha
     date_type: Tipo de fecha
     deaccession_scope: Obrar alcance
-    digital_object_digital_object_type: Tipo de objeto Digital objeto digital
+    digital_object_digital_object_type: Tipo de objeto digital
     digital_object_level: Nivel de objeto digital
     event_event_type: Tipo de evento evento
     event_outcome: Resultados de evento
     extent_extent_type: Tipo de medida de grado
-    extent_portion: Porción de grado
+    extent_portion: Parte de grado
     file_version_checksum_methods: Métodos de suma de comprobación de versión archivo
     file_version_file_format_name: Nombre de formato de archivo de archivo versión
     file_version_use_statement: Archivo versión uso declaración
     file_version_xlink_actuate_attribute: Archivo versión Xlink accionar atributo
     file_version_xlink_show_attribute: Atributo de archivo versión Xlink Mostrar
-    instance_instance_type: Tipo de instancia de instancia
+    instance_instance_type: Tipo de representación
     language_iso639_2: Idioma ISO 639-2
-    linked_agent_archival_record_relators: Agente vinculado relatores expediente archivado
-    linked_agent_event_roles: Agente vinculado evento Roles
-    linked_agent_role: Papel de autoridad vinculado
-    linked_event_archival_record_roles: Papeles registro Archival evento vinculado
+    linked_agent_archival_record_relators: Linked Agent Archival Record Relators
+    linked_agent_event_roles: Linked Agent Event Roles
+    linked_agent_role: Papel de autoridad vinculada
+    linked_event_archival_record_roles: Linked Event Archival Record Roles
     location_temporary: Ubicación temporal
-    name_person_name_order: Pedido de nombre nombre de la persona
+    name_person_name_order: Pedido de nombre de la persona
     name_rule: Regla de nombre
     name_source: Origen del nombre
     note_bibliography_type: Nota bibliografía tipo
-    note_digital_object_type: Tipo de objeto Digital Nota
+    note_digital_object_type: Tipo de nota objeto digital
     note_index_item_type: Tipo de elemento de índice Nota
     note_index_type: Tipo de índice Nota
     note_multipart_type: Nota tipo multiparte
-    note_orderedlist_enumeration: Nota Orderedlist (enumeración)
+    note_orderedlist_enumeration: Nota ordenada (enumeración)
     note_singlepart_type: Nota Singlepart tipo
-    resource_finding_aid_description_rules: Normas sobre recursos encontrar ayudas Descripción
-    resource_finding_aid_status: Recursos encontrar ayuda estado
-    resource_resource_type: Tipo de recurso recursos
+    resource_finding_aid_description_rules: Normas sobre finding aids
+    resource_finding_aid_status: Estado del finding aid del fondo
+    resource_resource_type: Tipo de fondos
     rights_statement_ip_status: Declaración de derechos IP Status
     rights_statement_rights_type: Declaración de los derechos derechos tipo
-    subject_source: Tema fuente
-    subject_term_type: Tema término tipo
+    subject_source: Materia fuente
+    subject_term_type: Tipo de término de materia
     user_defined_enum_1: Enum 1 definida por el usuario
     user_defined_enum_2: Enum 2 definido por el usuario
     user_defined_enum_3: Enum 3 definido por el usuario
