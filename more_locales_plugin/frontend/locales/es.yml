@@ -382,17 +382,17 @@
   archival_object:
     _frontend:
       messages:
-        created: Objeto de archivo <strong>% {archival_object.display_string}</strong> del fondo <strong>% {resource.title}</strong> creado
-        created_with_parent: Objeto de archivo <strong>% {archival_object.display_string}</strong> creado como niño de <strong>% {parent.display_string}</strong> del fondo <strong>% {resource.title}</strong>
-        updated: Objeto de archivo <strong>{archival_object.display_string} %</strong> actualizado
-        updated_with_parent: Objeto de archivo <strong>{archival_object.display_string} %</strong> actualizado
+        created: Documento de archivo <strong>% {archival_object.display_string}</strong> del fondo <strong>% {resource.title}</strong> creado
+        created_with_parent: Documento de archivo <strong>% {archival_object.display_string}</strong> creado como niño de <strong>% {parent.display_string}</strong> del fondo <strong>% {resource.title}</strong>
+        updated: Documento de archivo <strong>{archival_object.display_string} %</strong> actualizado
+        updated_with_parent: Documento de archivo <strong>{archival_object.display_string} %</strong> actualizado
         please_select_a_resource_for_transfer: Por favor, elija un fondo
         transfer_success: Transferido con éxito el objeto de archivo <strong>% {archival_object.display_string}</strong> al fondo <strong>% {resource.title}</strong>
         transfer_error: "No se puede transferir objeto de archivo debido a un error o conflicto"
-        deleted: "Objeto de archivo <strong>{archival_object.display_string} %</strong> eliminado"
-        unsuppressed: Objeto de archivo <strong>% {archival_object.title}</strong> desbloqueado
-        suppressed: Objeto de archivo <strong>% {archival_object.title}</strong> bloqueado
-        suppressed_info: Objeto de archivo se bloquea y no se pueden editar
+        deleted: "Documento de archivo <strong>{archival_object.display_string} %</strong> eliminado"
+        unsuppressed: Documento de archivo <strong>% {archival_object.title}</strong> desbloqueado
+        suppressed: Documento de archivo <strong>% {archival_object.title}</strong> bloqueado
+        suppressed_info: Documento de archivo se bloquea y no se pueden editar
         has_unpublished_ancestor: Por favor tenga en cuenta que este registro tiene un padre que es inédito.
       section:
         basic_information: Información básica

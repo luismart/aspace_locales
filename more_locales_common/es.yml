@@ -1306,7 +1306,7 @@
         <p>Ver DACS 4.5</p>
     "[:resource_id, :ref_id]": Ref ID
     has_unpublished_ancestor: ¿Tiene una serie/subserie por encima sin publicar?
-    _singular: Objeto de archivo
+    _singular: Documento de archivo
     _plural: Objetos de archivo
 
   group: 

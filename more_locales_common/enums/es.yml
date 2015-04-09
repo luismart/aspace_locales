@@ -920,7 +920,7 @@
     archival_record_level: 
       class: Clase
       collection: Colección
-      file: Archivo
+      file: Documento de archivo
       fonds: Fondos
       item: Ítem
       otherlevel: Otro nivel
