@@ -76,9 +76,9 @@
     publish_confirm_message: "<p>Realizar esta acción va a publicar este documento, los registros secundarios (documentos externos, notas, etc.) y todos los componentes de la jerarquía.</p>"
     view_search_results: Ir a los resultados de búsqueda
     view_published: Ver publicados
-    print_to_pdf: Print Resource To PDF
-    resource_to_pdf: Resource to Print
-    download_pdf: Download PDF
+    print_to_pdf: Imprimir Fondos en PDF
+    resource_to_pdf: Fondo a imprimir
+    download_pdf: Descargar PDF
 
   states:
     auto_generated: Generado automáticamente
@@ -260,8 +260,8 @@
       success: Autoridades eliminadas
       error: "No se puede eliminar autoridades"
     locations:
-      success: Locations deleted
-      error: "Unable to delete locations:"
+      success: Ubicaciones eliminadas
+      error: "No se puede eliminar ubicaciones:"
 
   browser_support:
     bronze: ArchivesSpace no admite totalmente este navegador.  Por favor considere actualizar su navegador a las últimas versiones de Chrome, Firefox o Internet Explorer.
@@ -856,17 +856,17 @@
     _frontend:
       audit_data: Datos de auditoría
       actions:
-        create: Create Job
-        save: Queue Job
-        new: New Background Job
-        cancel: Cancelar trabajo
+        create: Crear tarea
+        save: Guardar tarea
+        new: Nueva tarea en el background
+        cancel: Cancelar tarea
         add_file: Agregar archivo
         follow_log: Siga el Log
       section:
         basic_information: Información básica
         status: Estado de trabajo
         logs: Registro
-        generated_uris: "New & Modified Records"
+        generated_uris: "Registros nuevos y modificados"
         active_jobs: Trabajos activos
         archived_jobs: Trabajos archivados
         files: Files

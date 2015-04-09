@@ -40,8 +40,8 @@
     modified: Modificado
     component_switch: Incluyen componentes
     filter:
-      show_fewer: Show fewer
-      show_more: Show more
+      show_fewer: Mostrar menos
+      show_more: Mostrar más
       query: Texto
       subjects: Materia
       primary_type: Tipo

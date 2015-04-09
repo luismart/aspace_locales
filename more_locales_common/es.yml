@@ -100,7 +100,7 @@
 
   location: &location_attributes
     title: Título
-    temporary_question: Temporary?
+    temporary_question: ¿Temporal?
     temporary: Temporal
     temporary_tooltip: |
         <p>Utiliza para indicar si esta ubicación es un tipo específico de ubicación temporal (por ejemplo un área de exposición).</p>
@@ -147,7 +147,7 @@
         <p>Utilizado para grabar un indicador como un número o una letra que identifica a una ubicación en combinación con la etiqueta coordenada asociada.</p>
     display_string: Cadena de presentación
     has_unpublished_ancestor: ¿Tiene una serie/subserie por encima sin publicar?
-    holdings: Holdings
+    holdings: Ejemplares
     _singular: Ubicación
     _plural: Ubicaciones
 
@@ -1052,9 +1052,9 @@
         <p>El número de la base de datos interna para un registro específico de acta de ingreso.</p>
     identifier: Identificador
     id_0: Identificador
-    id_1: Identifier 2
-    id_2: Identifier 3
-    id_3: Identifier 4
+    id_1: Identificador 2
+    id_2: Identificador 3
+    id_3: Identificador 4
     id_0_tooltip: |
         <p>CAMPO OBLIGATORIO
         repository.</p>: 
@@ -1845,9 +1845,9 @@
     either_type_1_or_barcode_is_required: Un envase debe contener 1 tipo de envase o código de barras. 
 
   job:
-    _singular: Background Job
-    _plural: Background Jobs
-    job_type: Job Type
+    _singular: Tarea en el background
+    _plural: Tareas en el background
+    job_type: Tipo de tarea
     import_type: Tipo de importación
     import_type_ead_xml: EAD
     import_type_accession_csv: Acta de ingreso CSV
@@ -1869,8 +1869,8 @@
     filenames: Importación de archivos
 
   import_job:
-    _singular: Import Job
-    filenames: Import Files
+    _singular: Trabajo de importación
+    filenames: Archivos a importar
     import_type: Tipo de importación
     import_type_ead_xml: EAD
     import_type_accession_csv: Adquisición CSV
@@ -1881,12 +1881,12 @@
     import_type_marcxml_subjects_and_agents: MarcXML (sujetos y autoridads solamente)
 
   find_and_replace_job:
-    _singular: Find and Replace Job
-    find: String to find
-    replace: Replacement string
-    jsonmodel_type: Record or subrecord type
-    record_type: Record or subrecord type
-    property: Target property
+    _singular: Tarea de búsqueda y reemplazo
+    find: Cadena de caracteres a encontrar
+    replace: Cadena de caracteres para sustituir
+    jsonmodel_type: Registro o tipo de subregistro
+    record_type: Registro o tipo de subregistro
+    property: Propiedad
 
   advanced_search: 
     type: 
